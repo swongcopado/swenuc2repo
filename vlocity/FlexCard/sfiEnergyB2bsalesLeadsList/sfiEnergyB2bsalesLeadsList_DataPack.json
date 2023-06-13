@@ -1,0 +1,42 @@
+{
+    "AuthorName": "Vlocity",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "User.userId",
+                "val": "0055g000008aUCfAAM"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "CreatedById": "{User.userId}"
+            },
+            "ipMethod": "SFIEnergyB2BSales_LeadsDataTable",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesLeadsList",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesLeadsList/Vlocity/1/1632124421427",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesLeadsList.json",
+    "SampleDataSourceResponse": "{\"LeadList\":[{\"Status\":\"Working - Contacted\",\"Rating\":\"Hot\",\"Name\":\"Bertha Boxer\",\"LeadId\":\"00Q5g000004Nx6MEAS\",\"Company\":\"Farmers Coop. of Florida\",\"AnnualRevenue\":\"$900,750,000.00\"},{\"Rating\":\"\",\"Status\":\"Open - Not Contacted\",\"Name\":\"Phyllis Cotton\",\"LeadId\":\"00Q5g000004Nx6NEAS\",\"Company\":\"Abbott Insurance\"},{\"Rating\":\"\",\"Status\":\"Open - Not Contacted\",\"Name\":\"Jeff Glimpse\",\"LeadId\":\"00Q5g000004Nx6OEAS\",\"Company\":\"Jackson Controls\"},{\"Rating\":\"\",\"Status\":\"Open - Not Contacted\",\"Name\":\"Mike Braund\",\"LeadId\":\"00Q5g000004Nx6PEAS\",\"Company\":\"Metropolitan Health Services\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Patricia Feager\",\"LeadId\":\"00Q5g000004Nx6QEAS\",\"Company\":\"International Shipping Co.\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Brenda Mcclure\",\"LeadId\":\"00Q5g000004Nx6REAS\",\"Company\":\"Cadinal Inc.\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Violet Maccleod\",\"LeadId\":\"00Q5g000004Nx6SEAS\",\"Company\":\"Emerson Transport\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Kathy Snyder\",\"LeadId\":\"00Q5g000004Nx6TEAS\",\"Company\":\"TNR Corp.\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Tom James\",\"LeadId\":\"00Q5g000004Nx6UEAS\",\"Company\":\"Delphi Chemicals\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Shelly Brownell\",\"LeadId\":\"00Q5g000004Nx6VEAS\",\"Company\":\"Western Telecommunications Corp.\"},{\"Rating\":\"\",\"Status\":\"Closed - Not Converted\",\"Name\":\"Pamela Owenby\",\"LeadId\":\"00Q5g000004Nx6WEAS\",\"Company\":\"Hendrickson Trading\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Norm May\",\"LeadId\":\"00Q5g000004Nx6XEAS\",\"Company\":\"Greenwich Media\"},{\"Rating\":\"\",\"Status\":\"Closed - Converted\",\"Name\":\"Pat Stumuller\",\"LeadId\":\"00Q5g000004Nx6YEAS\",\"Company\":\"Pyramid Construction Inc.\"},{\"Rating\":\"\",\"Status\":\"Closed - Converted\",\"Name\":\"Andy Young\",\"LeadId\":\"00Q5g000004Nx6ZEAS\",\"Company\":\"Dickenson plc\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Kristen Akin\",\"LeadId\":\"00Q5g000004Nx6aEAC\",\"Company\":\"Aethna Home Products\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"David Monaco\",\"LeadId\":\"00Q5g000004Nx6bEAC\",\"Company\":\"Blues Entertainment Corp.\"},{\"Rating\":\"\",\"Status\":\"Closed - Not Converted\",\"Name\":\"Carolyn Crenshaw\",\"LeadId\":\"00Q5g000004Nx6cEAC\",\"Company\":\"Ace Iron and Steel Inc.\"},{\"Status\":\"Closed - Converted\",\"Rating\":\"Warm\",\"Name\":\"Jack Rogers\",\"LeadId\":\"00Q5g000004Nx6dEAC\",\"Company\":\"Burlington Textiles Corp of America\",\"AnnualRevenue\":\"$350,000,000.00\"},{\"Rating\":\"\",\"Status\":\"Closed - Not Converted\",\"Name\":\"Bill Dadio Jr\",\"LeadId\":\"00Q5g000004Nx6eEAC\",\"Company\":\"Zenith Industrial Partners\"},{\"Rating\":\"\",\"Status\":\"Closed - Not Converted\",\"Name\":\"Eugena Luce\",\"LeadId\":\"00Q5g000004Nx6fEAC\",\"Company\":\"Pacific Retail Group\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Sandra Eberhard\",\"LeadId\":\"00Q5g000004Nx6gEAC\",\"Company\":\"Highland Manufacturing Ltd.\"},{\"Rating\":\"\",\"Status\":\"Working - Contacted\",\"Name\":\"Betty Bair\",\"LeadId\":\"00Q5g000004Nx6hEAC\",\"Company\":\"American Banking Corp.\"},{\"Status\":\"Open - Not Contacted\",\"Rating\":\"Warm\",\"Name\":\"Mark Antony\",\"LeadId\":\"00Q5g000006KVkFEAW\",\"Company\":\"Hotstar\"},{\"Status\":\"Open - Not Contacted\",\"Rating\":\"Hot\",\"Name\":\"James Cameron\",\"LeadId\":\"00Q5g000006KVkAEAW\",\"Company\":\"Disney\"},{\"Status\":\"Open - Not Contacted\",\"Rating\":\"Cold\",\"Name\":\"Paul Williams\",\"LeadId\":\"00Q5g000006KVkKEAW\",\"Company\":\"Solar\"}],\"columnsData\":{\"additionalData\":[],\"columns\":[{\"fieldName\":\"LeadId\",\"label\":\"SfiEnergyLeadId\",\"searchable\":true,\"sortable\":true,\"visible\":false},{\"fieldName\":\"Name\",\"label\":\"SfiEnergyLeadContactPerson\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"Status\",\"label\":\"SfiEnergyLeadStatus\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"Company\",\"label\":\"SfiEnergyLeadCompanyName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"AnnualRevenue\",\"label\":\"SfiEnergyLeadAnnualRevenue\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"Rating\",\"label\":\"SfiEnergyLeadRating\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesLeadsList"
+}

@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sfiEnergyB2bsales_AgentTargets_SampleInput.json",
+    "Description": "Fetch opportunity, quotes and leads for user",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyB2bsalesAgentTargets",
+    "OmniProcessElement": [
+        "sfiEnergyB2bsales_AgentTargets_Element_DRGetSalesAgentTargets.json",
+        "sfiEnergyB2bsales_AgentTargets_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyB2bsales_AgentTargets",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyB2bsales_AgentTargets_PropertySetConfig.json",
+    "SubType": "AgentTargets",
+    "Type": "sfiEnergyB2bsales",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyB2bsales/AgentTargets/Procedure",
+    "WebComponentKey": "00ed6f69-ed78-0487-b7b1-64e3c0dbfe1b"
+}

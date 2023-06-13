@@ -1,0 +1,17 @@
+{
+    "Body": "File_Default_Gas_Standard_Tariff_Img-png.png",
+    "BodyLength": 12199,
+    "ContentType": "image/png",
+    "Description": "Product Console File Upload",
+    "DeveloperName": "Default_Gas_Standard_Tariff_Img",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "Default_Gas_Standard_Tariff_Img.png",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Default_Gas_Standard_Tariff_Img"
+}

@@ -1,0 +1,229 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
+  <vlocity_cmt-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </vlocity_cmt-toast>
+</div>
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-m-around_none " style="     : #ccc 1px solid; 
+         ">
+          <div data-style-id="state0element0" class="slds-col   slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="     : #ccc 1px solid; 
+         " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col  slds-p-top_xx-small  slds-large-size_9-of-12 slds-medium-size_9-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="     : #ccc 1px solid; 
+        color:#16325C; " ><vlocity_cmt-output-field data-style-id="state0element0block_element0_child"   card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_small%22%3E%3Cstrong%3E%7BLabel.VEEConsoleCustomerStory%7D%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element1" class="slds-col   slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="     : #ccc 1px solid; 
+        color:#16325C; " >
+    <vlocity_cmt-flex-menu data-style-id="state0element0block_element1_child" 
+    onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}  card={card}  record={record}  type="action"  size="xx-small"  variant="neutral"  icon-name="utility:down"  overflow="true"  label="\{Label.VEEConsoleNewLabel}"  position="right"  icon-position="right"  icon-size="x-small"  icon-color="#16325C"  styles='\{"label":{"color":"#16325C"}}' 
+    theme="slds" > 
+     <vlocity_cmt-flex-menu-item 
+    name="menu-item-1622022886133-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_0"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113270170","type":"Custom","displayName":"{Label.VEEConsoleCase}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Case/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%22iconPosition%22%3A%22%22%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622023582654-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_1"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113418985","type":"Custom","displayName":"{Label.VEEConsoleTask}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Task/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622022995721-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_2"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113500509","type":"Custom","displayName":"{Label.VEEConsoleOrder}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Order/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622023665299-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_3"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113512500","type":"Custom","displayName":"{Label.VEEConsoleEvent}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Event/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622023704382-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_4"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113522265","type":"Custom","displayName":"{Label.VEEConsoleOpportunity}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Opportunity/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item>
+    </vlocity_cmt-flex-menu>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-m-around_none " style="     : #ccc 1px solid; 
+         ">
+          <div data-style-id="state0element0" class="slds-col   slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="     : #ccc 1px solid; 
+         " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col  slds-p-top_xx-small  slds-large-size_9-of-12 slds-medium-size_9-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="     : #ccc 1px solid; 
+        color:#16325C; " ><vlocity_cmt-output-field data-style-id="state0element0block_element0_child"   card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_small%22%3E%3Cstrong%3E%7BLabel.VEEConsoleCustomerStory%7D%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element1" class="slds-col   slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="     : #ccc 1px solid; 
+        color:#16325C; " >
+    <vlocity_cmt-flex-menu data-style-id="state0element0block_element1_child" 
+    onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}  card={card}  record={record}  type="action"  size="xx-small"  variant="neutral"  icon-name="utility:down"  overflow="true"  label="\{Label.VEEConsoleNewLabel}"  position="right"  icon-position="right"  icon-size="x-small"  icon-color="#16325C"  styles='\{"label":{"color":"#16325C"}}' 
+    theme="slds" > 
+     <vlocity_cmt-flex-menu-item 
+    name="menu-item-1622022886133-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_0"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113270170","type":"Custom","displayName":"{Label.VEEConsoleCase}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Case/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%22iconPosition%22%3A%22%22%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622023582654-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_1"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113418985","type":"Custom","displayName":"{Label.VEEConsoleTask}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Task/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622022995721-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_2"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113500509","type":"Custom","displayName":"{Label.VEEConsoleOrder}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Order/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622023665299-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_3"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113512500","type":"Custom","displayName":"{Label.VEEConsoleEvent}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Event/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item><vlocity_cmt-flex-menu-item 
+    name="menu-item-1622023704382-0"
+    theme="slds"
+    data-style-id="state0element0block_element1_menuitem_4"
+     data-conditions="undefined" 
+    class=""
+    >
+    <vlocity_cmt-action  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622113522265","type":"Custom","displayName":"{Label.VEEConsoleOpportunity}","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/lightning/o/Opportunity/new"},"parent":"menu","isMenuItem":true}'  data-conditions="undefined"  theme="slds" extra-class="slds-dropdown__item" 
+      action-wrapperclass=""
+      action-labelclass="slds-truncate menu-item-label"
+      menu-item-data="%7B%7D"
+      icon-size="x-small"
+      icon-extraclass="slds-icon-text-default slds-m-right_x-small"
+      >
+     </vlocity_cmt-action>
+    </vlocity_cmt-flex-menu-item>
+    </vlocity_cmt-flex-menu>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

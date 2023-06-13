@@ -1,0 +1,251 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "ProgramId",
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom0jIRO0000000eSH2AYItem0",
+        "InputFieldName": "ProgramId",
+        "InputObjectName": "ProgramProduct",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "ProgramProduct",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "\"Active\"",
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom0jIRO0000000eSH2AYItem2",
+        "InputFieldName": "Status",
+        "InputObjectName": "ProgramProduct",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "ProgramProduct",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "ProgramProduct:ProductId",
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom5004",
+        "InputFieldName": "LinkedEntityId",
+        "InputObjectName": "ContentDocumentLink",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "ProgramProduct:ContentDocumentLink",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(ISNOTBLANK(%ProgramProduct:ContentDocumentLink:ContentDocument.LatestPublishedVersionId%), CONCAT(\"/sfc/servlet.shepherd/version/download/\",%ProgramProduct:ContentDocumentLink:ContentDocument.LatestPublishedVersionId%), NULL)",
+        "FormulaResultPath": "ProgramProduct:ContentDocumentLink:ContentDocument.LatestPublishedVersionId",
+        "FormulaSequence": 1,
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom5602",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom0jIRO0000000eSH2AYItem6",
+        "InputFieldName": "ProgramProduct:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ProgramProduct:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom0jIRO0000000eSH2AYItem4",
+        "InputFieldName": "ProgramProduct:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ProgramProduct:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom592",
+        "InputFieldName": "ProgramProduct:Product.Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProgramProduct:ProductDescription",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom3465",
+        "InputFieldName": "ProgramProduct:Product.Family",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProgramProduct:ProductFamily",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom0jIRO0000000eSH2AYItem5",
+        "InputFieldName": "ProgramProduct:ProductId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ProgramProduct:ProductId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom303",
+        "InputFieldName": "ProgramProduct:Product.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProgramProduct:ProductName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom1199",
+        "InputFieldName": "ProgramProduct:ContentDocumentLink:ContentDocument.LatestPublishedVersionId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProgramProduct:Url",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "false",
+        "GlobalKey": "EnergyUtilitiesProgramsFetchProgramProductsCustom8460",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+        "OmniDataTransformationId": {
+            "Name": "EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/EnergyUtilitiesProgramsFetchProgramProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "ProgramProduct:isAddedToCart",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

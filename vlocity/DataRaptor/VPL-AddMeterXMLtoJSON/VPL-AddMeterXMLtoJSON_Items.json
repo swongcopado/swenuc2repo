@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "VPL-AddMeterXMLtoJSON-ENGY-104-1Customa192E00000BvVF1QANItem0",
+        "InputFieldName": "ns0#Envelope:ns0#Body:ns01#notificationsResponse:ns01#Message_From_Webservice__c:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-AddMeterXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-AddMeterXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-AddMeterXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Msg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

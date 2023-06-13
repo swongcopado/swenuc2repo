@@ -1,0 +1,42 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "Params.id",
+                "val": "0014x0000073OnIAAU"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "sfiEnergyConsole_GetUsageInfo",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "Flex card used to display Usage info as a Tab.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyUsageTabLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyUsageTabLayout/CME_E_U/5/1643882883143",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyUsageTabLayout.json",
+    "SampleDataSourceResponse": "{\"filterList\":[{\"label\":\"sfiEnergyConsoleLast5years\",\"value\":\"EnergyLast5Yrs\"},{\"label\":\"sfiEnergyConsoleLast12Months\",\"value\":\"EnergyLast12Mnts\"},{\"label\":\"sfiEnergyConsoleThisYear\",\"value\":\"EnergyThisYr\"},{\"label\":\"sfiEnergyConsoleLastYear\",\"value\":\"EnergyLastYr\"},{\"label\":\"sfiEnergyConsoleThisMonth\",\"value\":\"EnergyThisMnth\"},{\"label\":\"sfiEnergyConsoleLastMonth\",\"value\":\"EnergyLastMnth\"},{\"label\":\"sfiEnergyConsoleTodayInHours\",\"value\":\"EnergyTodayInHrs\"},{\"label\":\"sfiEnergyConsoleTodayInMinutes\",\"value\":\"EnergyTodayInMnts\"},{\"label\":\"sfiEnergyConsoleTodayYesterdayInMinutes\",\"value\":\"EnergyYesterdayInMnts\"},{\"label\":\"sfiEnergyConsoleCustomDateInMinutes\",\"value\":\"EnergyCustomInMnts\"},{\"label\":\"sfiEnergyConsoleCustomDateInHours\",\"value\":\"EnergyCustomInHrs\"}],\"dimensionList\":[{\"label\":\"sfiEnergyConsoleActualConsumption\",\"value\":\"EnergyActualConsumption\"},{\"label\":\"sfiEnergyConsoleEstimatedCost\",\"value\":\"EnergyEstCost\"}],\"config\":{\"defaultFrequency\":\"EnergyLastMnth\",\"defaultDimention\":\"EnergyActualConsumption\",\"chartConfig\":{\"chartType\":\"bar\",\"backgroundColor\":\"rgb(8, 167, 223)\",\"borderColor\":\"rgb(252, 185, 91)\",\"borderWidth\":2,\"legendPosition\":\"bottom\",\"legendAlign\":\"center\",\"yAxesGridLinesLineWidth\":2,\"xAxesGridLinesColor\":\"rgba(220,220,220, .2)\",\"xAxesMaxBarThickness\":50,\"backgroundFill\":false},\"tabConfig\":[{\"label\":\"sfiEnergyConsoleElectricity\",\"value\":\"Electricity\"},{\"label\":\"sfiEnergyConsoleGas\",\"value\":\"Gas\"}],\"defaultTab\":\"Electricity\"},\"premiseList\":[{\"PremiseAddress\":\"55 JP, bangalore, KA, 560062\",\"PremiseIdentifier\":\"PR554\",\"PremiseId\":\"a3X4x000000lVbOEAU\",\"PremisePlan\":\"Green Energy\",\"DRGetPremiseInfoStatus\":true,\"LoopBlockIterationStatus\":true,\"LoopBlockIterationIndex\":1},{\"PremiseAddress\":\"15 Elm Street, Denver, CO, 80220\",\"PremiseIdentifier\":\"PR644\",\"PremiseId\":\"a3X4x000000kkHHEAY\",\"PremisePlan\":\"Green Energy\",\"DRGetPremiseInfoStatus\":true,\"LoopBlockIterationStatus\":true,\"LoopBlockIterationIndex\":2},{\"PremiseAddress\":\"23 Abbey Road, Whitley, Coventrysafadsfdsfds, Warwickshire, CV3 4LF\",\"PremiseIdentifier\":\"PR334\",\"PremiseId\":\"a3X4x000000lZOpEAM\",\"PremisePlan\":\"Green Energy\",\"DRGetPremiseInfoStatus\":true,\"LoopBlockIterationStatus\":true,\"LoopBlockIterationIndex\":3},{\"PremiseAddress\":\"Abbey Road, Whitley, Coventry, Warwickshire, CV3 4LF\",\"PremiseIdentifier\":\"PR685\",\"PremiseId\":\"a3X4x000000kkHIEAY\",\"PremisePlan\":\"Green Energy\",\"DRGetPremiseInfoStatus\":true,\"LoopBlockIterationStatus\":true,\"LoopBlockIterationIndex\":4},{\"PremiseAddress\":\"5 Whitehall Rd, Newcraighall, Edinburgh, Scotland, EH15 3HR\",\"PremiseIdentifier\":\"PR5677\",\"PremiseId\":\"a3X4x000000kkHNEAY\",\"PremisePlan\":\"Green Energy\",\"DRGetPremiseInfoStatus\":true,\"LoopBlockIterationStatus\":true,\"LoopBlockIterationIndex\":5},{\"PremiseAddress\":\"8 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR\",\"PremiseIdentifier\":\"PR004556\",\"PremiseId\":\"a3X4x000000kkHKEAY\",\"PremisePlan\":\"Green Energy\",\"DRGetPremiseInfoStatus\":true,\"LoopBlockIterationStatus\":true,\"LoopBlockIterationIndex\":6}],\"chartConfig\":{\"chartType\":\"bar\",\"backgroundColor\":\"rgb(8, 167, 223)\",\"borderColor\":\"rgb(252, 185, 91)\",\"borderWidth\":2,\"legendPosition\":\"bottom\",\"legendAlign\":\"center\",\"yAxesGridLinesLineWidth\":2,\"xAxesGridLinesColor\":\"rgba(220,220,220, .2)\",\"xAxesMaxBarThickness\":50,\"backgroundFill\":false},\"tabConfig\":[{\"label\":\"sfiEnergyConsoleElectricity\",\"value\":\"Electricity\"},{\"label\":\"sfiEnergyConsoleGas\",\"value\":\"Gas\"}],\"accountId\":\"0014x0000073OnIAAU\",\"activeTab\":\"Electricity\",\"isAccountFetched\":true}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 5,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyUsageTabLayout"
+}

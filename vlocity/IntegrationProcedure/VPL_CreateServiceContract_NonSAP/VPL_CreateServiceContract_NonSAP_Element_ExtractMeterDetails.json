@@ -1,0 +1,25 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ExtractMeterDetails",
+    "OmniProcessId": {
+        "Name": "VPL-CreateServiceContract_NonSAP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VPL/CreateServiceContract_NonSAP/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "SelectTypeofService:SelectServicePoints",
+        "loopOutput": {
+            "MeterDetails": "%ExtractMeterProducts:Meter%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VPL/CreateServiceContract_NonSAP/Procedure/ExtractMeterDetails"
+}

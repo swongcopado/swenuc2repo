@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 0,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Dual Fuel (Elec & Gas) Tariff",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "3b3ec9f5-cf32-296d-caf6-93a5a88d59d1",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "3b3ec9f5-cf32-296d-caf6-93a5a88d59d1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/3b3ec9f5-cf32-296d-caf6-93a5a88d59d1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "PD_DUAL_FUEL_ELEC_GAS_TARIFF",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/3b3ec9f5-cf32-296d-caf6-93a5a88d59d1"
+    }
+]

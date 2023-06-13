@@ -1,0 +1,33 @@
+{
+    "IntegrationType": "JSON",
+    "LastMeterRead": [
+        {
+            "DRTransformMeterReadJSONResponseStatus": true,
+            "ExpctedHighValue": "12564",
+            "ExpctedLowValue": "11954",
+            "ExpectedRange": "11954-12564",
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "MeterReadingDate": "08-31-2020",
+            "Meter_Serial_Number__c": "3422323",
+            "PROD_Utility_Type__c": "Gas",
+            "Reading": "",
+            "editColName": null,
+            "originalIndex": "0"
+        },
+        {
+            "DRTransformMeterReadJSONResponseStatus": true,
+            "ExpctedHighValue": "13232",
+            "ExpctedLowValue": "18964",
+            "ExpectedRange": "18964-13232",
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true,
+            "MeterReadingDate": "08-31-2020",
+            "Meter_Serial_Number__c": "5464564",
+            "PROD_Utility_Type__c": "Water",
+            "Reading": "6565",
+            "editColName": null,
+            "originalIndex": "1"
+        }
+    ]
+}

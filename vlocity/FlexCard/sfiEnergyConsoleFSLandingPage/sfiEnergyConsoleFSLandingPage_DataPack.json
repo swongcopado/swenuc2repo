@@ -1,0 +1,43 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "VEEFieldServiceLandingPage/CME_E_U/2/1623661822947",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 4,
+                "name": "Params.id",
+                "val": "0013h00000CLSK5AAP"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "sfiEnergyConsole_FSAppointmentDetails",
+            "resultVar": "",
+            "vlocityAsync": true,
+            "vlocityAsyncTimeout": 500
+        }
+    },
+    "Description": "FlexCard used to display Service Appointments along with Schedule Appointment button.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleFSLandingPage",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleFSLandingPage/CME_E_U/2/1638283623375",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleFSLandingPage.json",
+    "SampleDataSourceResponse": "{\"isFSPackageLicenseAvailable\":true,\"AccountId\":\"0013h00000CLSK5AAP\",\"AccountEntitlements\":null,\"entitlements\":[]}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleFSLandingPage"
+}

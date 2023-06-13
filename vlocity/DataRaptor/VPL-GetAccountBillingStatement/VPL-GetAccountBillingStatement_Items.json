@@ -1,0 +1,679 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "BillingAccountId",
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem6",
+        "InputFieldName": "%vlocity_namespace%__AccountId__c",
+        "InputObjectName": "%vlocity_namespace%__Statement__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Statement",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "<>",
+        "FilterValue": "\"$Vlocity.NULL\"",
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem7",
+        "InputFieldName": "%vlocity_namespace%__DueDate__c",
+        "InputObjectName": "%vlocity_namespace%__Statement__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Statement",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIMIT",
+        "FilterValue": "1",
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom1241",
+        "InputObjectName": "%vlocity_namespace%__Statement__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Statement",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "ORDER BY",
+        "FilterValue": "%vlocity_namespace%__StatementDate__c DESC",
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem5",
+        "InputObjectName": "%vlocity_namespace%__Statement__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Statement",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "ADDMONTH(ADDYEAR(TODAY(),-1),-6)",
+        "FormulaResultPath": "filterStatementDate",
+        "FormulaSequence": 8,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom9472",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(FORMATDATETIME(Statement:%vlocity_namespace%__StatementPeriodStartDate__c,\"dd MMM,YYYY\"),'-',FORMATDATETIME(Statement:%vlocity_namespace%__StatementPeriodEndDate__c,\"dd MMM,YYYY\"))",
+        "FormulaResultPath": "BillPeriod",
+        "FormulaSequence": 7,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom5500",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(Statement!= null, true, false)",
+        "FormulaResultPath": "IsStatementAvailable",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(Statement:%vlocity_namespace%__BalanceDue__c >0 && Statement:%vlocity_namespace%__DueDate__c < TODAY(),true,false)",
+        "FormulaResultPath": "OverDueBill",
+        "FormulaSequence": 2,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(Statement:%vlocity_namespace%__StatementDate__c!=null,MONTH(Statement:%vlocity_namespace%__StatementDate__c),null)",
+        "FormulaResultPath": "GeneratedStatementMonth",
+        "FormulaSequence": 5,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom963",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(Statement:%vlocity_namespace%__StatementDate__c!=null,YEAR(ADDYEAR(Statement:%vlocity_namespace%__StatementDate__c,-1)),null)",
+        "FormulaResultPath": "GeneratedStatementLastYear",
+        "FormulaSequence": 6,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom5816",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT NAME FROM ACCOUNT WHERE ID='{0}'\",BillingAccountId)",
+        "FormulaResultPath": "BillingAccountName",
+        "FormulaSequence": 9,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom6213",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "SUM(Statement:%vlocity_namespace%__CurrentBalance__c + Statement:%vlocity_namespace%__PreviousBalance__c)",
+        "FormulaResultPath": "AmountDue",
+        "FormulaSequence": 3,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom8256",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "SUM(Statement:%vlocity_namespace%__CurrentBalance__c + Statement:%vlocity_namespace%__PreviousBalance__c)*.25",
+        "FormulaResultPath": "DisconnectFee",
+        "FormulaSequence": 4,
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom4700",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom9920",
+        "InputFieldName": "BillPeriod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "BillPeriod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem15",
+        "InputFieldName": "Statement:%vlocity_namespace%__AccountId__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Statement:AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom3258",
+        "InputFieldName": "AmountDue",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "CurrencyRounded",
+        "OutputFieldName": "Statement:AmountDue",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom1720",
+        "InputFieldName": "BillingAccountName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Statement:BillingAccountName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom4192",
+        "InputFieldName": "DisconnectFee",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "Statement:DisconnectFee",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem22",
+        "InputFieldName": "Statement:%vlocity_namespace%__TotalBalanceDue__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "Statement:DisconnectFee",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem20",
+        "InputFieldName": "Statement:%vlocity_namespace%__StatementPeriodEndDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MMM dd, yyyy)",
+        "OutputFieldName": "Statement:EndDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom4549",
+        "InputFieldName": "GeneratedStatementLastYear",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Statement:GeneratedStatementLastYear",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom8810",
+        "InputFieldName": "Statement:%vlocity_namespace%__StatementDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM)",
+        "OutputFieldName": "Statement:GeneratedStatementMonth",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem11",
+        "InputFieldName": "IsStatementAvailable",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Statement:IsStatementAvailable",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem16",
+        "InputFieldName": "Statement:%vlocity_namespace%__CurrentBalance__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "Statement:NewCharges",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem13",
+        "InputFieldName": "OverDueBill",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Statement:OverDueBill",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem19",
+        "InputFieldName": "Statement:%vlocity_namespace%__PreviousBalance__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "Statement:OverDuePayment",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem18",
+        "InputFieldName": "Statement:%vlocity_namespace%__DueDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MMM dd, yyyy)",
+        "OutputFieldName": "Statement:PaymentDueDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem21",
+        "InputFieldName": "Statement:%vlocity_namespace%__StatementPeriodStartDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MMM dd, yyyy)",
+        "OutputFieldName": "Statement:StartDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom2851",
+        "InputFieldName": "Statement:%vlocity_namespace%__StatementImageURL__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Statement:StatementBillURL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom6145",
+        "InputFieldName": "Statement:%vlocity_namespace%__StatementDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MMM dd, yyyy)",
+        "OutputFieldName": "Statement:StatementDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustoma1V3h000002RS3uEAGItem14",
+        "InputFieldName": "Statement:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Statement:StatementId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom7003",
+        "InputFieldName": "Statement:%vlocity_namespace%__BalanceDue__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "Statement:TotalBalance",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-GetAccountBillingStatementCustom9975",
+        "InputFieldName": "filterStatementDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-GetAccountBillingStatement",
+        "OmniDataTransformationId": {
+            "Name": "VPL-GetAccountBillingStatement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-GetAccountBillingStatement",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(yyyy-MM-dd)",
+        "OutputFieldName": "Statement:filterStatementDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

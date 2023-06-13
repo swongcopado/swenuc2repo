@@ -1,0 +1,40 @@
+{
+    "ContextId": null,
+    "PaymentDetails": {
+        "BankDetails": {
+            "BankAccountName": null,
+            "BankAccountNumber": null,
+            "BankAccountType": null,
+            "BankName": null,
+            "SortCode": null
+        },
+        "CardDetails": {
+            "CardAddress": null,
+            "CardCountry": null,
+            "CardHolderName": null,
+            "CardNumber": null,
+            "CardPostCode": null,
+            "CardType": null,
+            "ExpiryMonth": null,
+            "ExpiryYear": null,
+            "MessagingEM": null,
+            "MessagingEY": null,
+            "Primary": null,
+            "ValidateExpiryMonth": null,
+            "ValidateExpiryYear": null
+        },
+        "PaymentMethod": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "IntegrationProcedureAction1": null,
+        "PaymentDetails": null
+    }
+}

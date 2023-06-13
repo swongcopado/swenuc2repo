@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "CPQ_ApplyConfigurations_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Apply Configurations",
+    "OmniProcessElement": "CPQ_ApplyConfigurations_Element_ApplyConfigurations.json",
+    "OmniProcessKey": "CPQ_ApplyConfigurations",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_ApplyConfigurations_PropertySetConfig.json",
+    "SubType": "ApplyConfigurations",
+    "Type": "CPQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/ApplyConfigurations/Procedure",
+    "WebComponentKey": "a8928b7e-e076-5113-9c67-bcc0119cb592"
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "IF(%ProbabilityPercent%!='',CONCAT(%ProbabilityPercent%,\"%\"),%ProbabilityPercent%)",
+        "FormulaResultPath": "ProbabilityPercent",
+        "FormulaSequence": 1,
+        "GlobalKey": "VPL-TransformOpportunityCustom8074",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformOpportunity",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformOpportunity",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformOpportunity",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformOpportunityCustom3467",
+        "InputFieldName": "ProbabilityPercent",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformOpportunity",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformOpportunity",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformOpportunity",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProbabilityPercent",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

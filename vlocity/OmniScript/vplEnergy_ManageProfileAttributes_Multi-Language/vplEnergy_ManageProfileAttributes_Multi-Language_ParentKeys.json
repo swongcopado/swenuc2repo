@@ -1,0 +1,8 @@
+[
+    "DataRaptor/TransformNewProfilePref",
+    "DataRaptor/TransformProfileAttrCategory",
+    "DataRaptor/VPL-GetAccountAttributeCategory",
+    "DataRaptor/VPL-PostAccountProfileAttrAssignment",
+    "DataRaptor/VPL-TransformUpdatedProfilePref",
+    "IntegrationProcedure/VPL_GetAccountProfileAttributeDetails"
+]

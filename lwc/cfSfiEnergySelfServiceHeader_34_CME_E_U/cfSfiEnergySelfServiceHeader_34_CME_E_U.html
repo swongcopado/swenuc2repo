@@ -1,0 +1,259 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
+  <vlocity_cmt-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </vlocity_cmt-toast>
+</div>
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card " style="      
+         ">
+          <div data-style-id="state0element0" class="slds-col    slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="background-color:#FFFFFF;  background-repeat:no-repeat;    
+         " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col    slds-size_12-of-12  " data-rindex={rindex} style="background-color:#FFFFFF;      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="slds-col   slds-m-top_medium slds-m-bottom_medium  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0" class="slds-col   slds-p-around_x-small  slds-large-size_1-of-12 slds-medium-size_2-of-12 slds-small-size_2-of-12 slds-size_2-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0block_element0" class="slds-col    slds-large-size_1-of-12  slds-medium-size_2-of-12  slds-small-size_12-of-12  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0block_element0block_element0" class="slds-col  slds-text-align_center slds-p-vertical_x-small mobileMenu slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_2-of-12 slds-size_2-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-icon data-style-id="state0element0block_element0block_element0block_element0block_element0block_element0_child"   record={record}  card={card}  action='\{"actionList":[{"actionIndex":0,"card":"{card}","draggable":false,"isOpen":true,"key":"1654514575734-w249thin6","label":"Action","stateAction":{"displayName":"Action","eventName":"hamburger_menu","id":"flex-action-1655028752999","message":"show","openUrlIn":"Current Window","subType":"PubSub","type":"Event","vlocityIcon":"standard-default"}}],"eventType":"onclick","iconName":"standard-default","label":"Action","showSpinner":"false"}'  extraclass="slds-icon_container slds-icon__svg--default  slds-text-link_reset"  icon-name="utility:rows"  icon-type="Salesforce SVG"  imgsrc=""  size="medium"  variant="default"  theme="slds" onclick={executeAction} data-element-label="block2block1icon5" data-action-key="state0element0block_element0block_element0block_element0block_element0block_element0" ></vlocity_cmt-flex-icon>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element1" class="slds-col   slds-text-align_left slds-p-around_x-small  slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_5-of-12 slds-size_5-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element1block_element0" class="slds-col  slds-text-align_left  slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-small-size_5-of-12 slds-size_5-of-12  " data-rindex={rindex} style="      
+         width:auto" ><vlocity_cmt-flex-img data-style-id="state0element0block_element0block_element0block_element1block_element0_child"   record={record}  card={card}  extraclass=""  size=""  state-img='\{"alternativeText":"Bekky logo","imgsrc":"/resource/sfiEnergySelfServiceResources/images/BekkiEnergyLogo.png"}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element0block_element0block_element1block_element1" class="slds-col  slds-p-top_xx-small slds-p-left_x-small  slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-small-size_8-of-12 slds-size_8-of-12  " data-rindex={rindex} style="      
+         font-weight: 600;" ><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element0block_element1block_element1_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2018pt;%22%3E%7BLabel.SfiEnergySelfServiceBekkyText%7D%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element2" class="slds-col   slds-text-align_left slds-p-left_large slds-p-left_xx-large  slds-large-size_5-of-12 slds-medium-size_6-of-12 slds-small-size_8-of-12 slds-size_8-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element2_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element3" class="slds-col   slds-p-around_x-small  slds-size_1-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element3_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element4" class="slds-col   slds-p-around_x-small  slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_1-of-12 slds-size_1-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element4_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element4block_element0" class="slds-col  slds-text-align_right profileIcon slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_4-of-12 slds-size_4-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-img data-style-id="state0element0block_element0block_element0block_element4block_element0_child"   record={record}  card={card}  extraclass="slds-align_absolute-center"  size=""  state-img='\{"alternativeText":"Profile Avatar","imgsrc":"/resource/sfiEnergySelfServiceResources/images/SelfServicePortalHeaderProfileIcon.svg"}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element0block_element0block_element4block_element1" class="slds-col  slds-p-top_xx-small userProfile slds-large-size_10-of-12 slds-medium-size_10-of-12 slds-small-size_12-of-12 slds-size_12-of-12 " data-rindex={rindex} style="      
+         font-size: 16px;" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-profile-menu" property='\{"loggedInUserName":"{Session.FirstName} {Session.LastName}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-profile-menu   custom-c-s-s-class="profileMenuV2" ></vlocity_cmt-sfi-energy-self-service-profile-menu></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element0block_element0block_element0block_element4block_element2" class="slds-col   slds-size_12-of-12" data-rindex={rindex} style="" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-navigate-action" property='\{}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-navigate-action  ></vlocity_cmt-sfi-energy-self-service-navigate-action></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element1" class="slds-col   slds-size_12-of-12 " data-rindex={rindex} style="      
+         font-size:18px" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-hamburger-menu" property='\{"loggedInUserName":"{Session.FirstName} {Session.LastName}","tabInput":"[{\"item\":\"Overview\",\"label\":\"sfiEnergySelfServiceOverview\"},{\"item\":\"Usage and Plan\",\"label\":\"sfiEnergySelfServiceUsageAndPlan\"}]"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-hamburger-menu   hamburger-profile-tab-channel="HamburgerProfileMenu"  logout="logout"  notification-preference-tab="notification"  profile-avatar-url="/service/resource/sfiEnergySelfServiceResources/images/SelfServicePortalHeaderProfileIcon.svg"  profile-tab="myprofile"  profile-tab-channel="ProfileMenu"  profile-tab-event="myprofile"  tab-change-event="tabchange"  tab-channel="ChannelName" ></vlocity_cmt-sfi-energy-self-service-hamburger-menu></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="slds-col   slds-p-around_x-small slds-size_1-of-12  " data-rindex={rindex} style="" >
+    <vlocity_cmt-block data-style-id="state0element0block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element2" class="slds-col  slds-text-align_left slds-p-top_small sfiEnergyTabs slds-large-size_11-of-12 slds-medium-size_11-of-12 slds-small-size_12-of-12 slds-size_12-of-12 " data-rindex={rindex} style="      
+        color:#0176D3; font-size:20px" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-tabs" property='\{"tabInput":"[   {     \"item\": \"Overview\",     \"label\": \"sfiEnergySelfServiceOverview\"   },   {     \"item\": \"Usage and Plan\",     \"label\": \"sfiEnergySelfServiceUsageAndPlan\"   },   {     \"item\": \"MyProfile\",     \"label\": \"sfiEnergySelfServiceMyProfile\"   } ]"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-tabs   channel-name-input="ChannelName"  custom-c-s-s-class="upperNavigationTabs"  event-name-input="tabchange"  notification-preference-tab="Notification Preference"  profile-channel-name="ProfileMenu"  profile-event-name="myprofile"  profile-tab="MyProfile" ></vlocity_cmt-sfi-energy-self-service-tabs></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1" class="slds-col    slds-size_12-of-12  condition-element" data-rindex={rindex} style="background-color:#EEF4FF;      
+         "  data-conditions='\{"group":[{"field":"headerDisplay","hasMergeField":false,"id":"state-new-condition-2","operator":"==","type":"custom","value":"Overview"}],"id":"state-condition-object","isParent":true}' >
+    <vlocity_cmt-block data-style-id="state0element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  data-conditions='\{"group":[{"field":"headerDisplay","hasMergeField":false,"id":"state-new-condition-2","operator":"==","type":"custom","value":"Overview"}],"id":"state-condition-object","isParent":true}'  data-preload-conditional-element="false"  label="Block"  theme="slds" if:true={record._flex.state0element1_child} ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="slds-col   slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element1" class="slds-col   slds-p-around_x-small  slds-size_1-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element2" class="slds-col   slds-p-bottom_large  slds-large-size_5-of-12 slds-medium-size_5-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="background-color:#EEF4FF;      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element2_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element2block_element0" class="slds-col  slds-text-align_left slds-p-left_small  slds-large-size_12-of-12 slds-medium-size_8-of-12 slds-small-size_8-of-12 slds-size_8-of-12  " data-rindex={rindex} style="background-color:#EEF4FF;      
+        color:#080707; " ><vlocity_cmt-output-field data-style-id="state0element1block_element2block_element0_child"   record={record}  card={card}  merge-field="%3Cdiv%20class=%22slds-text-heading_medium%22%3E&nbsp;%3C/div%3E%0A%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20class=%22slds-text-heading_small%22%20style=%22font-size:%2018pt;%22%3E%7BLabel.SfiEnergyGlobalHello%7D%20%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20class=%22slds-text-heading_small%22%20style=%22font-size:%2024pt;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2036pt;%22%3E%7BSession.FirstName%7D%3C/span%3E&nbsp;%3C/strong%3E%20%F0%9F%91%8B%F0%9F%8F%BB%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-heading_medium%22%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element2block_element1" class="slds-col    slds-size_10-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element2block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element2block_element1block_element0" class="slds-col  slds-text-align_left slds-p-left_small  slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-output-field data-style-id="state0element1block_element2block_element1block_element0_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%7BLabel.SfiEnergySelfServiceBanner%7D%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element3" class="slds-col  slds-text-align_right  slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-img data-style-id="state0element1block_element3_child"   record={record}  card={card}  extraclass="slds-align_absolute-center"  size=""  state-img='\{"alternativeText":"Header Image","document":{"Id":"0685i00000CEKbCAA3","attachmentType":"ContentVersion","label":"Illus 1 (Version:1)","title":"Illus 1","value":"/sfc/servlet.shepherd/version/download/0685i00000CEKbCAA3"},"imgsrc":"/resource/sfiEnergySelfServiceResources/images/Greetings.svg"}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element1block_element4" class="slds-col   slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element4_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card " style="      
+         ">
+          <div data-style-id="state0element0" class="slds-col    slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="background-color:#FFFFFF;  background-repeat:no-repeat;    
+         " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col    slds-size_12-of-12  " data-rindex={rindex} style="background-color:#FFFFFF;      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="slds-col   slds-m-top_medium slds-m-bottom_medium  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0" class="slds-col   slds-p-around_x-small  slds-large-size_1-of-12 slds-medium-size_2-of-12 slds-small-size_2-of-12 slds-size_2-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0block_element0" class="slds-col    slds-large-size_1-of-12  slds-medium-size_2-of-12  slds-small-size_12-of-12  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element0block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0block_element0block_element0" class="slds-col  slds-text-align_center slds-p-vertical_x-small mobileMenu slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_2-of-12 slds-size_2-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-icon data-style-id="state0element0block_element0block_element0block_element0block_element0block_element0_child"   record={record}  card={card}  action='\{"actionList":[{"actionIndex":0,"card":"{card}","draggable":false,"isOpen":true,"key":"1654514575734-w249thin6","label":"Action","stateAction":{"displayName":"Action","eventName":"hamburger_menu","id":"flex-action-1655028752999","message":"show","openUrlIn":"Current Window","subType":"PubSub","type":"Event","vlocityIcon":"standard-default"}}],"eventType":"onclick","iconName":"standard-default","label":"Action","showSpinner":"false"}'  extraclass="slds-icon_container slds-icon__svg--default  slds-text-link_reset"  icon-name="utility:rows"  icon-type="Salesforce SVG"  imgsrc=""  size="medium"  variant="default"  theme="slds" onclick={executeAction} data-element-label="block2block1icon5" data-action-key="state0element0block_element0block_element0block_element0block_element0block_element0" ></vlocity_cmt-flex-icon>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element1" class="slds-col   slds-text-align_left slds-p-around_x-small  slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_5-of-12 slds-size_5-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element1block_element0" class="slds-col  slds-text-align_left  slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-small-size_5-of-12 slds-size_5-of-12  " data-rindex={rindex} style="      
+         width:auto" ><vlocity_cmt-flex-img data-style-id="state0element0block_element0block_element0block_element1block_element0_child"   record={record}  card={card}  extraclass=""  size=""  state-img='\{"alternativeText":"Bekky logo","imgsrc":"/resource/sfiEnergySelfServiceResources/images/BekkiEnergyLogo.png"}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element0block_element0block_element1block_element1" class="slds-col  slds-p-top_xx-small slds-p-left_x-small  slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-small-size_8-of-12 slds-size_8-of-12  " data-rindex={rindex} style="      
+         font-weight: 600;" ><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element0block_element1block_element1_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2018pt;%22%3E%7BLabel.SfiEnergySelfServiceBekkyText%7D%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element2" class="slds-col   slds-text-align_left slds-p-left_large slds-p-left_xx-large  slds-large-size_5-of-12 slds-medium-size_6-of-12 slds-small-size_8-of-12 slds-size_8-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element2_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element3" class="slds-col   slds-p-around_x-small  slds-size_1-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element3_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element0block_element4" class="slds-col   slds-p-around_x-small  slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_1-of-12 slds-size_1-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0block_element4_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element4block_element0" class="slds-col  slds-text-align_right profileIcon slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-small-size_4-of-12 slds-size_4-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-img data-style-id="state0element0block_element0block_element0block_element4block_element0_child"   record={record}  card={card}  extraclass="slds-align_absolute-center"  size=""  state-img='\{"alternativeText":"Profile Avatar","imgsrc":"/resource/sfiEnergySelfServiceResources/images/SelfServicePortalHeaderProfileIcon.svg"}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element0block_element0block_element4block_element1" class="slds-col  slds-p-top_xx-small userProfile slds-large-size_10-of-12 slds-medium-size_10-of-12 slds-small-size_12-of-12 slds-size_12-of-12 " data-rindex={rindex} style="      
+         font-size: 16px;" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-profile-menu" property='\{"loggedInUserName":"{Session.FirstName} {Session.LastName}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-profile-menu   custom-c-s-s-class="profileMenuV2" ></vlocity_cmt-sfi-energy-self-service-profile-menu></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element0block_element0block_element0block_element4block_element2" class="slds-col   slds-size_12-of-12" data-rindex={rindex} style="" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-navigate-action" property='\{}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-navigate-action  ></vlocity_cmt-sfi-energy-self-service-navigate-action></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element1" class="slds-col   slds-size_12-of-12 " data-rindex={rindex} style="      
+         font-size:18px" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-hamburger-menu" property='\{"loggedInUserName":"{Session.FirstName} {Session.LastName}","tabInput":"[{\"item\":\"Overview\",\"label\":\"sfiEnergySelfServiceOverview\"},{\"item\":\"Usage and Plan\",\"label\":\"sfiEnergySelfServiceUsageAndPlan\"}]"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-hamburger-menu   hamburger-profile-tab-channel="HamburgerProfileMenu"  logout="logout"  notification-preference-tab="notification"  profile-avatar-url="/service/resource/sfiEnergySelfServiceResources/images/SelfServicePortalHeaderProfileIcon.svg"  profile-tab="myprofile"  profile-tab-channel="ProfileMenu"  profile-tab-event="myprofile"  tab-change-event="tabchange"  tab-channel="ChannelName" ></vlocity_cmt-sfi-energy-self-service-hamburger-menu></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="slds-col   slds-p-around_x-small slds-size_1-of-12  " data-rindex={rindex} style="" >
+    <vlocity_cmt-block data-style-id="state0element0block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element2" class="slds-col  slds-text-align_left slds-p-top_small sfiEnergyTabs slds-large-size_11-of-12 slds-medium-size_11-of-12 slds-small-size_12-of-12 slds-size_12-of-12 " data-rindex={rindex} style="      
+        color:#0176D3; font-size:20px" >
+    <vlocity_cmt-custom-lwc-wrapper class="" element-name="vlocity_cmt-sfi-energy-self-service-tabs" property='\{"tabInput":"[   {     \"item\": \"Overview\",     \"label\": \"sfiEnergySelfServiceOverview\"   },   {     \"item\": \"Usage and Plan\",     \"label\": \"sfiEnergySelfServiceUsageAndPlan\"   },   {     \"item\": \"MyProfile\",     \"label\": \"sfiEnergySelfServiceMyProfile\"   } ]"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card} ><vlocity_cmt-sfi-energy-self-service-tabs   channel-name-input="ChannelName"  custom-c-s-s-class="upperNavigationTabs"  event-name-input="tabchange"  notification-preference-tab="Notification Preference"  profile-channel-name="ProfileMenu"  profile-event-name="myprofile"  profile-tab="MyProfile" ></vlocity_cmt-sfi-energy-self-service-tabs></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1" class="slds-col    slds-size_12-of-12  condition-element" data-rindex={rindex} style="background-color:#EEF4FF;      
+         "  data-conditions='\{"group":[{"field":"headerDisplay","hasMergeField":false,"id":"state-new-condition-2","operator":"==","type":"custom","value":"Overview"}],"id":"state-condition-object","isParent":true}' >
+    <vlocity_cmt-block data-style-id="state0element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  data-conditions='\{"group":[{"field":"headerDisplay","hasMergeField":false,"id":"state-new-condition-2","operator":"==","type":"custom","value":"Overview"}],"id":"state-condition-object","isParent":true}'  data-preload-conditional-element="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="slds-col   slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element1" class="slds-col   slds-p-around_x-small  slds-size_1-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element2" class="slds-col   slds-p-bottom_large  slds-large-size_5-of-12 slds-medium-size_5-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="background-color:#EEF4FF;      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element2_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element2block_element0" class="slds-col  slds-text-align_left slds-p-left_small  slds-large-size_12-of-12 slds-medium-size_8-of-12 slds-small-size_8-of-12 slds-size_8-of-12  " data-rindex={rindex} style="background-color:#EEF4FF;      
+        color:#080707; " ><vlocity_cmt-output-field data-style-id="state0element1block_element2block_element0_child"   record={record}  card={card}  merge-field="%3Cdiv%20class=%22slds-text-heading_medium%22%3E&nbsp;%3C/div%3E%0A%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20class=%22slds-text-heading_small%22%20style=%22font-size:%2018pt;%22%3E%7BLabel.SfiEnergyGlobalHello%7D%20%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20class=%22slds-text-heading_small%22%20style=%22font-size:%2024pt;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2036pt;%22%3E%7BSession.FirstName%7D%3C/span%3E&nbsp;%3C/strong%3E%20%F0%9F%91%8B%F0%9F%8F%BB%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-heading_medium%22%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element2block_element1" class="slds-col    slds-size_10-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element2block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element2block_element1block_element0" class="slds-col  slds-text-align_left slds-p-left_small  slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-output-field data-style-id="state0element1block_element2block_element1block_element0_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%7BLabel.SfiEnergySelfServiceBanner%7D%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element3" class="slds-col  slds-text-align_right  slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-small-size_12-of-12 slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-img data-style-id="state0element1block_element3_child"   record={record}  card={card}  extraclass="slds-align_absolute-center"  size=""  state-img='\{"alternativeText":"Header Image","document":{"Id":"0685i00000CEKbCAA3","attachmentType":"ContentVersion","label":"Illus 1 (Version:1)","title":"Illus 1","value":"/sfc/servlet.shepherd/version/download/0685i00000CEKbCAA3"},"imgsrc":"/resource/sfiEnergySelfServiceResources/images/Greetings.svg"}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element1block_element4" class="slds-col   slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " >
+    <vlocity_cmt-block data-style-id="state0element1block_element4_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

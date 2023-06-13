@@ -1,0 +1,16 @@
+{
+    "ContextId": null,
+    "TransformJSONMeterRead": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRExtractInventoryItems": null,
+        "TransformJSONMeterRead": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "VPL_CosoleLeftInfo_SampleInput.json",
+    "Description": "VIP to fetch console's left card details",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPLConsoleLeftInfo",
+    "OmniProcessElement": [
+        "VPL_CosoleLeftInfo_Element_GetCustomerInterationAccount.json",
+        "VPL_CosoleLeftInfo_Element_SVAccount_ContactId.json",
+        "VPL_CosoleLeftInfo_Element_GetConsoleAccountDetails.json",
+        "VPL_CosoleLeftInfo_Element_ConsoleLeftDetails.json"
+    ],
+    "OmniProcessKey": "VPL_CosoleLeftInfo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_CosoleLeftInfo_PropertySetConfig.json",
+    "SubType": "CosoleLeftInfo",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/CosoleLeftInfo/Procedure",
+    "WebComponentKey": "abb5f51c-5952-2f88-b69c-4a5c774fc7fb"
+}

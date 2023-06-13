@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPL-GetBillingAccount",
+    "DataRaptor/VPL-GetBusinessAccountDetails",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

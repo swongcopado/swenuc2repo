@@ -1,0 +1,23 @@
+{
+    "Description": "This OmniScript is called in Change To Quote process.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Change To Quote",
+    "OmniProcessElement": [
+        "MACD_ChangeToQuote_English_Element_Change-To-Quote.json",
+        "MACD_ChangeToQuote_English_Element_Navigate-to-Quote.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "MACD_ChangeToQuote_English_PropertySetConfig.json",
+    "SubType": "ChangeToQuote",
+    "Type": "MACD",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MACD/ChangeToQuote/English",
+    "WebComponentKey": "462b4136-3b3e-5e09-6175-4c5a0e147196"
+}

@@ -1,0 +1,230 @@
+[
+    {
+        "DefaultValue": "http://schemas.xmlsoap.org/soap/envelope/",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:@xmlns#soapenv",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "http://www.w3.org/2001/XMLSchema",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem7",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:@xmlns#xsd",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "http://www.w3.org/2001/XMLSchema-instance",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:@xmlns#xsi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "http://soap.sforce.com/2005/09/outbound",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem9",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:@xmlns",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "https://accenture-utilities--UIDev.cs5.my.salesforce.com/services/Soap/c/41.0/00Df2000000NVjKEAW",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem10",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:EnterpriseUrl",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "urn:sobject.enterprise.soap.sforce.com",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem6",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:@xmlns#sf",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "sf:Account",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem5",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:@xsi#type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "ReBill",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem14",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#MeterStatus",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem15",
+        "InputFieldName": "CaseDetails:StatmentExternalId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#StatmentExternalId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "00D5i00000EUmwVEAT",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:OrganizationId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "https://accenture-utilities--UIDev.cs5.my.salesforce.com/services/Soap/u/41.0/00Df2000000NVjKEAW",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:PartnerUrl",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "VPL-TransformXMLCaseMeterReadCustoma1V3h000002PzgxEACItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLCaseMeterRead",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLCaseMeterRead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLCaseMeterRead",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:SessionId:@xsi#nil",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

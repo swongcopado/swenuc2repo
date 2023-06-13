@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPL-GetAccountShippingAddressDetails",
+    "DataRaptor/VPL-UpdateAccountShippingAddress",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

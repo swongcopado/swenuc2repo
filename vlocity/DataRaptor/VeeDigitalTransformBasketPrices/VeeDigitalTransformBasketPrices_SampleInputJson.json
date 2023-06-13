@@ -1,0 +1,70 @@
+{
+    "consumption": 200,
+    "offerDetails": [
+        {
+            "": "",
+            "cartContextKey": "edc1ce45ec831b232b4e681726d34172",
+            "childProducts": [
+                {
+                    "currencyCode": "GBP",
+                    "description": "Unit rate is charged per kWh of energy consumption.",
+                    "family": "Electricity",
+                    "name": "Unit Rate",
+                    "productCode": "CC_UNIT_RATE_GREEN",
+                    "subType": "Unit Rate",
+                    "unitPrice": 0.1401
+                },
+                {
+                    "currencyCode": "GBP",
+                    "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                    "family": "Electricity",
+                    "name": "Standing Charges",
+                    "productCode": "CC_STANDING_CHARGES_GREEN",
+                    "subType": "Standing Charges",
+                    "unitPrice": 0.2003
+                }
+            ],
+            "currencyCode": "GBP",
+            "default": true,
+            "description": "100% renewable electricity, an easy way to reduce your carbon footprint.",
+            "isAddedToCart": false,
+            "productCode": "PD_GREEN_ENERGY_TARIFF",
+            "productCodeWithAttachments": "PD_GREEN_ENERGY_TARIFF",
+            "productName": "Green Energy Tariff",
+            "url": "/servlet/servlet.FileDownload?file=0155g0000000rXuAAI"
+        },
+        {
+            "": "",
+            "cartContextKey": "0bdc1b694f75492396912ee18300e438",
+            "childProducts": [
+                {
+                    "currencyCode": "GBP",
+                    "description": "Unit rate is charged per kWh of energy consumption.",
+                    "family": "Electricity",
+                    "name": "Unit Rate",
+                    "productCode": "CC_UNIT_RATE_PREPAID",
+                    "subType": "Unit Rate",
+                    "unitPrice": 0.115
+                },
+                {
+                    "currencyCode": "GBP",
+                    "description": "Standing Charges is an infrastructure charge which is charged per Day of usage.",
+                    "family": "Electricity",
+                    "name": "Standing Charges",
+                    "productCode": "CC_STANDING_CHARGES_PREPAID",
+                    "subType": "Standing Charges",
+                    "unitPrice": 0.16
+                }
+            ],
+            "currencyCode": "GBP",
+            "default": true,
+            "description": "Pay as you go energy supply that can be topped up via a smartphone app.",
+            "isAddedToCart": false,
+            "productCode": "PD_PREPAID_ELECTRICITY_TARIFF",
+            "productCodeWithAttachments": "PD_PREPAID_ELECTRICITY_TARIFF",
+            "productName": "Prepaid Electricity Tariff",
+            "url": "/servlet/servlet.FileDownload?file=0155g0000000rY9AAI"
+        }
+    ],
+    "productType": "Electricity"
+}

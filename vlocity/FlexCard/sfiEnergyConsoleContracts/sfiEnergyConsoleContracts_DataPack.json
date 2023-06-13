@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 10,
+                "name": "Params.id",
+                "val": "a1S4x000000mmWKEAY"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "VPL_ContractList",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleContracts",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleContracts/CME_E_U/1/1630921142995",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleContracts.json",
+    "SampleDataSourceResponse": "{\"ContractListData\":{\"ContractList\":[{\"ContractStatus\":\"Draft\",\"ContractStartDate\":\"19/09/2020\",\"ContractId\":\"8004x000000IHkBAAW\",\"ContractEndDate\":\"18/09/2021\",\"AccountName\":\"Northern Region\",\"ContractNumber\":\"00000114\"}]},\"columnsData\":{\"columns\":[{\"fieldName\":\"ContractId\",\"label\":\"Contract Number\",\"visible\":false},{\"fieldName\":\"ContractNumber\",\"label\":\"Contract Number\",\"searchable\":true,\"sortable\":true},{\"fieldName\":\"AccountName\",\"label\":\"Account Name\",\"searchable\":true,\"sortable\":true},{\"fieldName\":\"ContractStartDate\",\"label\":\"Contract Start Date\",\"searchable\":true,\"sortable\":true},{\"fieldName\":\"ContractEndDate\",\"label\":\"Contract End Date\",\"searchable\":true,\"sortable\":true},{\"fieldName\":\"ContractStatus\",\"label\":\"Status\",\"searchable\":true,\"sortable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleContracts"
+}

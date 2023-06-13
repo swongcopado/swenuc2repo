@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "VPL_CreateServiceContract_NonSAP_SampleInput.json",
+    "Description": "Connects with external system to Create Agreements and gets the ERPAgreementIds",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-CreateServiceContract_NonSAP",
+    "OmniProcessElement": [
+        "VPL_CreateServiceContract_NonSAP_Element_ExtractMeterDetails.json",
+        "VPL_CreateServiceContract_NonSAP_Element_ExtractMeterProducts.json",
+        "VPL_CreateServiceContract_NonSAP_Element_TransformJSONtoXML.json",
+        "VPL_CreateServiceContract_NonSAP_Element_TransomJSONValues.json",
+        "VPL_CreateServiceContract_NonSAP_Element_SVJSONResponse.json",
+        "VPL_CreateServiceContract_NonSAP_Element_OutResponseJSON.json"
+    ],
+    "OmniProcessKey": "VPL_CreateServiceContract_NonSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_CreateServiceContract_NonSAP_PropertySetConfig.json",
+    "SubType": "CreateServiceContract_NonSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/CreateServiceContract_NonSAP/Procedure",
+    "WebComponentKey": "4f81cba3-5977-5697-c47f-3bf8eba2fb41"
+}

@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP will create Consumer Account and order in draft state and will return AccountId and order details to OS.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalCreateAccountAndCart",
+    "OmniProcessElement": [
+        "VEE_DigitalCreateAccountAndCart_Element_FetchRecordType.json",
+        "VEE_DigitalCreateAccountAndCart_Element_CreateAccount.json",
+        "VEE_DigitalCreateAccountAndCart_Element_EncryptAccountID.json",
+        "VEE_DigitalCreateAccountAndCart_Element_CreateCart.json",
+        "VEE_DigitalCreateAccountAndCart_Element_DecryptOrderNumber.json",
+        "VEE_DigitalCreateAccountAndCart_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalCreateAccountAndCart",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalCreateAccountAndCart_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "SubType": "DigitalCreateAccountAndCart",
+    "Type": "VEE",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalCreateAccountAndCart/Procedure",
+    "WebComponentKey": "aa58579f-a4db-ce0e-1cf6-078ee232b156"
+}

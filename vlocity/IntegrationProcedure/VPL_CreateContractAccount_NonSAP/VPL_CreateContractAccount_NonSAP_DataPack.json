@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "VPL_CreateContractAccount_NonSAP_SampleInput.json",
+    "Description": "Connects with external system to create a contract and gets back the ERP_Contract_ID__c",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-CreateContractAccount_NonSAP",
+    "OmniProcessElement": [
+        "VPL_CreateContractAccount_NonSAP_Element_TransformJSONtoXML.json",
+        "VPL_CreateContractAccount_NonSAP_Element_TransomJSONValues.json",
+        "VPL_CreateContractAccount_NonSAP_Element_SVJSONResponse.json",
+        "VPL_CreateContractAccount_NonSAP_Element_OutResponse.json"
+    ],
+    "OmniProcessKey": "VPL_CreateContractAccount_NonSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_CreateContractAccount_NonSAP_PropertySetConfig.json",
+    "SubType": "CreateContractAccount_NonSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/CreateContractAccount_NonSAP/Procedure",
+    "WebComponentKey": "78cc950f-ef4b-c857-a47b-e1c97aa5c706"
+}

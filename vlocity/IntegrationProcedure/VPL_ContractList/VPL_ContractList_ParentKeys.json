@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPL-GetContractList",
+    "DataRaptor/VPL-TransformContractList",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "VPL-CreateContractXMLtoJSON-ENGY-104-1Customa192E00000BvVsQQAVItem0",
+        "InputFieldName": "ns0#Envelope:ns0#Body:ns01#notificationsResponse:ns01#ERP_Contract_ID__c:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateContractXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateContractXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateContractXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ERP_Contract_ID__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateContractXMLtoJSON-ENGY-104-1Customa192E00000BvVsQQAVItem1",
+        "InputFieldName": "ns0#Envelope:ns0#Body:ns01#notificationsResponse:ns01#Message_From_Webservice__c:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateContractXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateContractXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateContractXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Msg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

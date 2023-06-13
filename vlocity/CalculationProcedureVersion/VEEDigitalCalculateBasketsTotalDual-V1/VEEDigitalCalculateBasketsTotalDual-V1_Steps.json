@@ -1,0 +1,540 @@
+[
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "gasConsumption * gasUnitPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "gasConsumption",
+                "dataType": "Number",
+                "text": "gasConsumption",
+                "userDefined": true
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "gasUnitPrice",
+                "dataType": "Number",
+                "text": "gasUnitPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "c1dc0d0a-2a30-87e7-d0cc-6ffd79ccf5db",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "gasConsumption"
+            },
+            {
+                "dataType": "Number",
+                "name": "gasUnitPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalGasUnitPrice",
+            "dataType": "Number",
+            "name": "totalGasUnitPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalGasUnitPrice\":\"totalGasUnitPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "StandingChargeFrequency * gasStandingPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "StandingChargeFrequency",
+                "dataType": "Number",
+                "text": "StandingChargeFrequency"
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "gasStandingPrice",
+                "dataType": "Number",
+                "text": "gasStandingPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "ab6fefd2-54da-6151-99a8-380267487d71",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "gasStandingPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalGasStandingPrice",
+            "dataType": "Number",
+            "name": "totalGasStandingPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalGasStandingPrice\":\"totalGasStandingPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "electricityConsumption * electricityUnitPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "electricityConsumption",
+                "dataType": "Number",
+                "text": "electricityConsumption",
+                "userDefined": true
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "electricityUnitPrice",
+                "dataType": "Number",
+                "text": "electricityUnitPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "b864a478-128a-8fce-bc5e-279410fa99c2",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "electricityConsumption"
+            },
+            {
+                "dataType": "Number",
+                "name": "electricityUnitPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalElecUnitPrice",
+            "dataType": "Number",
+            "name": "totalElecUnitPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalElecUnitPrice\":\"totalElecUnitPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "StandingChargeFrequency * electricityStandingPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "StandingChargeFrequency",
+                "dataType": "Number",
+                "text": "StandingChargeFrequency"
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "electricityStandingPrice",
+                "dataType": "Number",
+                "text": "electricityStandingPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "54e417ad-1282-333b-7e17-4ccf408e80f5",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "electricityStandingPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalElecStandingPrice",
+            "dataType": "Number",
+            "name": "totalElecStandingPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalElecStandingPrice\":\"totalElecStandingPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 4,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "totalGasUnitPrice + totalGasStandingPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "totalGasUnitPrice",
+                "dataType": "Number",
+                "text": "totalGasUnitPrice",
+                "userDefined": true
+            },
+            {
+                "alias": "+",
+                "text": "+"
+            },
+            {
+                "alias": "totalGasStandingPrice",
+                "dataType": "Number",
+                "text": "totalGasStandingPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "7c8c84c7-28ec-5b35-59f1-40a52620e86f",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "totalGasUnitPrice"
+            },
+            {
+                "dataType": "Number",
+                "name": "totalGasStandingPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalGasPrice",
+            "dataType": "Number",
+            "name": "totalGasPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalGasPrice\":\"totalGasPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 5,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "totalElecUnitPrice + totalElecStandingPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "totalElecUnitPrice",
+                "dataType": "Number",
+                "text": "totalElecUnitPrice",
+                "userDefined": true
+            },
+            {
+                "alias": "+",
+                "text": "+"
+            },
+            {
+                "alias": "totalElecStandingPrice",
+                "dataType": "Number",
+                "text": "totalElecStandingPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "9bb559d7-d06c-bb31-2497-9532b5c08c07",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "totalElecUnitPrice"
+            },
+            {
+                "dataType": "Number",
+                "name": "totalElecStandingPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalElectricityPrice",
+            "dataType": "Number",
+            "name": "totalElectricityPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalElectricityPrice\":\"totalElectricityPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 6,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "productCode",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "productCode",
+                "dataType": "Text",
+                "text": "productCode",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "08480d11-3635-bd6b-ce93-a62bf0ee46b9",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Text",
+                "name": "productCode"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "productCode",
+            "dataType": "Text",
+            "name": "productCode"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"productCode\":\"productCode\"}",
+        "%vlocity_namespace%__Sequence__c": 7,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "totalGasPrice + totalElectricityPrice",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "totalGasPrice",
+                "dataType": "Number",
+                "text": "totalGasPrice",
+                "userDefined": true
+            },
+            {
+                "alias": "+",
+                "text": "+"
+            },
+            {
+                "alias": "totalElectricityPrice",
+                "dataType": "Number",
+                "text": "totalElectricityPrice",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "273ce8e4-d003-8dc3-39b8-667aebf4b6d5",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "totalGasPrice"
+            },
+            {
+                "dataType": "Number",
+                "name": "totalElectricityPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "totalPrice",
+            "dataType": "Number",
+            "name": "totalPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"totalPrice\":\"totalPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 8,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "electricityConsumption",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "electricityConsumption",
+                "dataType": "Number",
+                "text": "electricityConsumption",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "61a9296e-77aa-1841-19d6-3c2375bdf968",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "electricityConsumption"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "electricityConsumption",
+            "dataType": "Number",
+            "name": "electricityConsumption"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"electricityConsumption\":\"electricityConsumption\"}",
+        "%vlocity_namespace%__Sequence__c": 9,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "gasConsumption",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "gasConsumption",
+                "dataType": "Number",
+                "text": "gasConsumption",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "VEEDigitalCalculateBasketsTotalDual",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "80a1bc42-17e1-3e89-266e-47455582e615",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "gasConsumption"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "gasConsumption",
+            "dataType": "Number",
+            "name": "gasConsumption"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"gasConsumption\":\"gasConsumption\"}",
+        "%vlocity_namespace%__Sequence__c": 10,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

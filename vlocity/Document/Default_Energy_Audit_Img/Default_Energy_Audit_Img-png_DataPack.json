@@ -1,0 +1,17 @@
+{
+    "Body": "File_Default_Energy_Audit_Img-png.png",
+    "BodyLength": 53073,
+    "ContentType": "image/png",
+    "Description": "Product Console File Upload",
+    "DeveloperName": "Default_Energy_Audit_Img",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "Default_Energy_Audit_Img.png",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Default_Energy_Audit_Img"
+}

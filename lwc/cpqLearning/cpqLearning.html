@@ -1,0 +1,40 @@
+<template>
+    <lightning-card footer="" title="">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_2-of-3">
+                <div class="slds-box" >  
+                    <h1 class="slds-text-heading_medium">{welcome_text}</h1> 
+                </div>
+            </div>    
+            <div class="c-footer slds-size_1-of-3 slds-align_absolute-center" >
+                <a href="/lightning/n/LearningHome">Return to Learning Home</a>
+            </div>
+        </div>
+        <div class="c-container"> 
+            <lightning-layout>
+                <lightning-layout-item flexibility="auto" padding="around-small">
+                    <p class="c-description">{app_description}</p>
+                    <template if:true={cpqItems.data}>
+                        <template for:each={cpqItems.data} for:item="cpqItem">
+                            <c-feature-child
+                                key={cpqItem.Id}
+                                heading={cpqItem.Section_Heading__c} 
+                                image={cpqItem.Icon_Name__c}
+                                app-text={cpqItem.Section_Detail__c}
+                                app={cpqItem.Target_App__c}
+                                page={cpqItem.Target_Tab_Name__c}
+                                link-in-new-tab={pass_true}
+                                link-reference={cpqItem.NavigationType__c}
+                                object-name={cpqItem.ObjectName__c}
+                                object-id={cpqItem.Target_RecordId__c}
+                                related-entity={cpqItem.RelatedEntityAPIName__c}
+                                filter-name={cpqItem.Filter_Criteria__c}
+                                >
+                            </c-feature-child>
+                        </template>
+                    </template>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

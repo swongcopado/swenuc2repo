@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VIP Used to Delete Cached API Response.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyCAMDeleteCachedAPIResponse",
+    "OmniProcessElement": [
+        "sfiEnergyCAM_DeleteCachedAPIResponse_Element_GetCachedAPIResponseRecords.json",
+        "sfiEnergyCAM_DeleteCachedAPIResponse_Element_ResponseWhenNoRecords.json",
+        "sfiEnergyCAM_DeleteCachedAPIResponse_Element_DeleteCachedAPIResponse.json",
+        "sfiEnergyCAM_DeleteCachedAPIResponse_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyCAM_DeleteCachedAPIResponse",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyCAM_DeleteCachedAPIResponse_PropertySetConfig.json",
+    "SubType": "DeleteCachedAPIResponse",
+    "Type": "sfiEnergyCAM",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyCAM/DeleteCachedAPIResponse/Procedure",
+    "WebComponentKey": "ea9d9a65-44f3-c16e-76fb-48f6994a54f8"
+}

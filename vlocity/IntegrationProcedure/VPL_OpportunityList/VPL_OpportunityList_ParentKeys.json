@@ -1,0 +1,7 @@
+[
+    "DataRaptor/VPL-GetAccountOpportunityDetails",
+    "DataRaptor/VPL-GetOpportunityQuote",
+    "DataRaptor/VPL-TransformOpportunity",
+    "DataRaptor/VPL-TransformOpportunityList",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

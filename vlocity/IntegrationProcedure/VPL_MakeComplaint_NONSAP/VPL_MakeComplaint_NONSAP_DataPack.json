@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VPL_MakeComplaint_NONSAP_SampleInput.json",
+    "Description": "This IP will update the account and statement status to Billing Hold and Billing Dispute. Also this will create a case.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-MakeComplaint_NONSAP",
+    "OmniProcessElement": [
+        "VPL_MakeComplaint_NONSAP_Element_DRCreateEnergyComplaintCase.json",
+        "VPL_MakeComplaint_NONSAP_Element_DRUpdateStatementStatus.json",
+        "VPL_MakeComplaint_NONSAP_Element_SVResponse.json",
+        "VPL_MakeComplaint_NONSAP_Element_Response.json",
+        "VPL_MakeComplaint_NONSAP_Element_ResponseBillingDispute.json"
+    ],
+    "OmniProcessKey": "VPL_MakeComplaint_NONSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_MakeComplaint_NONSAP_PropertySetConfig.json",
+    "SubType": "MakeComplaint_NONSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/MakeComplaint_NONSAP/Procedure",
+    "WebComponentKey": "1de3dc49-12e6-256d-59cd-fed1a91f1bf6"
+}

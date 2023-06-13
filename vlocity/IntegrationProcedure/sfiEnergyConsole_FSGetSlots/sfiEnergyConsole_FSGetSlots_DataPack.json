@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "sfiEnergyConsole_FSGetSlots_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsoleFSGetSlots",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_FSGetSlots_Element_RAFetchSlots.json",
+        "sfiEnergyConsole_FSGetSlots_Element_RAFetchRescheduleSlots.json",
+        "sfiEnergyConsole_FSGetSlots_Element_RAFetchNextSlots.json",
+        "sfiEnergyConsole_FSGetSlots_Element_ResponseAction.json",
+        "sfiEnergyConsole_FSGetSlots_Element_ResponseAction2.json",
+        "sfiEnergyConsole_FSGetSlots_Element_ResponseAction3.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_FSGetSlots",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_FSGetSlots_PropertySetConfig.json",
+    "RequiredPermission": "sfiEnergyConsoleFSPermission",
+    "SubType": "FSGetSlots",
+    "Type": "sfiEnergyConsole",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/FSGetSlots/Procedure",
+    "WebComponentKey": "5bf0d2eb-bfe6-8b52-e46e-45d86f58f738"
+}

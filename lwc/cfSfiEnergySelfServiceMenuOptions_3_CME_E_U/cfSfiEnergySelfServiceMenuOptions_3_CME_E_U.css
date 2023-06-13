@@ -1,0 +1,14 @@
+:host{
+   
+}
+
+.slds-scope{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.selected-option-block {
+    --slds-c-icon-color-foreground-default: #0176D3;
+    
+}

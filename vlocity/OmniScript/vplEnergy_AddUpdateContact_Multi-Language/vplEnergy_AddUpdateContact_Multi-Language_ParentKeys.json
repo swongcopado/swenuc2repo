@@ -1,0 +1,7 @@
+[
+    "DataRaptor/VPL-GetAllContacts",
+    "DataRaptor/VPL-TransformAccContactRoleInput",
+    "DataRaptor/VPL-TransformContactForRole",
+    "DataRaptor/VPL-UpdateAccountContactRelation",
+    "IntegrationProcedure/VPL_GetAllContactsInfo"
+]

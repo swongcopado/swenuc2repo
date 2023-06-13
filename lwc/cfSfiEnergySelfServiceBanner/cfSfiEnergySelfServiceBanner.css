@@ -1,0 +1,17 @@
+@media screen and (max-width:767px) {
+    .profileIcon, .userProfile, .sfiEnergyTabs{
+        display: none;
+    }
+    .mobileMenu, .mobileSearch{
+        --slds-c-icon-color-foreground-default:var(--lwc-brandAccessible);
+        display: block;
+    }
+   .margin-l_auto{
+        margin-left: auto;
+    }
+}
+@media screen and (min-width:768px) {
+    .mobileMenu, .mobile-menu_background, .mobileSearch{
+        display: none;
+    }
+}

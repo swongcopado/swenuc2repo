@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:Envelope
+    xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/">
+    <ns0:Body>
+        <ns01:notificationsResponse
+            xmlns:ns01="http://soap.sforce.com/2005/09/outbound">
+            <ns01:ERP_Contract_ID__c>6012201</ns01:ERP_Contract_ID__c>
+            <ns01:Message_From_Webservice__c>Partner Created in SAP Successfully..!!!</ns01:Message_From_Webservice__c>
+        </ns01:notificationsResponse>
+    </ns0:Body>
+</ns0:Envelope>

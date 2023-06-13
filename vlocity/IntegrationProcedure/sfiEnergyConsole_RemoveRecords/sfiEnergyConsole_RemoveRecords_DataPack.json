@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "sfiEnergyConsole_RemoveRecords_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsoleRemoveRecords",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_RemoveRecords_Element_DeleteUnwantedRecords.json",
+        "sfiEnergyConsole_RemoveRecords_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_RemoveRecords",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_RemoveRecords_PropertySetConfig.json",
+    "SubType": "RemoveRecords",
+    "Type": "sfiEnergyConsole",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/RemoveRecords/Procedure",
+    "WebComponentKey": "8f647bdb-aecb-ada6-6134-052a5be485e2"
+}

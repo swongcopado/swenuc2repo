@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VIP Used to Convert 15 Account Id to 18 digits.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergySelfServiceGetAccountId",
+    "OmniProcessElement": [
+        "sfiEnergySelfService_GetAccountId_Element_GetAccountIdDR.json",
+        "sfiEnergySelfService_GetAccountId_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergySelfService_GetAccountId",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergySelfService_GetAccountId_PropertySetConfig.json",
+    "SubType": "GetAccountId",
+    "Type": "sfiEnergySelfService",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergySelfService/GetAccountId/Procedure",
+    "WebComponentKey": "fe5df0b7-9d21-64d6-b795-bd98ad6ce34a"
+}

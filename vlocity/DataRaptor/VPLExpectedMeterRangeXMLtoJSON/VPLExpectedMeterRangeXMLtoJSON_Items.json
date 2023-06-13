@@ -1,0 +1,116 @@
+[
+    {
+        "GlobalKey": "VPLExpectedMeterRangeXMLtoJSONCustom87",
+        "InputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#ExpctedHighValue:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPLExpectedMeterRangeXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ExpctedHighValue",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPLExpectedMeterRangeXMLtoJSONCustom1259",
+        "InputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#ExpctedLowValue:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPLExpectedMeterRangeXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ExpctedLowValue",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPLExpectedMeterRangeXMLtoJSONCustom3812",
+        "InputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#MeterReadingDate:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPLExpectedMeterRangeXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MeterReadingDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPLExpectedMeterRangeXMLtoJSONCustom3381",
+        "InputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#Meter_Serial_Number__c:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPLExpectedMeterRangeXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Meter_Serial_Number__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPLExpectedMeterRangeXMLtoJSONCustoma1V3h000000mIr4EAEItem0",
+        "InputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#PROD_Utility_Type__c:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPLExpectedMeterRangeXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PROD_Utility_Type__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPLExpectedMeterRangeXMLtoJSONCustom5527",
+        "InputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#Reading:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPLExpectedMeterRangeXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLExpectedMeterRangeXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Reading",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

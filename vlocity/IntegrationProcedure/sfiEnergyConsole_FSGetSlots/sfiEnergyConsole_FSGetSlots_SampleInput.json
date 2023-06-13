@@ -1,0 +1,17 @@
+{
+    "action": "Extend",
+    "currentRange": null,
+    "currentRangeDT": "2021-06-01 00:21:07 _ 2021-07-7 00:21:07",
+    "errorMessage": null,
+    "isError": false,
+    "isPrevious": "false",
+    "operatingHoursId": "0OH3h00000056yrGAA",
+    "schedulingPolicyId": "a6j3h000000032OAAQ",
+    "servApptDueDate": "2021-07-15T07:21:07.830Z",
+    "servApptStartDate": "2021-06-15T07:21:07.830Z",
+    "serviceAppointmentValue": "08p3h000001N22TAAS",
+    "serviceTerritory": "NY",
+    "timeZone": "America/Los_Angeles",
+    "workOrderId": "0WO3h000000q4TtGAI",
+    "workType": "Solar Panel Installation"
+}

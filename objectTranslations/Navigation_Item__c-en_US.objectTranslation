@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Navigation Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Navigation Items</value>
+    </caseValues>
+    <fields>
+        <help><!-- SOQL Filter Criteria. Use operators including =, !=, LIKE --></help>
+        <label><!-- Filter Criteria --></label>
+        <name>Filter_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Icon Name --></label>
+        <name>Icon_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NavigationType --></label>
+        <name>NavigationType__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__appPage</masterLabel>
+            <translation><!-- standard__appPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__namedPage</masterLabel>
+            <translation><!-- standard__namedPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__navItemPage</masterLabel>
+            <translation><!-- standard__navItemPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__objectPage</masterLabel>
+            <translation><!-- standard__objectPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__recordPage</masterLabel>
+            <translation><!-- standard__recordPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__recordRelationshipPage</masterLabel>
+            <translation><!-- standard__recordRelationshipPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>standard__webPage</masterLabel>
+            <translation><!-- standard__webPage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Name --></label>
+        <name>PageName__c</name>
+        <picklistValues>
+            <masterLabel>BusinessApps</masterLabel>
+            <translation><!-- BusinessApps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPQ</masterLabel>
+            <translation><!-- CPQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIgitalCommerce</masterLabel>
+            <translation><!-- DIgitalCommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentGeneration</masterLabel>
+            <translation><!-- DocumentGeneration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC</masterLabel>
+            <translation><!-- EPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LandingPage</masterLabel>
+            <translation><!-- LandingPage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OM</masterLabel>
+            <translation><!-- OM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omnistudio</masterLabel>
+            <translation><!-- Omnistudio --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use only if Navigation Type = &quot;standard__recordRelationshipPage&quot; --></help>
+        <label><!-- Related Entity API Name --></label>
+        <name>RelatedEntityAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Detail --></label>
+        <name>Section_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Heading --></label>
+        <name>Section_Heading__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>Sequence_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target App --></label>
+        <name>Target_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target RecordId --></label>
+        <name>Target_RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Location --></label>
+        <name>Target_Tab_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- isActive --></label>
+        <name>isActive__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter filter criteria i.e.where clause to fetch the exact record --></errorMessage>
+        <name>Filter_Crieria_is_must</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the API name of Related object where you want to navigate --></errorMessage>
+        <name>Related_Entity_is_must</name>
+    </validationRules>
+</CustomObjectTranslation>

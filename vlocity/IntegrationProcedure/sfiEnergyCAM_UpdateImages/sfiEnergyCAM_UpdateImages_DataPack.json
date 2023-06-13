@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP is used to Update the product Images.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyCAMUpdateImages",
+    "OmniProcessElement": [
+        "sfiEnergyCAM_UpdateImages_Element_UpdateProductImages.json",
+        "sfiEnergyCAM_UpdateImages_Element_ResponseSuccess.json",
+        "sfiEnergyCAM_UpdateImages_Element_ResponseFailure.json"
+    ],
+    "OmniProcessKey": "sfiEnergyCAM_UpdateImages",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyCAM_UpdateImages_PropertySetConfig.json",
+    "SubType": "UpdateImages",
+    "Type": "sfiEnergyCAM",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyCAM/UpdateImages/Procedure",
+    "WebComponentKey": "dfe90d4e-4a44-056f-b863-4087bc74de1a"
+}

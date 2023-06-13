@@ -1,0 +1,11 @@
+[
+    "DataRaptor/VPL-CreateEnergyAccount",
+    "DataRaptor/VPL-GetRecordTypeId",
+    "DataRaptor/VPL-SearchAccount",
+    "DataRaptor/VPL-SearchContactInfo",
+    "DataRaptor/VPL-SearchPremises",
+    "DataRaptor/VPL-TransformAccountContactRelation",
+    "DataRaptor/VPL-TransformParentAccountId",
+    "DataRaptor/VPL-UpdateAccountContactRelation",
+    "DataRaptor/sfiEnergyConsoleRetrieveAccount"
+]

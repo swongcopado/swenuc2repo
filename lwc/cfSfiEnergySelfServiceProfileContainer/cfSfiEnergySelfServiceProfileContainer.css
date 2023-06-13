@@ -1,0 +1,16 @@
+:host{
+    --slds-c-card-color-background:#f9fcff;
+}
+
+.slds-scope{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media screen and (max-width:767px) {
+    .profileMenu{
+        display: none;
+    }
+}

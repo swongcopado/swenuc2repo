@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 9,
+                "name": "Params.id",
+                "val": "0014x0000073OnUAAU"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "VPL_ConsoleLeftInfo",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyLeftProfile",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyLeftProfile/CME_E_U/3/1627018142519",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyLeftProfile.json",
+    "SampleDataSourceResponse": "{\"AccountTree\":\"\",\"ConsoleLeftCardDetails\":{\"AccountId\":\"0014x0000073OnUAAU\",\"AccountName\":\"Billy Bing\",\"BillingCity\":\"London\",\"BillingCountry\":\"UK\",\"BillingPostalCode\":\"34334\",\"BillingState\":\"London\",\"BillingStreet\":\"123 west\",\"PrimaryContactEmail\":\"james.rawling@billybing.com\",\"PrimaryContactId\":\"0034x000005WbXpAAK\",\"PrimaryContactPhone\":\"0131 9876333\",\"RecordTypeName\":\"Consumer\",\"BillingAddress\":\"123 west London London 34334 UK\",\"PrimaryContactName\":\"James Rawlings (Primary Contact)\",\"ShippingAddress\":\"77 Whitehill Rd, Fort Kinnaird Edinburgh Scotland EH15 3HR United Kingdom\",\"AllContact\":[{\"Email\":\"james.rawling@billybing.com\",\"Id\":\"0034x000005WbXpAAK\",\"Name\":\"James Rawlings\",\"Phone\":\"0131 9876333\",\"Role\":\"Primary Contact\"},{\"Email\":\"julia.tom@billybing.com\",\"Id\":\"0034x000005WbXzAAK\",\"Name\":\"Julia Tom\",\"Phone\":\"0131 9876333\",\"Role\":\"Business User\"},{\"Email\":\"ben.stokes1@email.com\",\"Id\":\"0034x000005WbYOAA0\",\"Name\":\"Ben1 Stokes1\",\"Phone\":\"3345560001\",\"Role\":\"Business User;Purchasing Contact;Property Manager\"}],\"callIcon\":\"utility:call\",\"emailIcon\":\"utility:email\",\"incoming_callIcon\":\"utility:incoming_call\",\"userIcon\":\"utility:user\"},\"MapAPIKey\":\"AIzaSyAt9JfKFI4hMzo7U7bMNxn4yE-IdQ-Y5oM\",\"columnsData\":{\"columns\":[{\"fieldName\":\"Name\",\"label\":\"Name\",\"searchable\":true,\"sortable\":true,\"userSelectable\":false},{\"fieldName\":\"Role\",\"label\":\"Role\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"Email\",\"label\":\"Email\",\"searchable\":true,\"sortable\":true,\"type\":\"email\",\"userSelectable\":true},{\"fieldName\":\"Phone\",\"label\":\"Phone\",\"searchable\":true,\"sortable\":true,\"type\":\"phone\",\"userSelectable\":true}]},\"ImageURL\":\"https://maps.googleapis.com/maps/api/staticmap?center=77 Whitehill Rd, Fort Kinnaird Edinburgh Scotland EH15 3HR United Kingdom&zoom=14&size=600x400&key=AIzaSyAt9JfKFI4hMzo7U7bMNxn4yE-IdQ-Y5oM\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyLeftProfile"
+}

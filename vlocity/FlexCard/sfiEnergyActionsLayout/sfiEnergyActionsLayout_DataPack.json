@@ -1,0 +1,49 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "Params.id",
+                    "val": "a1S4x000000mfmuEAA"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "Id": "{Params.id}",
+                    "callFrom": "'Actions'"
+                },
+                "ipMethod": "sfiEnergyConsole_FSAppointmentDetails",
+                "jsonMap": "{\"Params.id\":\"{Params.id}\"}",
+                "optionsMap": {
+                    "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+                },
+                "resultVar": "",
+                "vlocityAsync": true
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyActionsLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyActionsLayout/CME_E_U/9/1657267565280",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyActionsLayout.json",
+    "SampleDataSourceResponse": "{\"AccountEntitlements\":null,\"AccountId\":\"a1S4x000000mfmuEAA\",\"isFSPackageLicenseAvailable\":true}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 9,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyActionsLayout"
+}

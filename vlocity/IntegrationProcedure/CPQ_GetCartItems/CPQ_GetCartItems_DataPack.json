@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CPQGetCartItems",
+    "OmniProcessElement": [
+        "CPQ_GetCartItems_Element_GetCartItemsAction.json",
+        "CPQ_GetCartItems_Element_GetCartItemsResponse.json"
+    ],
+    "OmniProcessKey": "CPQ_GetCartItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_GetCartItems_PropertySetConfig.json",
+    "SubType": "GetCartItems",
+    "Type": "CPQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/GetCartItems/Procedure",
+    "WebComponentKey": "969c550d-61e6-dda3-0480-472a6f4ac35e"
+}

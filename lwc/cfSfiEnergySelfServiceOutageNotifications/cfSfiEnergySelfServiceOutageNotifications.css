@@ -1,0 +1,23 @@
+:host{
+    --sds-c-card-color-background:transparent;
+    --sds-c-card-color-border:transparent;
+    --sds-c-card-radius-border:0;
+    --sds-c-card-header-spacing-block-start:1.3rem;
+    --sds-c-card-header-spacing-inline-start:1.3rem;
+    --sds-c-card-body-spacing-inline-start:1.3rem;
+    --sds-c-card-body-spacing-block-end:1.3rem;
+    --sds-c-icon-radius-border:0.3rem;
+    --sds-c-icon-color-foreground-default:#fff;
+    --lwc-squareIconMediumBoundary:1.3rem;
+}
+.iconbg{
+    stroke: black;
+    stroke-width: 2;
+    text-align: center;
+}
+
+.eu-outage-container {
+    border: .5px solid rgba(228,113,4, .2);
+    border-radius: 24px;
+    background-color: #FFF3E8;
+}

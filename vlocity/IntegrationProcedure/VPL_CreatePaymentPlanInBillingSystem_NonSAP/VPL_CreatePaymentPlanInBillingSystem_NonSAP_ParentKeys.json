@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPL-TransformCreatePaymentPlanToJSON",
+    "DataRaptor/VPL-TransformPaymentPlanResponseXMLtoJSON",
+    "DataRaptor/VPL-TransformPaymentPlanToXML"
+]

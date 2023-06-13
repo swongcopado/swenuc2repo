@@ -1,0 +1,147 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative containersize">
+            <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
+  <vlocity_cmt-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </vlocity_cmt-toast>
+</div>
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                      <vlocity_cmt-flex-card-state   data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-around_none " style="      
+         ">
+          <div data-style-id="state0element0" class="slds-col  slds-p-left_x-small slds-p-bottom_xxx-small  slds-size_5-of-12  " data-rindex={rindex} style="      
+        color:#939393; font-style: normal;
+font-weight: 500;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Foundation/Gray/Neutral-60 */
+
+color: #939393;
+
+mix-blend-mode: normal;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;" ><vlocity_cmt-output-field data-style-id="state0element0_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.SfiEnergySelfServicePlanDetails%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1" class="slds-col  slds-p-left_xx-large slds-p-bottom_xxx-small  slds-size_5-of-12  " data-rindex={rindex} style="      
+        color:#939393; font-style: normal;
+font-weight: 500;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Foundation/Gray/Neutral-60 */
+
+color: #939393;
+
+mix-blend-mode: normal;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;" ><vlocity_cmt-output-field data-style-id="state0element1_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.SfiEnergySelfServiceTariff%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element2" class="slds-col   slds-large-size_7-of-12  slds-medium-size_12-of-12  slds-small-size_12-of-12  slds-size_12-of-12  " data-rindex={rindex} style="      
+         font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+color: #181818;
+" ><vlocity_cmt-flex-datatable data-style-id="state0element2_child"   record={record}  card={card}  cell-level-edit="true"  columns='\[{"fieldName":"PlanName","label":"Plan Name","searchable":false,"sortable":true,"type":"text","visible":"true"},{"fieldName":"Tariff","label":"Tariff","searchable":false,"sortable":true,"type":"currency","visible":"true"}]'  extraclass="tabindex:0"  group-order="asc"  hide-table-header="true"  issearchavailable="false"  issortavailable="true"  pagelimit="4"  records={records}  row-delete-dependent-column=""  styles='\{"cellBorderType":[],"cellBorderWidth":"","cellMargin":[],"cellPadding":[],"tableBorderType":[],"tableBorderWidth":""}'  user-selectable-column="false"  user-selectable-row="false"  theme="slds"  ></vlocity_cmt-flex-datatable>
+      </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                </template>
+                <template if:false={hasRecords}>
+                      <vlocity_cmt-flex-card-state   data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-around_none " style="      
+         ">
+          <div data-style-id="state0element0" class="slds-col  slds-p-left_x-small slds-p-bottom_xxx-small  slds-size_5-of-12  " data-rindex={rindex} style="      
+        color:#939393; font-style: normal;
+font-weight: 500;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Foundation/Gray/Neutral-60 */
+
+color: #939393;
+
+mix-blend-mode: normal;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;" ><vlocity_cmt-output-field data-style-id="state0element0_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.SfiEnergySelfServicePlanDetails%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1" class="slds-col  slds-p-left_xx-large slds-p-bottom_xxx-small  slds-size_5-of-12  " data-rindex={rindex} style="      
+        color:#939393; font-style: normal;
+font-weight: 500;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Foundation/Gray/Neutral-60 */
+
+color: #939393;
+
+mix-blend-mode: normal;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;" ><vlocity_cmt-output-field data-style-id="state0element1_child"   record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.SfiEnergySelfServiceTariff%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element2" class="slds-col   slds-large-size_7-of-12  slds-medium-size_12-of-12  slds-small-size_12-of-12  slds-size_12-of-12  " data-rindex={rindex} style="      
+         font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+color: #181818;
+" ><vlocity_cmt-flex-datatable data-style-id="state0element2_child"   record={record}  card={card}  cell-level-edit="true"  columns='\[{"fieldName":"PlanName","label":"Plan Name","searchable":false,"sortable":true,"type":"text","visible":"true"},{"fieldName":"Tariff","label":"Tariff","searchable":false,"sortable":true,"type":"currency","visible":"true"}]'  extraclass="tabindex:0"  group-order="asc"  hide-table-header="true"  issearchavailable="false"  issortavailable="true"  pagelimit="4"  records={records}  row-delete-dependent-column=""  styles='\{"cellBorderType":[],"cellBorderWidth":"","cellMargin":[],"cellPadding":[],"tableBorderType":[],"tableBorderWidth":""}'  user-selectable-column="false"  user-selectable-row="false"  theme="slds"  ></vlocity_cmt-flex-datatable>
+      </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

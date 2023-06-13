@@ -1,0 +1,28 @@
+{
+    "AuthorName": "Vlocity",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "Description": "cpq Global Header Container",
+    "IsTrackingEnabled": false,
+    "Name": "cpqGlobalHeaderContainer",
+    "Namespace": "",
+    "OmniUiCardKey": "cpqGlobalHeaderContainer/Vlocity/4/1658151116788",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "cpqGlobalHeaderContainer.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\"\"}",
+    "UniqueName": "",
+    "VersionNumber": 4,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqGlobalHeaderContainer"
+}

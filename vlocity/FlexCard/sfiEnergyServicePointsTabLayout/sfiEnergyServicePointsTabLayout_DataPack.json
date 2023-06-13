@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "Params.id",
+                "val": "0014x0000073OnIAAU"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "sfiEnergyConsole_GetServicePointsInfo",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "FlexCard Used to display Service Points Tab Layout",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyServicePointsTabLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyServicePointsTabLayout/CME_E_U/6/1636521250641",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyServicePointsTabLayout.json",
+    "SampleDataSourceResponse": "{\"PremiseAddressList\":[{\"LoopBlockIterationIndex\":1,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"isPremiseSelected\":false,\"ServiceAccountId\":\"0014x00000DLeWbAAL\",\"ServiceAccountName\":\"Northern Region - Service\",\"ServiceAccountNumber\":\"\",\"PremiseId\":\"a3X4x000000lVbOEAU\",\"ServicePointStatus\":\"Active\",\"ServicePointCount\":2,\"PremiseAddress\":\"55 JP, bangalore, KA, 560062\"},{\"LoopBlockIterationIndex\":2,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"isPremiseSelected\":false,\"ServiceAccountId\":\"0014x00000DLzglAAD\",\"ServiceAccountName\":\"Northern Region - Service\",\"ServiceAccountNumber\":\"23123\",\"PremiseId\":\"a3X4x000000kkHHEAY\",\"ServicePointStatus\":\"Service Outage\",\"ServicePointCount\":2,\"PremiseAddress\":\"15 Elm Street, Denver, CO, 80220\"},{\"LoopBlockIterationIndex\":3,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"isPremiseSelected\":false,\"ServiceAccountId\":\"0014x00000YEgkLAAT\",\"ServiceAccountName\":\"Test28\",\"ServiceAccountNumber\":\"\",\"PremiseId\":\"a3X4x000000lZOpEAM\",\"ServicePointStatus\":\"Active\",\"ServicePointCount\":2,\"PremiseAddress\":\"23 Abbey Road, Whitley, Coventrysafadsfdsfds, Warwickshire, CV3 4LF\"},{\"LoopBlockIterationIndex\":4,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"isPremiseSelected\":false,\"ServiceAccountId\":\"0014x00000DLzuXAAT\",\"ServiceAccountName\":\"Northern Region - Service\",\"ServiceAccountNumber\":\"32134214\",\"PremiseId\":\"a3X4x000000kkHIEAY\",\"ServicePointStatus\":\"Active\",\"ServicePointCount\":2,\"PremiseAddress\":\"Abbey Road, Whitley, Coventry, Warwickshire, CV3 4LF\"},{\"LoopBlockIterationIndex\":5,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"isPremiseSelected\":false,\"ServiceAccountId\":\"0014x0000073OoXAAU\",\"ServiceAccountName\":\"Northern Region - Service 1\",\"ServiceAccountNumber\":\"898988922\",\"PremiseId\":\"a3X4x000000kkHNEAY\",\"ServicePointStatus\":\"Active\",\"ServicePointCount\":2002,\"PremiseAddress\":\"5 Whitehall Rd, Newcraighall, Edinburgh, Scotland, EH15 3HR\"},{\"LoopBlockIterationIndex\":6,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAndServicePointsInfoStatus\":true,\"isPremiseSelected\":false,\"ServiceAccountId\":\"0014x0000073OpEAAU\",\"ServiceAccountName\":\"Northern Region - Service 2\",\"ServiceAccountNumber\":\"\",\"PremiseId\":\"a3X4x000000kkHKEAY\",\"ServicePointStatus\":\"Service Outage\",\"ServicePointCount\":2,\"PremiseAddress\":\"8 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 5HR\"}],\"TotalServiceCount\":2012,\"columnsData\":{\"columns\":[{\"fieldName\":\"ServiceType\",\"label\":\"sfiEnergyConsoleServicePointType\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"ActivationDate\",\"label\":\"sfiEnergyConsoleServicePointActvnDate\",\"searchable\":false,\"sortable\":false,\"userSelectable\":false},{\"fieldName\":\"PremiseAddress\",\"label\":\"sfiEnergyConsoleServicePointPremise\",\"searchable\":true,\"sortable\":true,\"type\":\"sObjectRecordNavigation\",\"typeAttributes\":{\"objectName\":\"%vlocity_namespace%__Premise__c\",\"navigationKey\":{\"fieldName\":\"PremiseId\"},\"displayField\":{\"fieldName\":\"PremiseAddress\"}},\"userSelectable\":true},{\"fieldName\":\"ServiceAccountNumber\",\"label\":\"sfiEnergyConsoleServiceAccount\",\"searchable\":true,\"sortable\":true,\"type\":\"sObjectRecordNavigation\",\"typeAttributes\":{\"objectName\":\"Account\",\"navigationKey\":{\"fieldName\":\"ServiceAccountId\"},\"displayField\":{\"fieldName\":\"ServiceAccountNumber\"}},\"userSelectable\":true},{\"fieldName\":\"ContractedUsage\",\"label\":\"sfiEnergyConsoleAverageUsage\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"ServicePointNumber\",\"label\":\"sfiEnergyConsoleServicePointNumber\",\"searchable\":true,\"sortable\":true,\"type\":\"sObjectRecordNavigation\",\"typeAttributes\":{\"objectName\":\"%vlocity_namespace%__Service_Point__c\",\"navigationKey\":{\"fieldName\":\"ServicePointId\"},\"displayField\":{\"fieldName\":\"ServicePointNumber\"}},\"userSelectable\":true},{\"fieldName\":\"ServicePointStatus\",\"label\":\"sfiEnergyConsoleServicePointStatus\",\"searchable\":false,\"sortable\":false,\"type\":\"servicePointStatus\",\"typeAttributes\":{\"status\":{\"fieldName\":\"ServicePointStatus\"}},\"userSelectable\":true},{\"fieldName\":\"ProductName\",\"searchable\":false,\"sortable\":false,\"type\":\"serviceReadMore\",\"typeAttributes\":{\"productName\":{\"fieldName\":\"ProductName\"},\"productDescription\":{\"fieldName\":\"ProductDescription\"}},\"userSelectable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 6,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyServicePointsTabLayout"
+}

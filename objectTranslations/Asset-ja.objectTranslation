@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AssetConfiguration --></label>
+        <name>vlocity_cmt__AssetConfiguration</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EcommCachingFieldSet --></label>
+        <name>vlocity_cmt__EcommCachingFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OmniAssetConfiguration --></label>
+        <name>vlocity_cmt__OmniAssetConfiguration</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>vlocity_cmt__Action__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disconnect</masterLabel>
+            <translation>切断</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing</masterLabel>
+            <translation>既存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resume</masterLabel>
+            <translation>再開</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspend</masterLabel>
+            <translation>サスペンド</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>この納入商品が有効化された (される) 日付。</help>
+        <label><!-- Activation Date --></label>
+        <name>vlocity_cmt__ActivationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activation Name --></label>
+        <name>vlocity_cmt__ActivationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Reference Id --></label>
+        <name>vlocity_cmt__AssetReferenceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Metadata Changes --></label>
+        <name>vlocity_cmt__AttributeMetadataChanges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Selected Values --></label>
+        <name>vlocity_cmt__AttributeSelectedValues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base One Time Charge --></label>
+        <name>vlocity_cmt__BaseOneTimeCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base One Time Total --></label>
+        <name>vlocity_cmt__BaseOneTimeTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Recurring Charge --></label>
+        <name>vlocity_cmt__BaseRecurringCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Recurring Total --></label>
+        <name>vlocity_cmt__BaseRecurringTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Account --></label>
+        <name>vlocity_cmt__BillingAccountId__c</name>
+        <relationshipLabel><!-- Billing Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Hold --></label>
+        <name>vlocity_cmt__BillingHold__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference Time --></label>
+        <name>vlocity_cmt__CatalogItemReferenceDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connect Date --></label>
+        <name>vlocity_cmt__ConnectDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>vlocity_cmt__ContractId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Number --></label>
+        <name>vlocity_cmt__ContractNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Payment Mode --></label>
+        <name>vlocity_cmt__CurrencyPaymentMode__c</name>
+        <picklistValues>
+            <masterLabel>Currency</masterLabel>
+            <translation>通貨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty</masterLabel>
+            <translation>ロイヤルティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deregulation Status --></label>
+        <name>vlocity_cmt__DeregulationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disconnect Date --></label>
+        <name>vlocity_cmt__DisconnectDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Base One Time Total --></label>
+        <name>vlocity_cmt__EffectiveBaseOneTimeTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Base Recurring Total --></label>
+        <name>vlocity_cmt__EffectiveBaseRecurringTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective One Time Cost Total --></label>
+        <name>vlocity_cmt__EffectiveOneTimeCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective One Time Loyalty Total --></label>
+        <name>vlocity_cmt__EffectiveOneTimeLoyaltyTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective One Time Total --></label>
+        <name>vlocity_cmt__EffectiveOneTimeTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Quantity --></label>
+        <name>vlocity_cmt__EffectiveQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Recurring Cost Total --></label>
+        <name>vlocity_cmt__EffectiveRecurringCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Recurring Total --></label>
+        <name>vlocity_cmt__EffectiveRecurringTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Usage Cost Total --></label>
+        <name>vlocity_cmt__EffectiveUsageCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Usage Price Total --></label>
+        <name>vlocity_cmt__EffectiveUsagePriceTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Usage Quantity --></label>
+        <name>vlocity_cmt__EffectiveUsageQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financed Amount Total --></label>
+        <name>vlocity_cmt__FinancedAmountTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financed Amount --></label>
+        <name>vlocity_cmt__FinancedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financed Installment Amount --></label>
+        <name>vlocity_cmt__FinancedInstallmentAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- InCartQuantityMap --></label>
+        <name>vlocity_cmt__InCartQuantityMap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Item --></label>
+        <name>vlocity_cmt__InventoryItemId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item Name --></label>
+        <name>vlocity_cmt__ItemName__c</name>
+    </fields>
+    <fields>
+        <label><!-- JSONAttribute --></label>
+        <name>vlocity_cmt__JSONAttribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>vlocity_cmt__LineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Calculated Price --></label>
+        <name>vlocity_cmt__OneTimeCalculatedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Charge --></label>
+        <name>vlocity_cmt__OneTimeCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Cost Total --></label>
+        <name>vlocity_cmt__OneTimeCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Cost --></label>
+        <name>vlocity_cmt__OneTimeCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Discount Price --></label>
+        <name>vlocity_cmt__OneTimeDiscountPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Loyalty Price --></label>
+        <name>vlocity_cmt__OneTimeLoyaltyPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Loyalty Total --></label>
+        <name>vlocity_cmt__OneTimeLoyaltyTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Manual Discount --></label>
+        <name>vlocity_cmt__OneTimeManualDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Margin --></label>
+        <name>vlocity_cmt__OneTimeMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Total --></label>
+        <name>vlocity_cmt__OneTimeTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>vlocity_cmt__OrderId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Product --></label>
+        <name>vlocity_cmt__OrderProductId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ParentItemId --></label>
+        <name>vlocity_cmt__ParentItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Password --></label>
+        <name>vlocity_cmt__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premises --></label>
+        <name>vlocity_cmt__PremisesId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price List --></label>
+        <name>vlocity_cmt__PriceListId__c</name>
+        <relationshipLabel><!-- Assets Using This Price List --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>PricebookEntryId</help>
+        <label><!-- PricebookEntryId --></label>
+        <name>vlocity_cmt__PricebookEntryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Log --></label>
+        <name>vlocity_cmt__PricingLogData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Attribute --></label>
+        <name>vlocity_cmt__ProductAttribXN__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Group Key --></label>
+        <name>vlocity_cmt__ProductGroupKey__c</name>
+    </fields>
+    <fields>
+        <help>商品階層パス内の各商品 ID をそのバージョングループキーに置き換えることによって収集された結果の文字列を保存します。</help>
+        <label><!-- Product Hierarchy Group Key Path --></label>
+        <name>vlocity_cmt__ProductHierarchyGroupKeyPath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Hierarchy Path --></label>
+        <name>vlocity_cmt__ProductHierarchyPath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provisioning Status --></label>
+        <name>vlocity_cmt__ProvisioningStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Calculated Price --></label>
+        <name>vlocity_cmt__RecurringCalculatedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Charge --></label>
+        <name>vlocity_cmt__RecurringCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Cost Total --></label>
+        <name>vlocity_cmt__RecurringCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Cost --></label>
+        <name>vlocity_cmt__RecurringCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Discount Price --></label>
+        <name>vlocity_cmt__RecurringDiscountPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Manual Discount --></label>
+        <name>vlocity_cmt__RecurringManualDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Margin --></label>
+        <name>vlocity_cmt__RecurringMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Total --></label>
+        <name>vlocity_cmt__RecurringTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring UOM --></label>
+        <name>vlocity_cmt__RecurringUOM__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>毎月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation>毎年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relies on Item --></label>
+        <name>vlocity_cmt__ReliesOnItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- RootItemId --></label>
+        <name>vlocity_cmt__RootItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>vlocity_cmt__SequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Account --></label>
+        <name>vlocity_cmt__ServiceAccountId__c</name>
+        <relationshipLabel><!-- Service Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Identifier --></label>
+        <name>vlocity_cmt__ServiceIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Point --></label>
+        <name>vlocity_cmt__ServicePointId__c</name>
+        <relationshipLabel><!-- Service Point Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription --></label>
+        <name>vlocity_cmt__SubscriptionId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Usage Cost Total --></label>
+        <name>vlocity_cmt__UsageCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Margin --></label>
+        <name>vlocity_cmt__UsageMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Unit of Measure --></label>
+        <name>vlocity_cmt__UsageMeasurementId__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Usage Price Total --></label>
+        <name>vlocity_cmt__UsagePriceTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Quantity --></label>
+        <name>vlocity_cmt__UsageQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Cost --></label>
+        <name>vlocity_cmt__UsageUnitCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Price --></label>
+        <name>vlocity_cmt__UsageUnitPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>vlocity_cmt__Username__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Activation Date cannot be in the past. --></errorMessage>
+        <name>vlocity_cmt__Asset_Activation_Date_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ChangeToOrder --></label>
+        <name>vlocity_cmt__ChangeToOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChangeToQuote --></label>
+        <name>vlocity_cmt__ChangeToQuote</name>
+    </webLinks>
+</CustomObjectTranslation>

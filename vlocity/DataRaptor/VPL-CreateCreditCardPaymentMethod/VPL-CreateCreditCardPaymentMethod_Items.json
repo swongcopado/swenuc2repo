@@ -1,0 +1,269 @@
+[
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod9446330808535455",
+        "InputFieldName": "ContextId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AccountId__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod002522730950492935",
+        "InputFieldName": "PaymentDetails:CardDetails:CardHolderName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardHolderName__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod7578256219165433",
+        "InputFieldName": "PaymentDetails:CardDetails:AmericanExpressNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod5164475173302607",
+        "InputFieldName": "PaymentDetails:CardDetails:DiscoverNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod6849839083153695",
+        "InputFieldName": "PaymentDetails:CardDetails:MasterCardNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod2299157366746709",
+        "InputFieldName": "PaymentDetails:CardDetails:UCBNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod6309287483798434",
+        "InputFieldName": "PaymentDetails:CardDetails:VisaCardNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod2581295374278487",
+        "InputFieldName": "PaymentDetails:CardDetails:CardType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CardType__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod00008651900299261328",
+        "InputFieldName": "PaymentDetails:CardDetails:ExpiryMonth",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__ExpirationMonth__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod8168754974300234",
+        "InputFieldName": "PaymentDetails:CardDetails:ExpiryYear",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__ExpirationYear__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod9048801692459549",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__IsActive__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod41182745581388813",
+        "InputFieldName": "PaymentDetails:CardDetails:Primary",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__IsPrimary__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod12808448450786525",
+        "InputFieldName": "ChoosePaymentMethod:PaymentMethod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__MethodType__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-CreateCreditCardPaymentMethod3101692529243463",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-CreateCreditCardPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateCreditCardPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateCreditCardPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

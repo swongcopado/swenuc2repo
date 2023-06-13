@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "VPL-AccountHoldXMLtoJSONCustoma1V3h000002PzACEA0Item1",
+        "InputFieldName": "ns0#Envelope:ns0#Body:ns01#notificationsResponse:ns01#msg",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-AccountHoldXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-AccountHoldXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-AccountHoldXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Message",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

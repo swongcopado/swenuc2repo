@@ -1,0 +1,33 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This Integration Procedure will update the move out asset and their respective service points.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-UpdateMoveOut_NONSAP",
+    "OmniProcessElement": [
+        "VPL_UpdateMoveOut_NONSAP_Element_DRUpdateBillingAccount.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_UpdateAssetServicePoint.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_DRUpdateAssetServicePoint.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_GetServiceAccountAsset.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_DRGetServiceAccountAsset.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_UpdateServiceAccountStatus.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_DRUpdateServiceAccountStatus.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_SVTodayDate.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_SVResponse.json",
+        "VPL_UpdateMoveOut_NONSAP_Element_Response.json"
+    ],
+    "OmniProcessKey": "VPL_UpdateMoveOut_NONSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_UpdateMoveOut_NONSAP_PropertySetConfig.json",
+    "SubType": "UpdateMoveOut_NONSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/UpdateMoveOut_NONSAP/Procedure",
+    "WebComponentKey": "b8217a39-2b6b-7015-3747-723efaff167e"
+}

@@ -1,0 +1,33 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "sfiEnergyPremise/CME_E_U/1/1625742074177",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n\t\t{\n\t\t\t\"LoopBlockIterationIndex\": 1,\n\t\t\t\"LoopBlockIterationStatus\": true,\n\t\t\t\"DRGetPremiseAddressStatus\": true,\n\t\t\t\"WaterServiceCount\": 0,\n\t\t\t\"ServicePointDisconnectedCount\": 0,\n\t\t\t\"ServicePointCount\": 2,\n\t\t\t\"PremiseAddress\": \"Abbey Road, Whitley, Coventry, Warwickshire, CV3 4LF\",\n\t\t\t\"GasServiceCount\": 1,\n\t\t\t\"ElectricityServiceCount\": 1\n\t\t},\n\t\t{\n\t\t\t\"LoopBlockIterationIndex\": 2,\n\t\t\t\"LoopBlockIterationStatus\": true,\n\t\t\t\"DRGetPremiseAddressStatus\": true,\n\t\t\t\"WaterServiceCount\": 0,\n\t\t\t\"ServicePointDisconnectedCount\": 0,\n\t\t\t\"ServicePointCount\": 2,\n\t\t\t\"PremiseAddress\": \"15 Elm Street, Denver, CO, 80220\",\n\t\t\t\"GasServiceCount\": 1,\n\t\t\t\"ElectricityServiceCount\": 1\n\t\t},\n\t\t{\n\t\t\t\"LoopBlockIterationIndex\": 3,\n\t\t\t\"LoopBlockIterationStatus\": true,\n\t\t\t\"DRGetPremiseAddressStatus\": true,\n\t\t\t\"WaterServiceCount\": 0,\n\t\t\t\"ServicePointDisconnectedCount\": 0,\n\t\t\t\"ServicePointCount\": 2,\n\t\t\t\"PremiseAddress\": \"Abbey Road, Whitley, Coventry, Warwickshire, CV3 4LF\",\n\t\t\t\"GasServiceCount\": 1,\n\t\t\t\"ElectricityServiceCount\": 1\n\t\t},\n\t\t{\n\t\t\t\"LoopBlockIterationIndex\": 4,\n\t\t\t\"LoopBlockIterationStatus\": true,\n\t\t\t\"DRGetPremiseAddressStatus\": true,\n\t\t\t\"WaterServiceCount\": 0,\n\t\t\t\"ServicePointDisconnectedCount\": 0,\n\t\t\t\"ServicePointCount\": 2,\n\t\t\t\"PremiseAddress\": \"5 Whitehall Rd, Newcraighall, Edinburgh, Scotland, EH15 3HR\",\n\t\t\t\"GasServiceCount\": 0,\n\t\t\t\"ElectricityServiceCount\": 2\n\t\t},\n\t\t{\n\t\t\t\"LoopBlockIterationIndex\": 5,\n\t\t\t\"LoopBlockIterationStatus\": true,\n\t\t\t\"DRGetPremiseAddressStatus\": true,\n\t\t\t\"WaterServiceCount\": 0,\n\t\t\t\"ServicePointDisconnectedCount\": 0,\n\t\t\t\"ServicePointCount\": 2,\n\t\t\t\"PremiseAddress\": \"8 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 3HR\",\n\t\t\t\"GasServiceCount\": 1,\n\t\t\t\"ElectricityServiceCount\": 1\n\t\t}\n\t]",
+            "dsDelay": 0,
+            "resultVar": ""
+        }
+    },
+    "Description": "Card used to display Premise list",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyPremiseList",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyPremiseList/CME_E_U/1/1625831046717",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyPremiseList.json",
+    "SampleDataSourceResponse": "[{\"LoopBlockIterationIndex\":1,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAddressStatus\":true,\"WaterServiceCount\":0,\"ServicePointDisconnectedCount\":0,\"ServicePointCount\":2,\"PremiseAddress\":\"Abbey Road, Whitley, Coventry, Warwickshire, CV3 4LF\",\"GasServiceCount\":1,\"ElectricityServiceCount\":1},{\"LoopBlockIterationIndex\":2,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAddressStatus\":true,\"WaterServiceCount\":0,\"ServicePointDisconnectedCount\":0,\"ServicePointCount\":2,\"PremiseAddress\":\"15 Elm Street, Denver, CO, 80220\",\"GasServiceCount\":1,\"ElectricityServiceCount\":1},{\"LoopBlockIterationIndex\":3,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAddressStatus\":true,\"WaterServiceCount\":0,\"ServicePointDisconnectedCount\":0,\"ServicePointCount\":2,\"PremiseAddress\":\"Abbey Road, Whitley, Coventry, Warwickshire, CV3 4LF\",\"GasServiceCount\":1,\"ElectricityServiceCount\":1},{\"LoopBlockIterationIndex\":4,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAddressStatus\":true,\"WaterServiceCount\":0,\"ServicePointDisconnectedCount\":0,\"ServicePointCount\":2,\"PremiseAddress\":\"5 Whitehall Rd, Newcraighall, Edinburgh, Scotland, EH15 3HR\",\"GasServiceCount\":0,\"ElectricityServiceCount\":2},{\"LoopBlockIterationIndex\":5,\"LoopBlockIterationStatus\":true,\"DRGetPremiseAddressStatus\":true,\"WaterServiceCount\":0,\"ServicePointDisconnectedCount\":0,\"ServicePointCount\":2,\"PremiseAddress\":\"8 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 3HR\",\"GasServiceCount\":1,\"ElectricityServiceCount\":1}]",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyPremiseList"
+}

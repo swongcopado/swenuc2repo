@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPL-GetServicePointAssetDetail",
+    "DataRaptor/VPL-UpdateMoveOutDetails",
+    "DataRaptor/VPL-UpdateServiceAccountStatus"
+]

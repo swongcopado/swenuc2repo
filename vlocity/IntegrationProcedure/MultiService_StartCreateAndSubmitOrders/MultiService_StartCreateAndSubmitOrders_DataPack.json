@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This starts create and submit orders operation on a group.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "StartCreateAndSubmitOrders",
+    "OmniProcessElement": "MultiService_StartCreateAndSubmitOrders_Element_StartCreateAndSubmitOrdersJob.json",
+    "OmniProcessKey": "MultiService_StartCreateAndSubmitOrders",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "MultiService_StartCreateAndSubmitOrders_PropertySetConfig.json",
+    "SubType": "StartCreateAndSubmitOrders",
+    "Type": "MultiService",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiService/StartCreateAndSubmitOrders/Procedure",
+    "WebComponentKey": "cc4852f1-aeb6-c1cf-21e0-70e82006d068"
+}

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:Envelope
+    xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/">
+    <ns0:Body>
+        <ns01:notificationsResponse
+            xmlns:ns01="http://soap.sforce.com/2005/09/outbound">
+            <ns01:Message_From_Webservice__c>Device 000000000800012670 is not from device category ELE_MTR.0 of 1 readings uploaded successfully...There was an error in Adding meter read. Please try again later.</ns01:Message_From_Webservice__c>
+            <ns01:Status>closed</ns01:Status>
+        </ns01:notificationsResponse>
+    </ns0:Body>
+</ns0:Envelope>

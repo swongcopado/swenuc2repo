@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:Envelope
+    xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/">
+    <ns0:Body>
+        <ns01:notificationsResponse
+            xmlns:ns01="http://soap.sforce.com/2005/09/outbound">
+            <ns01:msg>Account has locked due to billing dispute.</ns01:msg>
+        </ns01:notificationsResponse>
+    </ns0:Body>
+</ns0:Envelope>

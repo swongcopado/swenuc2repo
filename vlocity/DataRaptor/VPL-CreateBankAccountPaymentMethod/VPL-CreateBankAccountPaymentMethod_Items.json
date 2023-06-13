@@ -1,0 +1,155 @@
+[
+    {
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod6626062781370448",
+        "InputFieldName": "ContextId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AccountId__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod4715234531314658",
+        "InputFieldName": "BankPaymentDetails:BankDetails:BankAccountName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BankAccountHolderName__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod8470371574600857",
+        "InputFieldName": "BankPaymentDetails:BankDetails:BankAccountNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BankAccountNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod5461306775355854",
+        "InputFieldName": "BankPaymentDetails:BankDetails:BankAccountType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__BankAccountType__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod048924296180043125",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__IsActive__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod8854984572155606",
+        "InputFieldName": "ChoosePaymentMethod:PaymentMethod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__MethodType__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod09491614034789242",
+        "InputFieldName": "BankPaymentDetails:BankDetails:BankRoutingTransitNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__RoutingTransitNumber__c",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "VPL-CreateBankAccountPaymentMethod11346571695656849",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "VPL-CreateBankAccountPaymentMethod",
+        "OmniDataTransformationId": {
+            "Name": "VPL-CreateBankAccountPaymentMethod",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-CreateBankAccountPaymentMethod",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__PaymentMethod__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

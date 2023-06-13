@@ -1,0 +1,42 @@
+{
+    "AuthorName": "Vlocity",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "Params.id",
+                "val": "0015g00000F98cJAAR"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "sfiEnergyB2bsales_ConsoleOpportunityList",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesConsoleOpportunityList",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesConsoleOpportunityList/Vlocity/1/1632316746311",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesConsoleOpportunityList.json",
+    "SampleDataSourceResponse": "{\"OpportunityList\":[{\"OpportunityAgent\":\"Sidhwani\",\"OpportunityStage\":\"Qualification\",\"OpportunityName\":\"oppor-11\",\"OpportunityId\":\"0065g000002THpoAAG\",\"OpportunityCloseDate\":\"2022-05-18\"},{\"OpportunityAgent\":\"Sidhwani\",\"OpportunityStage\":\"Qualification\",\"OpportunityName\":\"oppor-50\",\"OpportunityId\":\"0065g000002TOGSAA4\",\"OpportunityCloseDate\":\"2021-07-23\"},{\"OpportunityAgent\":\"Sidhwani\",\"OpportunityStage\":\"Qualification\",\"OpportunityName\":\"396-testing\",\"OpportunityId\":\"0065g000002Te5FAAS\",\"OpportunityCloseDate\":\"2021-06-24\"},{\"OpportunityAgent\":\"Sidhwani\",\"OpportunityStage\":\"Qualification\",\"OpportunityName\":\"396automationtest\",\"OpportunityId\":\"0065g00000AGYqdAAH\",\"OpportunityCloseDate\":\"2021-06-26\"},{\"OpportunityAgent\":\"Sidhwani\",\"OpportunityStage\":\"Qualification\",\"OpportunityName\":\"409demo\",\"OpportunityId\":\"0065g00000AGcpsAAD\",\"OpportunityCloseDate\":\"2021-06-29\"}],\"columnsData\":{\"additionalColumns\":[],\"columns\":[{\"fieldName\":\"OpportunityName\",\"label\":\"SfiEnergyOpportunityName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true,\"visible\":true},{\"fieldName\":\"OpportunityCloseDate\",\"label\":\"SfiEnergyOpportunityCloseDate\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityStage\",\"label\":\"SfiEnergyOpportunityStatus\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityAgent\",\"label\":\"SfiEnergyOpportunityAgent\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesConsoleOpportunityList"
+}

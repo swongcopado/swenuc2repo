@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__ApplicableObject__c": "",
+    "%vlocity_namespace%__CalculationProcedureId__c": {
+        "Name": "VEEDigitalCalculateBasketsTotalDual",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+    },
+    "%vlocity_namespace%__CalculationProcedureId__r.Name": "VEEDigitalCalculateBasketsTotalDual",
+    "%vlocity_namespace%__CalculationProcedureStep__c": "VEEDigitalCalculateBasketsTotalDual-V1_Steps.json",
+    "%vlocity_namespace%__CalculationProcedureVariable__c": "VEEDigitalCalculateBasketsTotalDual-V1_Variables.json",
+    "%vlocity_namespace%__Constants__c": [
+        {
+            "alias": "StandingChargeFrequency",
+            "dataType": "Number",
+            "isEditable": false,
+            "name": "StandingChargeFrequency",
+            "precision": 0,
+            "userDefined": true,
+            "value": "30",
+            "valuePlaceHolder": "Enter a Value"
+        }
+    ],
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EnableLooping__c": false,
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "a6bc97bf-ced0-15f3-4ac8-9f87178aa8c1",
+    "%vlocity_namespace%__InputBundleId__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "",
+    "%vlocity_namespace%__LoopingSpecification__c": "",
+    "%vlocity_namespace%__OutputBundleId__c": "",
+    "%vlocity_namespace%__PostProcessorClass__c": "",
+    "%vlocity_namespace%__PreProcessorClass__c": "",
+    "%vlocity_namespace%__Priority__c": 1,
+    "%vlocity_namespace%__StartDateTime__c": "2022-10-10T11:51:38.000Z",
+    "%vlocity_namespace%__Variables__c": "",
+    "%vlocity_namespace%__VersionNumber__c": 1,
+    "Name": "VEEDigitalCalculateBasketsTotalDual V1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/VEEDigitalCalculateBasketsTotalDual"
+}

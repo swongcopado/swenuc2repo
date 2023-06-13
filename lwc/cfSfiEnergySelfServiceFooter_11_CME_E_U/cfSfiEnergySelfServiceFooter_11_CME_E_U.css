@@ -1,0 +1,6 @@
+.footerBg{
+    background: url(service/resource/sfiEnergySelfServiceResources/images/FooterImageLeft.png) repeat-x bottom left;
+    background-size: 45%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}

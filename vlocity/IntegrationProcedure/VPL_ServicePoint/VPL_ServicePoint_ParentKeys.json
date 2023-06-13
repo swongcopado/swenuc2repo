@@ -1,0 +1,7 @@
+[
+    "DataRaptor/VPL-GetServiceAccountDetails",
+    "DataRaptor/VPL-GetServicePointAssetDetail",
+    "DataRaptor/VPL-GetServicePoints",
+    "DataRaptor/VPL-TransformServicePoint",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

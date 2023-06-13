@@ -1,0 +1,525 @@
+{
+    "bundleName": "VPL-TransformMoveAccountContactRealtion",
+    "objectList": {
+        "AccountDisplayName": "Conso Mery",
+        "AccountIdRedirection": "0013h00000JQfI4AAL",
+        "AgreementIdList": [
+            "1500011384",
+            "1500011385",
+            "1500011386"
+        ],
+        "AgreementMessageList": [
+            "Contract 1500011384 created for installation 800012984 (move-in date 04.05.2019) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date 2020-09-07 07:33:28.756373).",
+            "Contract 1500011384 created for installation 800012985 (move-in date 2020-09-07 07:33:28.756373) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date 2020-09-07 07:33:28.756373).",
+            "Contract 1500011384 created for installation 800012986 (move-in date 04.05.2019) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date 2020-09-07 07:33:28.756373)."
+        ],
+        "AttrCategory": [
+            {
+                "CategoryCode": "COST",
+                "CategoryId": "a0O3h000001MyF9EAK"
+            },
+            {
+                "CategoryCode": "PURCHASE_CRITERIA_COST",
+                "CategoryId": "a0O3h000001MytJEAS"
+            },
+            {
+                "CategoryCode": "OUTAGE_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001Mfw4EAC"
+            },
+            {
+                "CategoryCode": "OFFERS_PROMOTIONS",
+                "CategoryId": "a0O3h000001Mfw5EAC"
+            },
+            {
+                "CategoryCode": "WORKORDER_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001Mfw6EAC"
+            },
+            {
+                "CategoryCode": "BILL_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001MfvkEAC"
+            },
+            {
+                "CategoryCode": "PAYMENT_REMINDERS",
+                "CategoryId": "a0O3h000001MfvlEAC"
+            },
+            {
+                "CategoryCode": "DNC_FROM",
+                "CategoryId": "a0O3h000001MfvmEAC"
+            },
+            {
+                "CategoryCode": "DNC_TO",
+                "CategoryId": "a0O3h000001Mg0HEAS"
+            }
+        ],
+        "AttributeAccountId": "0013h00000JQfI4AAL",
+        "AvailableProductMaxRowSelection": "Multiple",
+        "AvialbleProductsColumns": [
+            {
+                "fieldName": "ProdName",
+                "label": "Product Name"
+            },
+            {
+                "fieldName": "ProdFamily",
+                "label": "Product Family"
+            },
+            {
+                "fieldName": "ProdCategory",
+                "label": "Service Type"
+            },
+            {
+                "fieldName": "ProdDescription",
+                "label": "Description"
+            }
+        ],
+        "BankPaymentDetails": {
+            "BankDetails": {
+                "BankAccountName": "teywte",
+                "BankAccountNumber": "656757687987",
+                "BankAccountType": "Savings",
+                "BankName": "ttyiuyi",
+                "BankRoutingTransitNumber": "456657687"
+            }
+        },
+        "BillingAccountRecTypeId": "0123h000000jV4IAAU",
+        "BillingAccountRecordType": "Billing",
+        "BillingPreferences": {
+            "APaymentType": "Prepaid",
+            "AutoPay": "Yes",
+            "BillNotification": "No",
+            "MailingAddres": null,
+            "MailingAddresss": null,
+            "MailingCity": null,
+            "MailingCountry": null,
+            "MailingState": null,
+            "MailingStreet": null,
+            "MailingZipCode": null,
+            "OffersPromotions": "No",
+            "OutageNotification": "Yes",
+            "PaymentNotification": "Yes",
+            "WorkOrderNotification": "No"
+        },
+        "BusinessAccountRecTypeId": "0123h000000jV4HAAU",
+        "BusinessAccountRecordType": "Business",
+        "Category": {
+            "BillNotifications": {
+                "CategoryCode": "BILL_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001MfvkEAC"
+            },
+            "DNCFrom": {
+                "CategoryCode": "DNC_FROM",
+                "CategoryId": "a0O3h000001MfvmEAC"
+            },
+            "DNCTo": {
+                "CategoryCode": "DNC_TO",
+                "CategoryId": "a0O3h000001Mg0HEAS"
+            },
+            "OffersPromotions": {
+                "CategoryCode": "OFFERS_PROMOTIONS",
+                "CategoryId": "a0O3h000001Mfw5EAC"
+            },
+            "OutageNotifications": {
+                "CategoryCode": "OUTAGE_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001Mfw4EAC"
+            },
+            "PaymentReminders": {
+                "CategoryCode": "PAYMENT_REMINDERS",
+                "CategoryId": "a0O3h000001MfvlEAC"
+            },
+            "WorkorderNotifications": {
+                "CategoryCode": "WORKORDER_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001Mfw6EAC"
+            }
+        },
+        "ChoosePaymentMethod": {
+            "PaymentMethod": "Bank Account"
+        },
+        "Confirmation": {
+        },
+        "ContactIdRedirection": "0033h00000DXwrhAAD",
+        "CustomerSelection": {
+            "AccountType": "Consumer",
+            "BillingDetails": {
+            },
+            "BusinessAccountName": null,
+            "ConNameError": null,
+            "ExistingAccount-Block": null,
+            "GetCustomer-Block": null,
+            "MoveInDate": "2020-09-07T18:30:00.000Z",
+            "MoveInDateFormula": true,
+            "MoveInMessage": true,
+            "MsgInvalidExistingAccount": null,
+            "MsgInvalidParentAccount": null,
+            "NewAccountNeeded": null,
+            "NewCustomer": "Yes",
+            "NewCustomerDetails": {
+                "CustomerDOB": "09/01/2020",
+                "CustomerEmail": "test@tt.co",
+                "CustomerFirstName": "Conso",
+                "CustomerLastName": "Mery",
+                "CustomerPhone": "0767887878",
+                "DOBFormula": true,
+                "DOBMsg": true,
+                "DriverLicense": null,
+                "IdentificationType": "TaxID",
+                "SSN": null,
+                "TaxId": "132123123"
+            },
+            "ParentAccount-Block": null,
+            "TaxDetails": {
+                "ExemptionEndDate": null,
+                "ExemptionPercentage": null,
+                "ExemptionStartDate": null
+            }
+        },
+        "DRId_Account": "0013h00000JQfI4AAL",
+        "DRId_Contact": "0033h00000DXwrhAAD",
+        "ERPAccountID__c": 6011110,
+        "ERP_Contract_ID__c": 2334455,
+        "IntegrationType": "JSON",
+        "OmniscriptType": "Move_In",
+        "PaymentDetails": null,
+        "PreConfirm": {
+            "Confirm": "Yes"
+        },
+        "PremisesDisplayName": "Coventry premise",
+        "Products": {
+            "ElectricityProduct": [
+                {
+                    "Id": "01t3h000001Ck7WAAS",
+                    "Name": "Day/Night Tariff",
+                    "ProductCode": "001"
+                },
+                {
+                    "Id": "01t3h000001Ck7gAAC",
+                    "Name": "Night Display Tariff",
+                    "ProductCode": "003"
+                },
+                {
+                    "Id": "01t3h000001Ck7bAAC",
+                    "Name": "High Voltage Tariff",
+                    "ProductCode": "002"
+                }
+            ],
+            "GasProduct": [
+                {
+                    "Id": "01t3h000001Ck7lAAC",
+                    "Name": "Turn Off Order",
+                    "ProductCode": "004"
+                },
+                {
+                    "Id": "01t3h000001Ck7qAAC",
+                    "Name": "Regulated Gas Rate",
+                    "ProductCode": "REG-GAS-1"
+                }
+            ],
+            "WaterProduct": [
+                {
+                    "Id": "01t3h000001Ck7vAAC",
+                    "Name": "Water",
+                    "ProductCode": "water"
+                }
+            ]
+        },
+        "RecordType": [
+            {
+                "Id": "0123h000000jV4JAAU",
+                "Name": "Service"
+            }
+        ],
+        "SObjectName": "Account",
+        "SelectPremises": {
+            "NewAccountPremises": null,
+            "PremiseError": null,
+            "ServiceLocation-Block": {
+                "PremCity": "Kolkata",
+                "PremCountry": "India",
+                "PremId": "a3X3h0000006OviEAE",
+                "PremPostalCode": "700059",
+                "PremState": "West Bengal",
+                "PremiseName": "Coventry premise",
+                "PremiseNumber": "PR70001",
+                "PremiseStreetAddress": "Akshara Lotus Garden Coevtry",
+                "ServiceLocation": "Coventry premise"
+            }
+        },
+        "SelectService": [
+            {
+                "InventoryItemId": "a2O3h000000hrDfEAI",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h000000VDn6EAG",
+                "ServicePointName": "Coventry Day Night Electricity",
+                "ServicePointNumber": "SR50004",
+                "ServiceType": "Electricity",
+                "Status": "Connected"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDaEAI",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h00000059waEAA",
+                "ServicePointName": "Coventry Gas",
+                "ServicePointNumber": "SR50003",
+                "ServiceType": "Gas",
+                "Status": "Connected"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDVEAY",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h00000059wGEAQ",
+                "ServicePointName": "Coventry Electricity",
+                "ServicePointNumber": "SR50001",
+                "ServiceType": "Electricity",
+                "Status": "Connected"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDQEAY",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h00000059wHEAQ",
+                "ServicePointName": "Coventry Water",
+                "ServicePointNumber": "SR50002",
+                "ServiceType": "Water",
+                "Status": "Connected"
+            }
+        ],
+        "SelectServicePoints": [
+            {
+                "InventoryItemId": "a2O3h000000hrDfEAI",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h000000VDn6EAG",
+                "ServicePointName": "Coventry Day Night Electricity",
+                "ServicePointNumber": "SR50004",
+                "ServiceType": "Electricity",
+                "Status": "Connected"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDaEAI",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h00000059waEAA",
+                "ServicePointName": "Coventry Gas",
+                "ServicePointNumber": "SR50003",
+                "ServiceType": "Gas",
+                "Status": "Connected"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDVEAY",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h00000059wGEAQ",
+                "ServicePointName": "Coventry Electricity",
+                "ServicePointNumber": "SR50001",
+                "ServiceType": "Electricity",
+                "Status": "Connected"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDQEAY",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ServicePointId": "a4P3h00000059wHEAQ",
+                "ServicePointName": "Coventry Water",
+                "ServicePointNumber": "SR50002",
+                "ServiceType": "Water",
+                "Status": "Connected"
+            }
+        ],
+        "SelectTypeofService": {
+            "SelectServicePoint": null,
+            "SelectServicePoints": [
+                {
+                    "InventoryItemId": "a2O3h000000hrDaEAI",
+                    "PremiseNumber": "PR70001",
+                    "PremisesId": "a3X3h0000006OviEAE",
+                    "ProductId": "01t3h000001Ck7qAAC",
+                    "ServicePointId": "a4P3h00000059waEAA",
+                    "ServicePointName": "Coventry Gas",
+                    "ServicePointNumber": "SR50003",
+                    "ServiceType": "Gas",
+                    "Status": "Connected",
+                    "originalIndex": "1"
+                },
+                {
+                    "InventoryItemId": "a2O3h000000hrDfEAI",
+                    "PremiseNumber": "PR70001",
+                    "PremisesId": "a3X3h0000006OviEAE",
+                    "ProductId": "01t3h000001Ck7bAAC",
+                    "ServicePointId": "a4P3h000000VDn6EAG",
+                    "ServicePointName": "Coventry Day Night Electricity",
+                    "ServicePointNumber": "SR50004",
+                    "ServiceType": "Electricity",
+                    "Status": "Connected",
+                    "originalIndex": "0"
+                }
+            ],
+            "ServicePointsFormula": 2
+        },
+        "SelectedPremises": "a3X3h0000006OviEAE",
+        "SelectedServiceData": [
+            {
+                "InventoryItemId": "a2O3h000000hrDaEAI",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ProductId": "01t3h000001Ck7qAAC",
+                "ServicePointId": "a4P3h00000059waEAA",
+                "ServicePointName": "Coventry Gas",
+                "ServicePointNumber": "SR50003",
+                "ServiceType": "Gas",
+                "Status": "Connected",
+                "originalIndex": "1"
+            },
+            {
+                "InventoryItemId": "a2O3h000000hrDfEAI",
+                "PremiseNumber": "PR70001",
+                "PremisesId": "a3X3h0000006OviEAE",
+                "ProductId": "01t3h000001Ck7bAAC",
+                "ServicePointId": "a4P3h000000VDn6EAG",
+                "ServicePointName": "Coventry Day Night Electricity",
+                "ServicePointNumber": "SR50004",
+                "ServiceType": "Electricity",
+                "Status": "Connected",
+                "originalIndex": "0"
+            }
+        ],
+        "SelectedServiceMaxRow": "",
+        "ServiceAccountPremisesColumns": [
+            {
+                "fieldName": "SrevicePremisesId",
+                "label": "SrevicePremisesId"
+            },
+            {
+                "fieldName": "AccountName",
+                "label": "Account Name"
+            },
+            {
+                "fieldName": "PremisesName",
+                "label": "Premise Address"
+            }
+        ],
+        "ServiceAccountPremisesMaxRowSelection": "Single",
+        "ServiceAccountRecTypeId": "0123h000000jV4JAAU",
+        "ServiceAccountRecordType": "Service",
+        "ServicePointsColumns": [
+            {
+                "fieldName": "ServicePointName",
+                "label": "Service Point Name"
+            },
+            {
+                "fieldName": "ServiceType",
+                "label": "Service Type"
+            },
+            {
+                "fieldName": "SelectProduct",
+                "label": "Select Product"
+            }
+        ],
+        "ServicePointsError": null,
+        "ServicePremises": null,
+        "UpdatedAccountPref": [
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "No",
+                "CategoryCode": "BILL_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001MfvkEAC"
+            },
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "Yes",
+                "CategoryCode": "PAYMENT_REMINDERS",
+                "CategoryId": "a0O3h000001MfvlEAC"
+            },
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "Yes",
+                "CategoryCode": "OUTAGE_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001Mfw4EAC"
+            },
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "No",
+                "CategoryCode": "OFFERS_PROMOTIONS",
+                "CategoryId": "a0O3h000001Mfw5EAC"
+            },
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "No",
+                "CategoryCode": "WORKORDER_NOTIFICATIONS",
+                "CategoryId": "a0O3h000001Mfw6EAC"
+            },
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "None",
+                "CategoryCode": "DNC_FROM",
+                "CategoryId": "a0O3h000001MfvmEAC"
+            },
+            {
+                "AccountId": "0013h00000JQfI4AAL",
+                "AccountName": "Conso Mery",
+                "AttrValue": "None",
+                "CategoryCode": "DNC_TO",
+                "CategoryId": "a0O3h000001Mg0HEAS"
+            }
+        ],
+        "createResidentialAccount_Msg": "Contract created in SAP successfully..!",
+        "timeStamp": "2020-09-07T07:31:31.274Z",
+        "userCurrencyCode": "USD",
+        "userId": "0053h000002WfuuAAC",
+        "userName": "express_org_sebanti@org.dev",
+        "userProfile": "System Administrator",
+        "userTimeZone": "-420",
+        "vlcTimeTracking": {
+            "BankPaymentDetails": 16357,
+            "BillingPreferences": 10961,
+            "ChoosePaymentMethod": 1774,
+            "CreateBankAccountPaymentMethod": 0,
+            "CreateCreditCardPaymentMethod": 0,
+            "CustomerSelection": 52817,
+            "DR-GetProducts": 1750,
+            "DRCreatServiceAccount": 0,
+            "DRCreateBillingAccount": 0,
+            "DRCreateBusinessAccount": 0,
+            "DRCreateConsumerAccount": 1741,
+            "DRExtractAttrCategory": 1015,
+            "DRExtractBussinessAccountRecId": 926,
+            "DRFetchBillingAccountRecTypeId": 1779,
+            "DRFetchDesiredRecordType": 896,
+            "DRFetchServiceAccountRecTypeId": 1393,
+            "DRInsertContact": 2302,
+            "DRTransformAttrCategory": 905,
+            "DRTransformAttributePreferences": 927,
+            "DRUpdateCosnumerBusinessAccount": 1167,
+            "ExtractServiceAccountPremises": 0,
+            "GetPremServicePoints": 908,
+            "OmniScriptSessionToken": "e924aa0b-f3d0-46af-9c09-8e09625e7997",
+            "PaymentDetails": 0,
+            "PreConfirm": 2309,
+            "SVBusinessAccountRecTypeId": 74,
+            "SVDisplayData": 75,
+            "SVServiceAccountRecTypeId": 75,
+            "SVSetAttributeAccountValues": 71,
+            "SelectPremises": 6195,
+            "SelectTypeofService": 5274,
+            "ServicePointsError": 0,
+            "SetBillingAccountId": 0,
+            "SetBusinessAccountId": 0,
+            "SetCustomLWCValues": 128,
+            "SetDefaultValues": 88,
+            "SetPremisesBusinessAccountRecTypeId": 143,
+            "SetRedirectionIdValues": 58,
+            "SetServiceAccountId": 0,
+            "SetServicePointVal": 100,
+            "VIPCreateAgreement": 3277,
+            "VIPCreateBusinessPartner": 4641,
+            "VIPCreateContractAccount": 1176,
+            "VIPMoveInPost": 2132
+        }
+    }
+}

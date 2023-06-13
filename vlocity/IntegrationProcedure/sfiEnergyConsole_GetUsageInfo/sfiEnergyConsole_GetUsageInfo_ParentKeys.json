@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VPL-GetServiceAccountDetails",
+    "DataRaptor/sfiEnergyConsoleTransformServicePointsInfo",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>OmniProcess_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>OmniProcess Sharing Rule</label>
+        <sharedTo>
+            <guestUser>Self_Service_Portal</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Omni_Process_sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Omni Process sharing</label>
+        <sharedTo>
+            <guestUser>VEE_Digital_Sales</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>VEE</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Sfi_Omni_Process_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sfi Omni Process Sharing Rule</label>
+        <sharedTo>
+            <guestUser>Self_Service_Portal</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingOwnerRules>
+        <fullName>OmniProcess_Sharing_Rule2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>OmniProcess Sharing Rule2</label>
+        <sharedTo>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

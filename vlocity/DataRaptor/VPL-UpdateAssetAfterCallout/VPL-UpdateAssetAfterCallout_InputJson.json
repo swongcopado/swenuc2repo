@@ -1,0 +1,19 @@
+{
+    "agreementList": [
+        {
+            "AgreementId": "1500011384",
+            "AgreementMsg": "Contract 1500011384 created for installation 800012984 (move-in date 04.05.2019) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date {{today}}).",
+            "assetId": "02i3h000000AwWPAA0"
+        },
+        {
+            "AgreementId": "1500011385",
+            "AgreementMsg": "Contract 1500011384 created for installation 800012985 (move-in date {{today}}) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date {{today}}).",
+            "assetId": "02i3h000000Awb6AAC"
+        },
+        {
+            "AgreementId": "1500011386",
+            "AgreementMsg": "Contract 1500011384 created for installation 800012986 (move-in date 04.05.2019) Move-in document 100011516 created.Contract 1500011385 created for installation 800012987 (move-in date {{today}}).",
+            "assetId": "02i3h000000AwbkAAC"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+[
+    "DataRaptor/VPL-GetAnalysis",
+    "DataRaptor/VPL-GetCustomerSatisfaction",
+    "DataRaptor/VPL-GetProfileInterest",
+    "DataRaptor/VPL-GetProfileInterestCategory",
+    "DataRaptor/VPL-GetPurchaseCriteria",
+    "DataRaptor/VPL-TransformAnalysis",
+    "DataRaptor/VPL-TransformCustomerSatisfaction",
+    "DataRaptor/VPL-TransformPurchaseCriteria",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact"
+]

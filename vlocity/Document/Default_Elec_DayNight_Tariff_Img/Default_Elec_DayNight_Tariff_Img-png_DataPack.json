@@ -1,0 +1,17 @@
+{
+    "Body": "File_Default_Elec_DayNight_Tariff_Img-png.png",
+    "BodyLength": 15758,
+    "ContentType": "image/png",
+    "Description": "Product Console File Upload",
+    "DeveloperName": "Default_Elec_DayNight_Tariff_Img",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "Default_Elec_DayNight_Tariff_Img.png",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Default_Elec_DayNight_Tariff_Img"
+}

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:Envelope
+    xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/">
+    <ns0:Body>
+        <ns01:notificationsResponse
+            xmlns:ns01="http://soap.sforce.com/2005/09/outbound"/>
+        </ns0:Body>
+        <ns0:Msg>Contract Terminated successully.</ns0:Msg>
+    </ns0:Envelope>

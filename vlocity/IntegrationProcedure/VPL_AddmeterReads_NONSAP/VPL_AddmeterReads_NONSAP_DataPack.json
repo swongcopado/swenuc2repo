@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This VIP will return static response for add meter read.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-AddMeterReads_NONSAP",
+    "OmniProcessElement": [
+        "VPL_AddmeterReads_NONSAP_Element_SVResponse.json",
+        "VPL_AddmeterReads_NONSAP_Element_Response.json"
+    ],
+    "OmniProcessKey": "VPL_AddmeterReads_NONSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_AddmeterReads_NONSAP_PropertySetConfig.json",
+    "SubType": "AddmeterReads_NONSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/AddmeterReads_NONSAP/Procedure",
+    "WebComponentKey": "c0161592-3780-8937-d26f-af4db73d9bb8"
+}

@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This IP will invoke remote method that executes attribute update on child line items for the given set of rootIds",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ExecuteUpdateLineItems",
+    "OmniProcessElement": "CPQ_ExecuteUpdateLineItems_Element_ExecuteUpdateLineItems.json",
+    "OmniProcessKey": "CPQ_ExecuteUpdateLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_ExecuteUpdateLineItems_PropertySetConfig.json",
+    "SubType": "ExecuteUpdateLineItems",
+    "Type": "CPQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/ExecuteUpdateLineItems/Procedure",
+    "WebComponentKey": "9dd233d2-77f7-b8af-a284-7a56b6c933fd"
+}

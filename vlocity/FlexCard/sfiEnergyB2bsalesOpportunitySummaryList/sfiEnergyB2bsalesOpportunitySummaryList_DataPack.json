@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "sfiEnergyB2bsalesOpportunitySummaryList/Salesforce/2/1652186677324",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 5,
+                    "name": "User.userId",
+                    "val": "0052H00000E3blfQAB"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "UserId": "{User.userId}"
+                },
+                "ipMethod": "sfiEnergyB2bsales_OpportunityQuotesSummary",
+                "jsonMap": "{\"User.userId\":\"{User.userId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "This component displays opportunity along with its quote in the summary view.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyB2bsalesOpportunitySummaryList",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyB2bsalesOpportunitySummaryList/Salesforce/1/1652207986494",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyB2bsalesOpportunitySummaryList.json",
+    "SampleDataSourceResponse": "{\"OpportunityAndQuotes\":{\"OpportunityList\":[{\"OpportunityStatus\":\"Value Proposition\",\"OpportunityProbability\":\"50\",\"OpportunityName\":\"Acme - 1,200 Widgets\",\"OpportunityId\":\"0062H00001ITA7NQAX\",\"OpportunityCloseDate\":\"12/27/2019\",\"OpportunityAmount\":\"$140,000.00\",\"AccountName\":\"Acme\",\"AccountId\":\"0012H00001gVMmRQAW\"},{\"OpportunityStatus\":\"Negotiation/Review\",\"OpportunityProbability\":\"90\",\"OpportunityName\":\"salesforce.com - 1,000 Widgets\",\"OpportunityId\":\"0062H00001ITA7OQAX\",\"OpportunityCloseDate\":\"12/27/2019\",\"OpportunityAmount\":\"$100,000.00\",\"AccountName\":\"salesforce.com\",\"AccountId\":\"0012H00001gVMmSQAW\"},{\"OpportunityStatus\":\"Id. Decision Makers\",\"OpportunityProbability\":\"60\",\"OpportunityName\":\"Global Media - 400 Widgets\",\"OpportunityId\":\"0062H00001ITA7GQAX\",\"OpportunityCloseDate\":\"01/25/2020\",\"OpportunityAmount\":\"$40,000.00\",\"AccountName\":\"Global Media\",\"AccountId\":\"0012H00001gVMmTQAW\"},{\"OpportunityStatus\":\"Needs Analysis\",\"OpportunityProbability\":\"20\",\"OpportunityName\":\"Acme - 600 Widgets\",\"OpportunityId\":\"0062H00001ITA7LQAX\",\"OpportunityCloseDate\":\"02/22/2020\",\"OpportunityAmount\":\"$70,000.00\",\"AccountName\":\"Acme\",\"AccountId\":\"0012H00001gVMmRQAW\"},{\"OpportunityStatus\":\"Value Proposition\",\"OpportunityProbability\":\"50\",\"OpportunityName\":\"salesforce.com - 2,000 Widgets\",\"OpportunityId\":\"0062H00001ITA7MQAX\",\"OpportunityCloseDate\":\"02/24/2020\",\"OpportunityAmount\":\"$20,000.00\",\"AccountName\":\"salesforce.com\",\"AccountId\":\"0012H00001gVMmSQAW\"},{\"OpportunityStatus\":\"Prospecting\",\"OpportunityProbability\":\"10\",\"OpportunityName\":\"Acme - 200 Widgets\",\"OpportunityId\":\"0062H00001ITA7KQAX\",\"OpportunityCloseDate\":\"04/26/2020\",\"OpportunityAmount\":\"$20,000.00\",\"AccountName\":\"Acme\",\"AccountId\":\"0012H00001gVMmRQAW\"},{\"OpportunityStatus\":\"Needs Analysis\",\"OpportunityProbability\":\"20\",\"OpportunityName\":\"Northern - Business expansion 3\",\"OpportunityId\":\"0062H00001ITA7FQAX\",\"OpportunityCloseDate\":\"03/12/2022\",\"OpportunityAmount\":\"$850.00\",\"AccountName\":\"Northern Region\",\"AccountId\":\"0012H00001gVMmUQAW\"},{\"OpportunityStatus\":\"Needs Analysis\",\"OpportunityProbability\":\"20\",\"OpportunityName\":\"Billy Bing Renewal 2020\",\"OpportunityId\":\"0062H00001ITA7EQAX\",\"OpportunityCloseDate\":\"05/22/2022\",\"OpportunityAmount\":\"$4,500.00\",\"AccountName\":\"Billy Bing\",\"AccountId\":\"0012H00001gVMmYQAW\"},{\"OpportunityStatus\":\"Prospecting\",\"OpportunityProbability\":\"10\",\"OpportunityName\":\"Imperial Autos - Business expansion\",\"OpportunityId\":\"0062H00001ITA7JQAX\",\"OpportunityCloseDate\":\"06/12/2022\",\"OpportunityAmount\":\"$10,000.00\",\"AccountName\":\"Imperial Autos - Head Office\",\"AccountId\":\"0012H00001gVMmVQAW\"},{\"OpportunityStatus\":\"Prospecting\",\"OpportunityProbability\":\"10\",\"OpportunityName\":\"Midlands Dental Clinic-\",\"OpportunityId\":\"0062H00001ITvYiQAL\",\"OpportunityCloseDate\":\"12/31/2022\",\"AccountName\":\"Midlands Dental Clinic\",\"AccountId\":\"0012H00001gVzggQAC\"}],\"QuoteList\":[{\"RecordTypeId\":\"0122H000000HsYiQAK\",\"Status\":\"Draft\",\"OpportunityId\":\"0062H00001ITA7EQAX\",\"Name\":\"Nme1\",\"%vlocity_namespace%__QuoteTotal__c\":0,\"%vlocity_namespace%__QuoteMarginTotal__c\":0,\"Id\":\"0Q02H000003ncHsSAI\"},{\"Status\":\"In Review\",\"OpportunityId\":\"0062H00001ITA7EQAX\",\"Name\":\"Billy Bing - Renewal Quote\",\"%vlocity_namespace%__QuoteTotal__c\":4000,\"%vlocity_namespace%__QuoteMarginTotal__c\":0,\"%vlocity_namespace%__NumberOfContractedMonths__c\":12,\"Id\":\"0Q02H000003ncBeSAI\"},{\"Status\":\"Draft\",\"OpportunityId\":\"0062H00001ITA7FQAX\",\"Name\":\"Northern - Business expansion Quote -1\",\"%vlocity_namespace%__QuoteTotal__c\":600,\"%vlocity_namespace%__QuoteMarginTotal__c\":0,\"%vlocity_namespace%__NumberOfContractedMonths__c\":6,\"Id\":\"0Q02H000003ncBhSAI\"},{\"Status\":\"Approved\",\"OpportunityId\":\"0062H00001ITA7FQAX\",\"Name\":\"Northern - Business expansion Quote - 2\",\"%vlocity_namespace%__QuoteTotal__c\":800,\"%vlocity_namespace%__QuoteMarginTotal__c\":0,\"%vlocity_namespace%__NumberOfContractedMonths__c\":6,\"Id\":\"0Q02H000003ncBgSAI\"},{\"Status\":\"Presented\",\"OpportunityId\":\"0062H00001ITA7JQAX\",\"Name\":\"Imperial Autos - Business expansion Quote\",\"%vlocity_namespace%__QuoteTotal__c\":3000,\"%vlocity_namespace%__QuoteMarginTotal__c\":0,\"%vlocity_namespace%__NumberOfContractedMonths__c\":12,\"Id\":\"0Q02H000003ncBfSAI\"}]},\"opportunityColumnsData\":{\"additionalColumns\":[],\"columns\":[{\"fieldName\":\"OpportunityId\",\"label\":\"SfiEnergyOpportunityId\",\"searchable\":true,\"sortable\":true,\"visible\":false},{\"fieldName\":\"OpportunityName\",\"label\":\"SfiEnergyOpportunityName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"AccountName\",\"label\":\"SfiEnergyAccountName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityStatus\",\"label\":\"SfiEnergyOpportunityStatus\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"NumberOfQuotes\",\"label\":\"SfiEnergyQuotes\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityProbability\",\"label\":\"SfiEnergyOpportunityProbability\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityCloseDate\",\"label\":\"SfiEnergyOpportunityCloseDate\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"OpportunityAmount\",\"label\":\"SfiEnergyOpportunityAmount\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true}]},\"quotesColumnsData\":{\"additionalColumns\":[],\"columns\":[{\"fieldName\":\"QuoteId\",\"label\":\"SfiEnergyQuoteId\",\"searchable\":true,\"sortable\":true,\"visible\":false},{\"fieldName\":\"QuoteName\",\"label\":\"SfiEnergyQuoteName\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"QuoteMarginTotal\",\"label\":\"SfiEnergyQuoteMargin\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"QuoteTotal\",\"label\":\"SfiEnergyQuoteTotal\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"ContractedMonths\",\"label\":\"SfiEnergyContractedMonths\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true},{\"fieldName\":\"QuoteStatus\",\"label\":\"SfiEnergyQuoteStatus\",\"searchable\":true,\"sortable\":true,\"userSelectable\":true}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyB2bsalesOpportunitySummaryList"
+}

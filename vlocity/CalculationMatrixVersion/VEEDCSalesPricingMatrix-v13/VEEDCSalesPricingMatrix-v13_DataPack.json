@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "VEEDCSalesPricingMatrix",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/VEEDCSalesPricingMatrix",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "VEEDCSalesPricingMatrix",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "VEEDCSalesPricingMatrix-v13_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "27d31a52-157c-09b5-e3e0-6b9c146bdde2",
+    "%vlocity_namespace%__GroupKeyValue__c": "",
+    "%vlocity_namespace%__MatrixRecordType__c": "Standard",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": false,
+    "%vlocity_namespace%__Priority__c": 13,
+    "%vlocity_namespace%__StartDateTime__c": "2022-09-09T18:19:08.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": false,
+    "%vlocity_namespace%__VersionNumber__c": 13,
+    "Name": "VEEDCSalesPricingMatrix v13",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/13/%vlocity_namespace%__CalculationMatrix__c/VEEDCSalesPricingMatrix"
+}

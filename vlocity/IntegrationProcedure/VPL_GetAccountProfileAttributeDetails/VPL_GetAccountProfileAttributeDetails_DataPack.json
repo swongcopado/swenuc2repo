@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VPL_GetAccountProfileAttributeDetails_SampleInput.json",
+    "Description": "This VIP extracts account Profile Attributes",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-GetAccountProfileAttributeDetails",
+    "OmniProcessElement": [
+        "VPL_GetAccountProfileAttributeDetails_Element_FetchAccount.json",
+        "VPL_GetAccountProfileAttributeDetails_Element_DRExtractProfileAttributes.json",
+        "VPL_GetAccountProfileAttributeDetails_Element_DRTransformAccPrefAttr.json",
+        "VPL_GetAccountProfileAttributeDetails_Element_SVProfileDetails.json",
+        "VPL_GetAccountProfileAttributeDetails_Element_GetAccountPreferenceDetailsResponse.json"
+    ],
+    "OmniProcessKey": "VPL_GetAccountProfileAttributeDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_GetAccountProfileAttributeDetails_PropertySetConfig.json",
+    "SubType": "GetAccountProfileAttributeDetails",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/GetAccountProfileAttributeDetails/Procedure",
+    "WebComponentKey": "1c112127-8a2e-609d-e9f5-8bc5b2691191"
+}

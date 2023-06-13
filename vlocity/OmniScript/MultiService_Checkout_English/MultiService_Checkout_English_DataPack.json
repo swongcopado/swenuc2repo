@@ -1,0 +1,23 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Checkout",
+    "OmniProcessElement": [
+        "MultiService_Checkout_English_Element_CreateAndSubmitOrderInBatch.json",
+        "MultiService_Checkout_English_Element_SubmitOrderInBatch.json",
+        "MultiService_Checkout_English_Element_Redirect.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "MultiService_Checkout_English_PropertySetConfig.json",
+    "SubType": "Checkout",
+    "Type": "MultiService",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiService/Checkout/English",
+    "WebComponentKey": "e6b46a96-b955-b8c3-d0ed-8fa40af1c2d4"
+}

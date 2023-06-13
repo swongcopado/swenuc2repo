@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Kaikkien tapahtumien määrä</help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>Resurssi poissa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>Palvelutapaaminen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>vlocity_cmt__CompletedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used by Activity Templates to set the Due Date for an Activity. It should be blank for all manually-created Activities. --></help>
+        <label><!-- Due in (days) --></label>
+        <name>vlocity_cmt__DueInDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Status --></label>
+        <name>vlocity_cmt__EventStatus__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shared</masterLabel>
+            <translation><!-- Shared --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Follow Up To --></label>
+        <name>vlocity_cmt__FollowUpTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification Timestamp --></label>
+        <name>vlocity_cmt__VerificationTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified Agent Name --></label>
+        <name>vlocity_cmt__VerifiedAgentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified --></label>
+        <name>vlocity_cmt__Verified__c</name>
+    </fields>
+</CustomObjectTranslation>

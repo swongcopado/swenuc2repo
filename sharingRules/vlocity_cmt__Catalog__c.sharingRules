@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Catalog_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Catalog Sharing Rule</label>
+        <sharedTo>
+            <guestUser>VEE_Digital_Sales</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>vlocity_cmt__SourceType__c</field>
+            <operation>equals</operation>
+            <value>Internal - Replicated</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

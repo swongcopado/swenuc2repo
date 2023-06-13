@@ -1,0 +1,746 @@
+{
+    "AccountId": "0013h00000Bue2WAAR",
+    "AccountRecordType": "Business",
+    "AssetDetail": {
+        "AssetListLWC": [
+            {
+                "AssetId": "02i3h000002NvrsAAC",
+                "AssetName": "Gas Cylinder",
+                "ContractNumber": "23232323",
+                "ContractedUsage": 3,
+                "Meter": "Electric Transformer",
+                "PremiseAddress": "3 Mahisbathan , Kolkata , West Bengal,70091",
+                "PremiseCity": "Boston",
+                "PremisePostalCode": "18912",
+                "PremiseState": "Pennsylvania",
+                "PremiseStreet": "100 Main St, 100 khapura",
+                "ProductCode": "ABPB Pipe",
+                "ProductDescription": "Good Pipe",
+                "ProductFamily": "Gas",
+                "ProductName": "Gas Tarrif",
+                "SerialNumber": "323232323",
+                "ServiceAccountId": "0013h00000FqFv9AAF",
+                "ServicePointId": "a4P3h000000kPUpEAM",
+                "ServicePointName": "WBSDCL",
+                "ServicePointNumber": "10382388",
+                "ServicePointStatus": "Vacant",
+                "ServiceType": "Electricity",
+                "UnitOfMeasure": "Kwh",
+                "originalIndex": "1"
+            }
+        ],
+        "MsgAssetSelection": true
+    },
+    "BillDeliveryMethod": "Paper Billing",
+    "BillingAccountId": "0013h00000CSWY4AAP",
+    "ContactId": null,
+    "ContextAccountName": "Northern Region",
+    "ContextId": "a1S3h000000kqGyEAI",
+    "DRExtractInventoryItems": {
+        "SelectMeter": [
+            {
+                "Id": "a2O3h000000PhFYEA0",
+                "MeterName": "Electric Transformer",
+                "ProductName": "PRODUCT-56654",
+                "SerialNumber": "545454545",
+                "ServiceType": "Electricity"
+            },
+            {
+                "Id": "a2O3h000000PcYbEAK",
+                "MeterName": "Gas Stove",
+                "ProductName": "Gas Tarrif",
+                "SerialNumber": "65666",
+                "ServiceType": "Gas"
+            }
+        ]
+    },
+    "DRExtractInventoryItemsStatus": true,
+    "DRGetAccountAsset": [
+        {
+            "Active": "2020-09-18",
+            "AssetId": "02i3h000002NvrsAAC",
+            "BillingAccountName": "Northern Region Billing",
+            "BillingHold": "Other",
+            "ContactName": "Carole White",
+            "ContractName": "00000112",
+            "ContractNumber": "23232323",
+            "CurrentUsage": 3,
+            "DeRegulationStatus": "Other",
+            "Description": "Good Product",
+            "InstalledDate": "2020-06-16",
+            "InventoryItem": "Gas Stove",
+            "Market Identifier": "323232323",
+            "Name": "Gas Cylinder",
+            "OrderNumber": "00000617",
+            "PremiseName": "Panache",
+            "ProductFamily": "Gas",
+            "ProductName": "Gas Tarrif",
+            "SerialNumber": "323232323",
+            "ServiceAccountName": "Northern Region Service 1",
+            "ServicePoint": "WBSDCL",
+            "Status": "Installed",
+            "UsageUnit": "Kwh"
+        },
+        {
+            "Active": "2020-08-13",
+            "AssetId": "02i3h000002Ov63AAC",
+            "CurrentUsage": 2,
+            "InstalledDate": "2020-06-11",
+            "Market Identifier": "232323232",
+            "Name": "Water Supply",
+            "ProductFamily": "Water",
+            "ProductName": "Regulated Water Supply",
+            "SerialNumber": "232323232",
+            "ServiceAccountName": "Nother Region servie1",
+            "ServicePoint": "Vikash Gas Agency",
+            "Status": "Obsolete",
+            "UsageUnit": "cm3"
+        },
+        {
+            "Active": "2020-09-18",
+            "AssetId": "02i3h000002RHP6AAO",
+            "BillingAccountName": "Northern Region Billing",
+            "BillingHold": "Other",
+            "ContactName": "Carole White",
+            "ContractName": "00000112",
+            "ContractNumber": "232323",
+            "CurrentUsage": 3,
+            "DeRegulationStatus": "Other",
+            "Description": "Good Product",
+            "InstalledDate": "2020-06-16",
+            "InventoryItem": "Gas Stove",
+            "Market Identifier": "323232323",
+            "Name": "Gas Cylinder head office",
+            "OrderNumber": "00000617",
+            "PremiseName": "Panache",
+            "ProductFamily": "Electricity",
+            "ProductName": "PRODUCT-56654",
+            "SerialNumber": "323232323",
+            "ServiceAccountName": "Northern Region Service Account",
+            "ServicePoint": "WBSEDCL Gas",
+            "Status": "Installed"
+        }
+    ],
+    "DRGetAccountAssetStatus": true,
+    "DRGetAccountDetails": {
+        "AccountCreatedDate": "Jun 16,2020",
+        "AccountName": "Northern Region",
+        "BillingAccountId": "0013h00000CSWY4AAP",
+        "BillingAccountName": "Northern Region Billing",
+        "BusinessAccountId": "0013h00000Bue2WAAR",
+        "CustomerId": "8100255404",
+        "OpportunityCount": 2,
+        "ParentAccountId": "0013h00000BpB7JAAV",
+        "PrimaryContact": "Carole White",
+        "RecordTypeName": "Business"
+    },
+    "DRGetAccountDetailsStatus": true,
+    "DRGetAccountLastStatement": {
+        "Statement": {
+            "AccountId": "0013h00000CSWY4AAP",
+            "CurrentBalance": "$600.00",
+            "DisconnectFee": "$95.00",
+            "EndDate": "06/25/2020",
+            "GraphCurrentBalance": 600,
+            "GraphPreviousBalance": 23,
+            "IsStatementAvailable": true,
+            "NextPayment": "$100.00",
+            "NextPaymentDate": "Jul 31,2020",
+            "OverDueBill": true,
+            "SelectedPaperBilling": false,
+            "StartDate": "06/01/2020",
+            "StatementId": "a4V3h000000l2K4EAI"
+        }
+    },
+    "DRGetAccountLastStatementStatus": true,
+    "DRGetContract": {
+        "CountOfContractEndIn90Days": 0,
+        "data": [
+            {
+                "AccountName": "Northern Region",
+                "ContractEndDate": "04/02/2021",
+                "ContractId": "8003h000000koCsAAI",
+                "ContractNumber": "00000113",
+                "ContractStartDate": "05/08/2020",
+                "ContractStatus": "Draft"
+            },
+            {
+                "AccountName": "Northern Region",
+                "ContractEndDate": "31/01/2021",
+                "ContractId": "8003h000000cT57AAE",
+                "ContractNumber": "00000100",
+                "ContractStartDate": "01/05/2020",
+                "ContractStatus": "Draft"
+            }
+        ]
+    },
+    "DRGetContractStatus": true,
+    "DRGetPremiseDetails": {
+        "ServiceAccount": [
+            {
+                "PremiseAddress": "3 Mahisbathan",
+                "PremiseCity": "Kolkata",
+                "PremiseId": "a3X3h000000TvIYEA0",
+                "PremiseName": "Panache",
+                "PremisePostalCode": "70091",
+                "PremiseState": "West Bengal",
+                "ServiceAccountId": "0013h00000C9lOaAAJ",
+                "ServiceAccountName": "Northern Region Service Account",
+                "ServiceAccountNumber": "3840-2873"
+            },
+            {
+                "PremiseAddress": "100 Main St, 100 khapura",
+                "PremiseCity": "Boston",
+                "PremiseId": "a3X3h000000UWJMEA4",
+                "PremiseName": "Khajpura",
+                "PremisePostalCode": "18912",
+                "PremiseState": "Pennsylvania",
+                "ServiceAccountId": "0013h00000HVicKAAT",
+                "ServiceAccountName": "Northern Region Service 3"
+            },
+            {
+                "PremiseAddress": "100 Main St, 100 khapura",
+                "PremiseCity": "Boston",
+                "PremiseId": "a3X3h000000UWJMEA4",
+                "PremiseName": "Khajpura",
+                "PremisePostalCode": "18912",
+                "PremiseState": "Pennsylvania",
+                "ServiceAccountId": "0013h00000FeJmuAAF",
+                "ServiceAccountName": "Nother Region servie1"
+            },
+            {
+                "ServiceAccountId": "0013h00000FqGIuAAN",
+                "ServiceAccountName": "Northern Region Service Account 2"
+            },
+            {
+                "PremiseAddress": "FOREGATE STREET",
+                "PremiseCity": "Hamilton",
+                "PremiseId": "a3X3h000000mnjVEAQ",
+                "PremiseName": "Nandanpuri",
+                "PremisePostalCode": "L8P 1H6",
+                "PremiseState": "ON",
+                "ServiceAccountId": "0013h00000HVm5oAAD",
+                "ServiceAccountName": "Northern Regsion Service 5"
+            },
+            {
+                "PremiseAddress": "19 dumdum road",
+                "PremiseCity": "kolkata",
+                "PremiseId": "a3X3h000000URREEA4",
+                "PremiseName": "Dumdum",
+                "PremisePostalCode": "19320",
+                "PremiseState": "wb",
+                "ServiceAccountId": "0013h00000HVicPAAT",
+                "ServiceAccountName": "Northern Region Service 4"
+            }
+        ]
+    },
+    "DRGetPremiseDetailsStatus": true,
+    "ExpectedMeterReadJSONAction": {
+        "ExpectedMeterRange": [
+            {
+                "ExpctedHighValue": "12565",
+                "ExpctedLowValue": "11955",
+                "MeterReadingDate": "03-20-2020",
+                "Meter_Serial_Number__c": "3422323",
+                "PROD_Utility_Type__c": "Gas",
+                "Reading": ""
+            },
+            {
+                "ExpctedHighValue": "13233",
+                "ExpctedLowValue": "12964",
+                "MeterReadingDate": "04-20-2020",
+                "Meter_Serial_Number__c": "5464564",
+                "PROD_Utility_Type__c": "Water",
+                "Reading": ""
+            },
+            {
+                "ExpctedHighValue": "16789",
+                "ExpctedLowValue": "15676",
+                "MeterReadingDate": "05-20-2020",
+                "Meter_Serial_Number__c": "112233445",
+                "PROD_Utility_Type__c": "Gas",
+                "Reading": ""
+            },
+            {
+                "ExpctedHighValue": "19887",
+                "ExpctedLowValue": "17890",
+                "MeterReadingDate": "06-20-2020",
+                "Meter_Serial_Number__c": "233445435",
+                "PROD_Utility_Type__c": "Gas",
+                "Reading": ""
+            }
+        ]
+    },
+    "ExpectedMeterReadJSONActionInfo": {
+        "Content-Length": "863",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Wed, 09 Sep 2020 06:48:36 GMT",
+        "Server": "Google Frontend",
+        "X-Cloud-Trace-Context": "cf2c2c8e991139370a6cdbfab4584ff0",
+        "access-control-allow-origin": "*",
+        "status": "OK",
+        "statusCode": 200
+    },
+    "ExpectedMeterReadJSONActionStatus": true,
+    "ExpectedMeterReadXMLActionStatus": false,
+    "FetchAccount_ContactId": {
+        "AccountId": "0013h00000Bue2WAAR",
+        "AccountRecordType": "Business",
+        "BillDeliveryMethod": null,
+        "ContactId": null,
+        "ContextAccountName": "Northern Region"
+    },
+    "FetchAccount_ContactIdStatus": true,
+    "FinalBillAddress": {
+    },
+    "GetAccountOverviewResponseStatus": true,
+    "GetBillingAccountStatus": false,
+    "GetServiceAccountPremiseDetails": [
+        {
+            "DRGetServicePointStatus": true,
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "PremiseAddress": "3 Mahisbathan, Kolkata, West Bengal, 70091",
+            "PremiseId": "a3X3h000000TvIYEA0",
+            "ServicePointCount": "3",
+            "ServicePointStatus": "Service Outage"
+        },
+        {
+            "DRGetServicePointStatus": true,
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true,
+            "PremiseAddress": "100 Main St, 100 khapura, Boston, Pennsylvania, 18912",
+            "PremiseId": "a3X3h000000UWJMEA4",
+            "ServicePointCount": "1",
+            "ServicePointStatus": "Active"
+        },
+        {
+            "DRGetServicePointStatus": true,
+            "LoopBlockIterationIndex": 3,
+            "LoopBlockIterationStatus": true,
+            "PremiseAddress": "100 Main St, 100 khapura, Boston, Pennsylvania, 18912",
+            "PremiseId": "a3X3h000000UWJMEA4",
+            "ServicePointCount": "1",
+            "ServicePointStatus": "Active"
+        },
+        {
+            "DRGetServicePointStatus": false,
+            "LoopBlockIterationIndex": 4,
+            "LoopBlockIterationStatus": false,
+            "PremiseAddress": "",
+            "PremiseId": "",
+            "ServicePointCount": "",
+            "ServicePointStatus": ""
+        },
+        {
+            "DRGetServicePointStatus": true,
+            "LoopBlockIterationIndex": 5,
+            "LoopBlockIterationStatus": true,
+            "PremiseAddress": "FOREGATE STREET, Hamilton, ON, L8P 1H6",
+            "PremiseId": "a3X3h000000mnjVEAQ",
+            "ServicePointCount": "1",
+            "ServicePointStatus": "Service Outage"
+        },
+        {
+            "DRGetServicePointStatus": true,
+            "LoopBlockIterationIndex": 6,
+            "LoopBlockIterationStatus": true,
+            "PremiseAddress": "19 dumdum road, kolkata, wb, 19320",
+            "PremiseId": "a3X3h000000URREEA4",
+            "ServicePointCount": "0",
+            "ServicePointStatus": "Active"
+        }
+    ],
+    "GetServiceAccountPremiseDetailsStatus": true,
+    "GetServices": [
+        {
+            "Active": "2020-09-18",
+            "BillingAccountName": "Northern Region Billing",
+            "BillingHold": "Other",
+            "ContactName": "Carole White",
+            "ContractName": "00000112",
+            "ContractNumber": "23232323",
+            "CurrentUsage": "3.00 Kwh",
+            "DRTransformServicesStatus": true,
+            "DeRegulationStatus": "Other",
+            "Description": "Good Product",
+            "InstalledDate": "2020-06-16",
+            "InventoryItem": "Gas Stove",
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "Market Identifier": 323232323,
+            "Name": "Gas Cylinder",
+            "OrderNumber": "00000617",
+            "PremiseName": "Panache",
+            "ProductFamily": "Gas",
+            "ProductName": "Gas Tarrif",
+            "SerialNumber": 323232323,
+            "ServiceAccountName": "Northern Region Service 1",
+            "ServicePoint": "WBSDCL",
+            "Status": "Installed"
+        },
+        {
+            "Active": "2020-08-13",
+            "BillingAccountName": "NA",
+            "BillingHold": "NA",
+            "ContactName": "NA",
+            "ContractName": "",
+            "ContractNumber": "",
+            "CurrentUsage": "2.00 cm3",
+            "DRTransformServicesStatus": true,
+            "DeRegulationStatus": "NA",
+            "Description": "NA",
+            "InstalledDate": "2020-06-11",
+            "InventoryItem": "NA",
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true,
+            "Market Identifier": 232323232,
+            "Name": "Water Supply",
+            "OrderNumber": "NA",
+            "PremiseName": "NA",
+            "ProductFamily": "Water",
+            "ProductName": "Regulated Water Supply",
+            "SerialNumber": 232323232,
+            "ServiceAccountName": "Nother Region servie1",
+            "ServicePoint": "Vikash Gas Agency",
+            "Status": "Obsolete"
+        },
+        {
+            "Active": "2020-09-18",
+            "BillingAccountName": "Northern Region Billing",
+            "BillingHold": "Other",
+            "ContactName": "Carole White",
+            "ContractName": "00000112",
+            "ContractNumber": "232323",
+            "CurrentUsage": "3.00 ",
+            "DRTransformServicesStatus": true,
+            "DeRegulationStatus": "Other",
+            "Description": "Good Product",
+            "InstalledDate": "2020-06-16",
+            "InventoryItem": "Gas Stove",
+            "LoopBlockIterationIndex": 3,
+            "LoopBlockIterationStatus": true,
+            "Market Identifier": 323232323,
+            "Name": "Gas Cylinder head office",
+            "OrderNumber": "00000617",
+            "PremiseName": "Panache",
+            "ProductFamily": "Electricity",
+            "ProductName": "PRODUCT-56654",
+            "SerialNumber": 323232323,
+            "ServiceAccountName": "Northern Region Service Account",
+            "ServicePoint": "WBSEDCL Gas",
+            "Status": "Installed"
+        }
+    ],
+    "GetServicesStatus": true,
+    "Id": "0013h00000Bue2WAAR",
+    "IntegrationType": "JSON",
+    "LastMeterReads": {
+        "LastMeterReadsOption": "Yes"
+    },
+    "LoggedInUserProfile": "System Administrator",
+    "MeterRead": null,
+    "MeterReadColumn": [
+        {
+            "fieldName": "PROD_Utility_Type__c",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "Meter_Serial_Number__c",
+            "label": "Serial Number"
+        },
+        {
+            "editable": "true",
+            "fieldName": "ReadDate",
+            "label": "Read Date",
+            "type": "text"
+        },
+        {
+            "editable": "true",
+            "fieldName": "Reading",
+            "label": "Reading",
+            "type": "text"
+        },
+        {
+            "fieldName": "ExpectedRange",
+            "label": "Expected Range"
+        }
+    ],
+    "MoveOutInformation": {
+        "MoveOutDate": "2020-08-29T18:30:00.000Z",
+        "MoveOutDateMsg": true,
+        "MoveOutDateValidation": 0,
+        "MoveOutReason": "Leaving Service Territory"
+    },
+    "PostMoveOut": null,
+    "PremiseColumn": [
+        {
+            "fieldName": "PremiseId",
+            "label": ""
+        },
+        {
+            "fieldName": "PremiseAddress",
+            "label": "Premise Address"
+        }
+    ],
+    "PremiseListDetail": {
+        "MsgPremiseSelection": true,
+        "PremiseListLWC": {
+            "DRGetServicePointStatus": true,
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "PremiseAddress": "3 Mahisbathan, Kolkata, West Bengal, 70091",
+            "PremiseId": "a3X3h000000TvIYEA0",
+            "ServicePointCount": "3",
+            "ServicePointStatus": "Service Outage",
+            "originalIndex": "0"
+        }
+    },
+    "ReadonlyServicePointColumn": [
+        {
+            "fieldName": "AssetName",
+            "label": "Service Name"
+        },
+        {
+            "fieldName": "ProductName",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "ProductCode",
+            "label": "Product Code"
+        },
+        {
+            "fieldName": "SerialNumber",
+            "label": "Serial Number"
+        },
+        {
+            "fieldName": "Meter",
+            "label": "Service Meter"
+        }
+    ],
+    "ResponseStatus": true,
+    "SVAccountDetails": {
+        "AccountCreatedDate": "Jun 16,2020 - Present",
+        "BillingAccountId": "0013h00000CSWY4AAP",
+        "BillingAccountName": "Northern Region Billing",
+        "BusinessAccountId": "0013h00000Bue2WAAR",
+        "ContractExpiringIn90Days": false,
+        "CustomerId": "8100255404",
+        "OpportunityCount": 2
+    },
+    "SVAccountDetailsStatus": true,
+    "SVMeterReadJSON": {
+        "FetchExpectedRange": ""
+    },
+    "SVMeterReadJSONStatus": true,
+    "SelectedMeter": [
+        {
+            "Id": "a2O3h000000PhFYEA0",
+            "MeterName": "Electric Transformer",
+            "ProductName": "PRODUCT-56654",
+            "SerialNumber": "545454545",
+            "ServiceType": "Electricity"
+        },
+        {
+            "Id": "a2O3h000000PcYbEAK",
+            "MeterName": "Gas Stove",
+            "ProductName": "Gas Tarrif",
+            "SerialNumber": "65666",
+            "ServiceType": "Gas"
+        }
+    ],
+    "ServiceList": [
+        {
+            "AssetId": "02i3h000002RHP6AAO",
+            "AssetName": "Gas Cylinder head office",
+            "ContractNumber": "232323",
+            "ContractedUsage": 3,
+            "Meter": "Gas Stove",
+            "PremiseAddress": "3 Mahisbathan , Kolkata , West Bengal,70091",
+            "PremiseCity": "Kolkata",
+            "PremisePostalCode": "70091",
+            "PremiseState": "West Bengal",
+            "PremiseStreet": "3 Mahisbathan",
+            "ProductCode": "CODE-29202",
+            "ProductDescription": "Good Product",
+            "ProductFamily": "Electricity",
+            "ProductName": "PRODUCT-56654",
+            "SerialNumber": "323232323",
+            "ServiceAccountId": "0013h00000C9lOaAAJ",
+            "ServicePointId": "a4P3h000000kclnEAA",
+            "ServicePointName": "WBSEDCL Gas",
+            "ServicePointNumber": "5454545",
+            "ServicePointStatus": "Vacant",
+            "ServiceType": "Gas"
+        },
+        {
+            "AssetId": "02i3h000002NvrsAAC",
+            "AssetName": "Gas Cylinder",
+            "ContractNumber": "23232323",
+            "ContractedUsage": 3,
+            "Meter": "Electric Transformer",
+            "PremiseAddress": "3 Mahisbathan , Kolkata , West Bengal,70091",
+            "PremiseCity": "Boston",
+            "PremisePostalCode": "18912",
+            "PremiseState": "Pennsylvania",
+            "PremiseStreet": "100 Main St, 100 khapura",
+            "ProductCode": "ABPB Pipe",
+            "ProductDescription": "Good Pipe",
+            "ProductFamily": "Gas",
+            "ProductName": "Gas Tarrif",
+            "SerialNumber": "323232323",
+            "ServiceAccountId": "0013h00000FqFv9AAF",
+            "ServicePointId": "a4P3h000000kPUpEAM",
+            "ServicePointName": "WBSDCL",
+            "ServicePointNumber": "10382388",
+            "ServicePointStatus": "Vacant",
+            "ServiceType": "Electricity",
+            "UnitOfMeasure": "Kwh"
+        }
+    ],
+    "ServicePointColumn": [
+        {
+            "fieldName": "AssetId",
+            "label": ""
+        },
+        {
+            "fieldName": "AssetName",
+            "label": "Service Name"
+        },
+        {
+            "fieldName": "ProductName",
+            "label": "Product Name"
+        },
+        {
+            "fieldName": "ProductCode",
+            "label": "Product Code"
+        },
+        {
+            "fieldName": "SerialNumber",
+            "label": "Serial Number"
+        },
+        {
+            "fieldName": "Meter",
+            "label": "Service Meter"
+        }
+    ],
+    "ServicePointCount": 3,
+    "ServicePointDisconnectedCount": 0,
+    "TransformJSONMeterReadResponse": [
+        {
+            "DRTransformMeterReadJSONResponseStatus": true,
+            "ExpectedHighValue": "12565",
+            "ExpectedLowValue": "11955",
+            "ExpectedRange": "11955-12565",
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "MeterReadingDate": "09-08-2020",
+            "Meter_Serial_Number__c": "",
+            "PROD_Utility_Type__c": "",
+            "Reading": ""
+        },
+        {
+            "DRTransformMeterReadJSONResponseStatus": true,
+            "ExpectedHighValue": "13233",
+            "ExpectedLowValue": "12964",
+            "ExpectedRange": "12964-13233",
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true,
+            "MeterReadingDate": "09-08-2020",
+            "Meter_Serial_Number__c": "",
+            "PROD_Utility_Type__c": "",
+            "Reading": ""
+        },
+        {
+            "DRTransformMeterReadJSONResponseStatus": true,
+            "ExpectedHighValue": "16789",
+            "ExpectedLowValue": "15676",
+            "ExpectedRange": "15676-16789",
+            "LoopBlockIterationIndex": 3,
+            "LoopBlockIterationStatus": true,
+            "MeterReadingDate": "09-08-2020",
+            "Meter_Serial_Number__c": "",
+            "PROD_Utility_Type__c": "",
+            "Reading": ""
+        },
+        {
+            "DRTransformMeterReadJSONResponseStatus": true,
+            "ExpectedHighValue": "19887",
+            "ExpectedLowValue": "17890",
+            "ExpectedRange": "17890-19887",
+            "LoopBlockIterationIndex": 4,
+            "LoopBlockIterationStatus": true,
+            "MeterReadingDate": "09-08-2020",
+            "Meter_Serial_Number__c": "",
+            "PROD_Utility_Type__c": "",
+            "Reading": ""
+        }
+    ],
+    "TransformJSONMeterReadResponseStatus": true,
+    "TransformXMLMeterReadRequestStatus": false,
+    "TransformXMLValuesMeterReadRequestStatus": false,
+    "options": {
+        "chainable": false,
+        "ignoreCache": true,
+        "queueableChainable": false,
+        "resetCache": false
+    },
+    "response": {
+        "MeterRead": [
+            {
+                "DRTransformMeterReadJSONResponseStatus": true,
+                "ExpectedHighValue": "12565",
+                "ExpectedLowValue": "11955",
+                "ExpectedRange": "11955-12565",
+                "LoopBlockIterationIndex": 1,
+                "LoopBlockIterationStatus": true,
+                "MeterReadingDate": "09-08-2020",
+                "Meter_Serial_Number__c": "",
+                "PROD_Utility_Type__c": "",
+                "Reading": ""
+            },
+            {
+                "DRTransformMeterReadJSONResponseStatus": true,
+                "ExpectedHighValue": "13233",
+                "ExpectedLowValue": "12964",
+                "ExpectedRange": "12964-13233",
+                "LoopBlockIterationIndex": 2,
+                "LoopBlockIterationStatus": true,
+                "MeterReadingDate": "09-08-2020",
+                "Meter_Serial_Number__c": "",
+                "PROD_Utility_Type__c": "",
+                "Reading": ""
+            },
+            {
+                "DRTransformMeterReadJSONResponseStatus": true,
+                "ExpectedHighValue": "16789",
+                "ExpectedLowValue": "15676",
+                "ExpectedRange": "15676-16789",
+                "LoopBlockIterationIndex": 3,
+                "LoopBlockIterationStatus": true,
+                "MeterReadingDate": "09-08-2020",
+                "Meter_Serial_Number__c": "",
+                "PROD_Utility_Type__c": "",
+                "Reading": ""
+            },
+            {
+                "DRTransformMeterReadJSONResponseStatus": true,
+                "ExpectedHighValue": "19887",
+                "ExpectedLowValue": "17890",
+                "ExpectedRange": "17890-19887",
+                "LoopBlockIterationIndex": 4,
+                "LoopBlockIterationStatus": true,
+                "MeterReadingDate": "09-08-2020",
+                "Meter_Serial_Number__c": "",
+                "PROD_Utility_Type__c": "",
+                "Reading": ""
+            }
+        ]
+    },
+    "timeStamp": "2020-08-30T05:49:19.030Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000002eRjUAAU",
+    "userName": "express_org_shekhar@org.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

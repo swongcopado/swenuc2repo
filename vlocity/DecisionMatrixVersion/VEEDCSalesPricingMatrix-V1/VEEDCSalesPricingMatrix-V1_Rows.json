@@ -1,0 +1,2102 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_DAY/NIGHT",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "534612b067d56caae076e499eb4f3a10",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.198
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "f8caec3df819fcf26c0ce3cfc9cb7949",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.101
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "c206927ee7cd49a2b97bb649c93dfd49",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1442
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_GASSTD",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "e80db7e8f326807a7092c53764021651",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1876
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "cb88eb8478cafd1cef72b398aea7cbbe",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.177
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "b5119d53f1433ab5c18a3ff5162840fc",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1572
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "3a32d35faf402071ad3cb3c3ea4f558b",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1803
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN1",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "9f393e5ea138b194db9a84d5e0cda933",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1156
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_PREPAID",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "959ff31aba5c9b33f797e70033ffd4b5",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.164
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_STANDING_CHARGES_SMARTELEC",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "66724b1326775cb69a8a8d24365ae4e3",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2505
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_DAY",
+            "SourceProductName": "Unit Rate - Day"
+        },
+        "IsVersionEnabled": true,
+        "Name": "d046924ab764e36d3c8f9bf67eaa23db",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.212
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_NIGHT",
+            "SourceProductName": "Unit Rate - Night"
+        },
+        "IsVersionEnabled": true,
+        "Name": "dab4d4d702562fec9619124998ab9c7d",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1565
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "c92a105097ca9209b4e787031227bb03",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1134
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "86d0ab95589f2ff78b6360cf2367c414",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1272
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_GASSTD",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "e40935f7d61fdc2d98c0946aee027e8f",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1677
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "9f5c653f2a298a391ad5442e810ebbf8",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1445
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "17df6aa614cfe3587d0128094b8bdc73",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1142
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "aff717c96acb79241c3e5f5194c1aed1",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1351
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN1",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "5f2f9d0a2e5baa2f2db17a2c42a807eb",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1595
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_PREPAID",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "059d8f90eba19a659a2206e1776e1782",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.105
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Armagh",
+            "SourceProductCode": "CC_UNIT_RATE_SMARTELEC",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "f6aa1b780f539893050d64bea0511bf7",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1919
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_DAY/NIGHT",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "19353d1d2e094f50f680f0c74e60fad4",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "b7cd406740d6570c886c95bd48b1b935",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1038
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "1ed92be1a968477f6fd6ad1297988d40",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1403
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_GASSTD",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "fd5f95269fc7a16540972d497c98a3b7",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1848
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "aad9d545587d9165d8c6ff02cb97c4a7",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1735
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "280bac719236291f6c1a5e2849c95639",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1575
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "f248af280d9227504d037d5d4f468f44",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1903
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN1",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "3500c02fcad9861fcd296f0c6d9a4c28",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1421
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_PREPAID",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "022f98a05211bd106486df62a50a75ba",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.159
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_STANDING_CHARGES_SMARTELEC",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "dc4fa02671bd9cd7bf50aa6edce75f6e",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2404
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_DAY",
+            "SourceProductName": "Unit Rate - Day"
+        },
+        "IsVersionEnabled": true,
+        "Name": "cac22a8c855bead49a3983b50196fafd",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.202
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_NIGHT",
+            "SourceProductName": "Unit Rate - Night"
+        },
+        "IsVersionEnabled": true,
+        "Name": "af6bdeeda30ecccbdf396e3861773990",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1595
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "9a82d757cf786967eb0249eb1798b4db",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1221
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "df8d38a392003ea53d6920e98186370f",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1275
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_GASSTD",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "df9a6136e7c4abfdd8f3b12bc00b0e7c",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1701
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "c4a844dc33cca45e3cd1c114ce03d9d3",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1397
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "b1a8555da067146d9101c0c1496b69b7",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1103
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "23f1dbb4321ffa404da2dbf4f455decb",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1392
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN1",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "f8e356a5a0631aa805368377b3d6527c",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1433
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_PREPAID",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "a6cccde26f02b33409179b2cb27a89de",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.125
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Chichester",
+            "SourceProductCode": "CC_UNIT_RATE_SMARTELEC",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "44795325f2e8c10609d07acfb70bad49",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.212
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_DAY/NIGHT",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "031f46397f0763a1da1c33be8998fe78",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2025
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "440306a93f5512ad5d5840fd3fe9d0b5",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1065
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "9c9b86001e3f3925c78dd44cfd02c66e",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1475
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_GASSTD",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "154bd8099d759fe8dd10a2e3c068600c",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1902
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "2e6dc2f9641f8732337947fed47fef41",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1686
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "57af838d077fc4957407aef8db2ca13e",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1503
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "de6724c0eda6904a58298ed5004a4518",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2003
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN1",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "163ed59b257a2702e393f0e937acc600",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1313
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_PREPAID",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "62c10194c54f020ec190e276b2161a43",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.16
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_STANDING_CHARGES_SMARTELEC",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "33e51958db6477ef405e12a8f89bdd13",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2303
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_DAY",
+            "SourceProductName": "Unit Rate - Day"
+        },
+        "IsVersionEnabled": true,
+        "Name": "e601a4a0ecd686e05587be9e87a24910",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2324
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_NIGHT",
+            "SourceProductName": "Unit Rate - Night"
+        },
+        "IsVersionEnabled": true,
+        "Name": "2ac0b768816da718d753eaea679b82d6",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1602
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "608222564487850d6779316446cee637",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1198
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "79e091b35eae53e7984d958a9dc97f18",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1203
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_GASSTD",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "96649fcf4d65aa401d4dc738dc59021f",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1699
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "411b9e5510d8b146abd9a35754980ac3",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1405
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "f1b27fae8bdb9b27a81ff351e1e0fba9",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1175
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "be0274201d571f426c04ac192f9179b4",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1401
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN1",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "4acb2e177a49fab685d108ac33ae3d2d",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1609
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_PREPAID",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "82e36ff784b692e0fd10136ccc231f76",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.115
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Derby",
+            "SourceProductCode": "CC_UNIT_RATE_SMARTELEC",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "43fd6e19f7674e9345bb249bcb38627d",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2167
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_DAY/NIGHT",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "ec53234a11a886b50341ae846aa4dd2b",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.192
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "0660e3f29a19eeb372fd413d82e1cc91",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1099
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_ELEC_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "0b34746cab4a77589789d5945e1195f1",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1472
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_GASSTD",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "718f11e6d74c81bf90c31f8307f3bc85",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1898
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "657293c49f09401161eca00c4284d226",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1691
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_GAS_DUAL2",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "516c91ec75556245ed25566ec4fb890f",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1542
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "44e378cdfc0e536495195717c67b787b",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2103
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_GREEN1",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "99cbaec571fd08bd07d5ed615ebb10d9",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1302
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_PREPAID",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "f16191e146ba39aa6a0c80053405acc5",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.167
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_STANDING_CHARGES_SMARTELEC",
+            "SourceProductName": "Standing Charges"
+        },
+        "IsVersionEnabled": true,
+        "Name": "337c60eafad49a7869f2d08a37b04b58",
+        "OutputData": {
+            "CM": "Day",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2202
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_DAY",
+            "SourceProductName": "Unit Rate - Day"
+        },
+        "IsVersionEnabled": true,
+        "Name": "ad2e5c015c1ac04eadd027ec981749b3",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.225
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_DAY/NIGHT_NIGHT",
+            "SourceProductName": "Unit Rate - Night"
+        },
+        "IsVersionEnabled": true,
+        "Name": "b69b520a75decc8855db153e5bf44cc2",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1633
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "ceda66578e27190a5d2b1dd33e675569",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1201
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_ELEC_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "d3e3a2c6fa690cdbd0fddaf4cb0cc835",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1242
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_GASSTD",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "1b823185b210e82270ccdd97a6ce2bc2",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1606
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "6e668e732f6d46d4cfc8b33d2dfe75a4",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.146
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_GAS_DUAL2",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "bbcfe1ee6deeb7abbed31a0d1b9c24a0",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.1172
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "a6c43303de4d00bcba1d918c6eb3c61a",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.143
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_GREEN1",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "dc1ea525b5d907f7eec6e65ee8c2be18",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2188
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_PREPAID",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "8d45857b82f3de48daae88580e72f2a5",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.12
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "CharacteristicName": "Distribution Region",
+            "CharacteristicValue": "Salisbury",
+            "SourceProductCode": "CC_UNIT_RATE_SMARTELEC",
+            "SourceProductName": "Unit Rate"
+        },
+        "IsVersionEnabled": true,
+        "Name": "fc8ab9d0da8c22ed76d453bc0deee47a",
+        "OutputData": {
+            "CM": "kWh",
+            "MRC": 0,
+            "NRC": 0,
+            "UP": 0.2205
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

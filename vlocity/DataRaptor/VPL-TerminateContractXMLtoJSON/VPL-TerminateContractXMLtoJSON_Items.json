@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "VPL-TerminateContractXMLtoJSON-ENGY-104-1Customa0Kf200000EvXz4EAFItem0",
+        "InputFieldName": "ns0#Envelope:ns0#Msg:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TerminateContractXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TerminateContractXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TerminateContractXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Msg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

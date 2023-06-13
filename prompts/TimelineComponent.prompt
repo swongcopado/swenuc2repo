@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Timeline Component</masterLabel>
+    <promptVersions>
+        <actionButtonLabel>Learn More in Help</actionButtonLabel>
+        <actionButtonLink>https://help.salesforce.com/s/articleView?id=sf.timeline.htm&amp;type=5</actionButtonLink>
+        <body>&lt;p&gt;The Timeline component shows key events relating to a person or a resource in one place, so your users can see information from a single source of truth&lt;/p&gt;</body>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>MiddleCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>true</isPublished>
+        <masterLabel>Timeline Component</masterLabel>
+        <publishedDate>2023-05-18</publishedDate>
+        <shouldDisplayActionButton>true</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2023-05-10</startDate>
+        <targetPageKey1>Timeline</targetPageKey1>
+        <targetPageKey2>home</targetPageKey2>
+        <targetPageType>setup__homePage</targetPageType>
+        <timesToDisplay>5</timesToDisplay>
+        <title>Timeline</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

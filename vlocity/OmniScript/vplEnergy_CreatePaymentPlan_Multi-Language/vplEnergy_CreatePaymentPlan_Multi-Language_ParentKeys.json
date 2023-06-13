@@ -1,0 +1,8 @@
+[
+    "DataRaptor/VPL-CreatePaymentPlan",
+    "DataRaptor/VPL-Fetch-Active-PaymentPlans",
+    "DataRaptor/VPL-FetchAccountBalance",
+    "DataRaptor/VPL-Update-PaymentPlan",
+    "IntegrationProcedure/VPL_CreatePaymentPlanInBillingSystem",
+    "IntegrationProcedure/VPL_GetBiilingAccountDetails"
+]

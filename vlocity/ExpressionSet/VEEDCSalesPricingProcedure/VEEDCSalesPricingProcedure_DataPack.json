@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "VEEDCSalesPricingProcedure",
+    "Namespace": "",
+    "UniqueName": "VEEDCSalesPricingProcedure",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/VEEDCSalesPricingProcedure"
+}

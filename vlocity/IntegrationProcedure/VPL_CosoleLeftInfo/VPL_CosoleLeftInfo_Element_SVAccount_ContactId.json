@@ -1,0 +1,31 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SVAccount_ContactId",
+    "OmniProcessId": {
+        "Name": "VPLConsoleLeftInfo",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VPL/CosoleLeftInfo/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AccountId": "=IF(%GetCustomerInterationAccount:Interaction:%vlocity_namespace%__AccountId__c% =='', Id, GetCustomerInterationAccount:Interaction:%vlocity_namespace%__AccountId__c)",
+            "ContactId": "=IF(%GetCustomerInterationAccount:Interaction:ContactId% =='', '', GetCustomerInterationAccount:Interaction:ContactId)"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VPL/CosoleLeftInfo/Procedure/SVAccount_ContactId"
+}

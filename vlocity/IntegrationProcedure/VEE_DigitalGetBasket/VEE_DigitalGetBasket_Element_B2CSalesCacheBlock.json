@@ -1,0 +1,33 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "B2CSalesCacheBlock",
+    "OmniProcessId": {
+        "Name": "VEEDigitalGetBasket",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VEE/DigitalGetBasket/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "addToCacheConditionalFormula": "",
+        "cacheBlockOutput": {
+            "offerDetails": "%MergeOffersImageInbasket%",
+            "productType": "%DRTransformBaskets|1:ProductType%"
+        },
+        "cacheKeys": {
+            "offers": "=CONCAT(%catalogCode%, %meterType%, %distRegion%)"
+        },
+        "cacheType": "Org Cache",
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "ignoreCacheConditionalFormula": "",
+        "label": "CacheBlock1",
+        "refreshCacheConditionalFormula": "",
+        "show": null,
+        "ttlMinutes": 2000
+    },
+    "Type": "Cache Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VEE/DigitalGetBasket/Procedure/B2CSalesCacheBlock"
+}

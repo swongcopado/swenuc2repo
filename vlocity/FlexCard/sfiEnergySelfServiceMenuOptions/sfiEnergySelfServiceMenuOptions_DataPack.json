@@ -1,0 +1,33 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": "",
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n  {\n    \"optionLabel\": \"Label.sfiEnergySelfServiceGreetings\",\n    \"isSlected\": true,\n    \"optionValue\":\"myprofile\"\n  },\n  {\n    \"optionLabel\": \"Label.sfiEnergySelfServiceGreetings\",\n    \"isSlected\": false,\n    \"optionValue\":\"notification\"\n  }\n]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "Description": "Card used to display Profile options",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServiceMenuOptions",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServiceMenuOptions/CME_E_U/3/1657663235752",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServiceMenuOptions.json",
+    "SampleDataSourceResponse": "[{\"optionLabel\":\"Label.sfiEnergySelfServiceGreetings\",\"isSlected\":true,\"optionValue\":\"myprofile\"},{\"optionLabel\":\"Label.sfiEnergySelfServiceGreetings\",\"isSlected\":false,\"optionValue\":\"notification\"}]",
+    "StylingConfiguration": "{\"customStyles\":\":host{\\n   \\n}\\n\\n.slds-scope{\\n    font-family: Mulish;\\n    font-style: normal;\\n    font-weight: 500;\\n    font-size: 18px;\\n}\\n.selected-option-block {\\n    --slds-c-icon-color-foreground-default: #0176D3;\\n    \\n}\"}",
+    "UniqueName": "",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServiceMenuOptions"
+}

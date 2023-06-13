@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "VPL_CreateBusinessPartner_NONSAP_SampleInput.json",
+    "Description": "VIP makes call to external system and creates an Account and fetch's ERP_AccountID",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPL-CreateBusineessPartner_NONSAP",
+    "OmniProcessElement": [
+        "VPL_CreateBusinessPartner_NONSAP_Element_TransformJSONtoXML.json",
+        "VPL_CreateBusinessPartner_NONSAP_Element_TransomJSONValues.json",
+        "VPL_CreateBusinessPartner_NONSAP_Element_SVJSONResponse.json",
+        "VPL_CreateBusinessPartner_NONSAP_Element_OutResponse.json"
+    ],
+    "OmniProcessKey": "VPL_CreateBusinessPartner_NONSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_CreateBusinessPartner_NONSAP_PropertySetConfig.json",
+    "SubType": "CreateBusinessPartner_NONSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/CreateBusinessPartner_NONSAP/Procedure",
+    "WebComponentKey": "2f64e314-2502-3f13-b9d3-e3d8472b9e81"
+}

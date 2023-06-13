@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "053aa9c4-1bce-6bb4-1580-2042fe3d47dc",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "f59cb147-ba6b-6e30-a152-6d6b4532a38a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/f59cb147-ba6b-6e30-a152-6d6b4532a38a",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "",
+    "%vlocity_namespace%__SequenceNumber__c": "",
+    "%vlocity_namespace%__UrlLong__c": "/servlet/servlet.FileDownload?file=0152H000002WIhjQAG",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Default_Energy_Audit_Img",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/053aa9c4-1bce-6bb4-1580-2042fe3d47dc"
+}

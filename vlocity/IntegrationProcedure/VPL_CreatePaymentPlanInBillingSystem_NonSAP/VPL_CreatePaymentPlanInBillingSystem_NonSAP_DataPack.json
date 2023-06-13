@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "VPL_CreatePaymentPlanInBillingSystem_NonSAP_SampleInput.json",
+    "Description": "Integration Procedure for NON SAP Integration of Create Payment Plan",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VPLEnergyCreatePaymentPlan_NonSAP",
+    "OmniProcessElement": [
+        "VPL_CreatePaymentPlanInBillingSystem_NonSAP_Element_TransformJSONToXMLPaymentPlan.json",
+        "VPL_CreatePaymentPlanInBillingSystem_NonSAP_Element_TransformJSONToJSONPaymentPlan.json",
+        "VPL_CreatePaymentPlanInBillingSystem_NonSAP_Element_TRansformPaymentPlanResponseXMLtoJSON.json",
+        "VPL_CreatePaymentPlanInBillingSystem_NonSAP_Element_SVResponse.json",
+        "VPL_CreatePaymentPlanInBillingSystem_NonSAP_Element_PaymentResponse.json"
+    ],
+    "OmniProcessKey": "VPL_CreatePaymentPlanInBillingSystem_NonSAP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VPL_CreatePaymentPlanInBillingSystem_NonSAP_PropertySetConfig.json",
+    "SubType": "CreatePaymentPlanInBillingSystem_NonSAP",
+    "Type": "VPL",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VPL/CreatePaymentPlanInBillingSystem_NonSAP/Procedure",
+    "WebComponentKey": "1e2d0af2-3324-28ce-d42b-870724176201"
+}

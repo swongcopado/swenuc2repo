@@ -1,0 +1,13 @@
+[
+    "DataRaptor/VPL-ContactTypeAhead",
+    "DataRaptor/VPL-GetAccountAttributeCategory",
+    "DataRaptor/VPL-GetPremiseServicePoint",
+    "DataRaptor/VPL-GetProducts",
+    "DataRaptor/VPL-GetRecordTypeId",
+    "DataRaptor/VPL-GetServiceAccountPremises",
+    "DataRaptor/VPL-PremiseTypeAhead",
+    "DataRaptor/VPL-SearchAccount",
+    "DataRaptor/VPL-SearchExistingAccount",
+    "DataRaptor/VPL-TransformAccountAttrCategory",
+    "IntegrationProcedure/VPL_MoveInSubmit"
+]

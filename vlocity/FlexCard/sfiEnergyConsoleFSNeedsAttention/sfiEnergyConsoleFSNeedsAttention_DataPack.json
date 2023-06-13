@@ -1,0 +1,42 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "Params.id",
+                "val": "0014x0000073OnIAAU"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "sfiEnergyConsole_FSFetchOutageInfo",
+            "resultVar": "[\"premiseInfo\"]",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleFSNeedsAttention",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleFSNeedsAttention/CME_E_U/2/1643267585484",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleFSNeedsAttention.json",
+    "SampleDataSourceResponse": "{\"premiseInfo\":{\"premisesWithOutage\":[{\"premisesId\":\"a3X4x000000kkHIEAY\",\"isOutage\":true,\"premiseName\":\"Abbey Road, Whitley, Coventry, Warwickshire CV3 4LF, United Kingdom\",\"premiseCountry\":\"United Kingdom\",\"premiseCity\":\"Coventry\",\"premiseState\":\"Warwickshire\",\"premiseStreet\":\"Abbey Road, Whitley\",\"startTime\":\"15th June 08:30 AM\",\"estimatedRestoration\":\"16th June 11:30 AM\",\"premisePostalCode\":\"CV3 4LF\"},{\"premisesId\":\"a3X4x000000lZOpEAM\",\"isOutage\":true,\"premiseName\":\"23 Abbey Road, Whitley, Coventry, Warwickshire CV3 4LF, United Kingdom\",\"premiseCountry\":\"United Kingdom\",\"premiseCity\":\"Coventry\",\"premiseState\":\"Warwickshire\",\"premiseStreet\":\"23 Abbey Road, Whitley\",\"startTime\":\"15th June 08:30 AM\",\"estimatedRestoration\":\"16th June 11:30 AM\",\"premisePostalCode\":\"CV3 4LF\"},{\"premisesId\":\"a3X4x000000kkHNEAY\",\"isOutage\":true,\"premiseName\":\"5 Whitehill Rd, Newcraighall, Edinburgh, Scotland, EH15 3HR, United Kingdom\",\"premiseCountry\":\"United Kindom\",\"premiseCity\":\"Edinburgh\",\"premiseState\":\"Scotland\",\"premiseStreet\":\"5 Whitehall Rd, Newcraighall\",\"startTime\":\"25th June 08:30 AM\",\"estimatedRestoration\":\"26th June 11:30 AM\",\"premisePostalCode\":\"EH15 3HR\"},{\"premisesId\":\"a3X4x000000kkHKEAY\",\"isOutage\":true,\"premiseName\":\"8 Whitehill Rd, Fort Kinnaird, Edinburgh, Scotland, EH15 3HR, United Kingdom\",\"premiseCountry\":\"United Kingdom\",\"premiseCity\":\"Edinburgh\",\"premiseState\":\"Scotland\",\"premiseStreet\":\"8 Whitehill Rd, Fort Kinnaird\",\"startTime\":\"25th June 08:30 AM\",\"estimatedRestoration\":\"26th June 11:30 AM\",\"premisePostalCode\":\"EH15 5HR\"}],\"sameResolutionTime\":false,\"recordCount\":4}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleFSNeedsAttention"
+}

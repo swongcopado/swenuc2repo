@@ -1,0 +1,23 @@
+{
+    "Description": "This OS calls CPQSubmit and Navigates to the Account View",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "CPQ Submit",
+    "OmniProcessElement": [
+        "CPQ_Submit_English_Element_Create-Assets.json",
+        "CPQ_Submit_English_Element_Navigate-to-Account.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "CPQ_Submit_English_PropertySetConfig.json",
+    "SubType": "Submit",
+    "Type": "CPQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/Submit/English",
+    "WebComponentKey": "8be3d1f8-9ee7-8e2b-80ea-deb587776d75"
+}

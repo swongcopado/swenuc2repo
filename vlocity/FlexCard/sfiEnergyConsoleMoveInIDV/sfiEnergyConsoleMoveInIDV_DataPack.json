@@ -1,0 +1,35 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\"Data\": \"\"}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "FlexCard Used to MoveIn New Customers in IDV Flow.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergyConsoleMoveInIDV",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergyConsoleMoveInIDV/CME_E_U/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergyConsoleMoveInIDV.json",
+    "SampleDataSourceResponse": "{\"Data\":\"\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergyConsoleMoveInIDV"
+}

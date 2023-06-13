@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "Update the Asset in Salesforce based on status changes in Billing System.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyUpdateAssetStatus",
+    "OmniProcessElement": "sfiEnergy_UpdateAssetStatus_Element_Response.json",
+    "OmniProcessKey": "sfiEnergy_UpdateAssetStatus",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergy_UpdateAssetStatus_PropertySetConfig.json",
+    "SubType": "UpdateAssetStatus",
+    "Type": "sfiEnergy",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergy/UpdateAssetStatus/Procedure",
+    "WebComponentKey": "02852e11-92b0-f860-e920-acc891fe7d76"
+}

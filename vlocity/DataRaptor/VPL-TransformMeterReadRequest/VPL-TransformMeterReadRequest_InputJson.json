@@ -1,0 +1,21 @@
+{
+    "AddMeterReadRequest": {
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddMeterReadJSON": null,
+        "AddMeterReadRequest": null,
+        "AddMeterReadXML": null,
+        "Response": null,
+        "ResponseXML": null,
+        "TransformJSONtoXML": null,
+        "TransformXMLValues": null
+    }
+}

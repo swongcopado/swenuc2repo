@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "VPL-AdjustmentReqXMLtoJSONCustom4296",
+        "InputFieldName": "ns0#Envelope:ns0#Body:ns01#notificationsResponse:ns01#msg:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-AdjustmentReqXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-AdjustmentReqXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-AdjustmentReqXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Message",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

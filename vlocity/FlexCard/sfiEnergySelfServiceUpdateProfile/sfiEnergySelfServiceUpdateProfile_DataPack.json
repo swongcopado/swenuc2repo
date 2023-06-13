@@ -1,0 +1,43 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 3,
+                "name": "Parent.UserId",
+                "val": "0054x000005CDLF"
+            }
+        ],
+        "orderBy": {
+            "isReverse": "",
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "PostData": "false",
+                "UserId": "{Parent.UserId}"
+            },
+            "ipMethod": "sfiEnergySelfService_UpdateProfile",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "FlexCard used to Retrieve and Update Profile details.",
+    "IsTrackingEnabled": false,
+    "Name": "sfiEnergySelfServiceUpdateProfile",
+    "Namespace": "",
+    "OmniUiCardKey": "sfiEnergySelfServiceUpdateProfile/CME_E_U/8/1656399066980",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sfiEnergySelfServiceUpdateProfile.json",
+    "SampleDataSourceResponse": "{\"PostData\":true,\"UserId\":\"0054x000005CDLF\",\"Username\":\"testcontact2\",\"ContactId\":\"0034x00000zE1v2AAC\",\"MailingStreet\":\"2/19, Illathur, Vijayapuram\",\"MailingPostalCode\":\"517587\",\"MailingCountry\":\"India\",\"MailingState\":\"Andhra Pradesh\",\"MailingCity\":\"Chittoor\",\"Email\":\"saipavan.kumar@salesforce.com\",\"MobilePhone\":\"8892314908\",\"LastName\":\"Contact1\",\"FirstName\":\"Test\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 8,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sfiEnergySelfServiceUpdateProfile"
+}

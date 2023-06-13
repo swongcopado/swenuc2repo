@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "sfiEnergyB2bsales_OpportunityQuotesSummary_SampleInput.json",
+    "Description": "It will fetch opportunities and corresponding quotes assigned to a user.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyB2bsalesOpportunityQuotesSummary",
+    "OmniProcessElement": [
+        "sfiEnergyB2bsales_OpportunityQuotesSummary_Element_OpportunityColumnsData.json",
+        "sfiEnergyB2bsales_OpportunityQuotesSummary_Element_QuotesColumnsData.json",
+        "sfiEnergyB2bsales_OpportunityQuotesSummary_Element_DRGetUserOpportunities.json",
+        "sfiEnergyB2bsales_OpportunityQuotesSummary_Element_DRGetOpportunityIds.json",
+        "sfiEnergyB2bsales_OpportunityQuotesSummary_Element_DRGetQuotesForOpportunities.json",
+        "sfiEnergyB2bsales_OpportunityQuotesSummary_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyB2bsales_OpportunityQuotesSummary",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyB2bsales_OpportunityQuotesSummary_PropertySetConfig.json",
+    "SubType": "OpportunityQuotesSummary",
+    "Type": "sfiEnergyB2bsales",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyB2bsales/OpportunityQuotesSummary/Procedure",
+    "WebComponentKey": "8927f3fd-023a-f3ca-51f1-b12264a5de14"
+}

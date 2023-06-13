@@ -1,0 +1,17 @@
+[
+    "DataRaptor/VPL-CreateBillingAccount",
+    "DataRaptor/VPL-CreateBusinessAccount",
+    "DataRaptor/VPL-CreateEnergyConsumerAccount",
+    "DataRaptor/VPL-CreateServiceAccounts",
+    "DataRaptor/VPL-GetAccountContactRelation",
+    "DataRaptor/VPL-InsertAccountContactRelation",
+    "DataRaptor/VPL-InsertEnergyContact",
+    "DataRaptor/VPL-PostAccountPreferencesAttrAssignmentMoveIn",
+    "DataRaptor/VPL-TransformMoveInAccountPreference",
+    "DataRaptor/VPL-UpdateAccountContactRelation",
+    "DataRaptor/sfiEnergyConsoleCreateConsumerServiceAccounts",
+    "IntegrationProcedure/VPL_CreateBusinessPartner",
+    "IntegrationProcedure/VPL_CreateContractAccount",
+    "IntegrationProcedure/VPL_CreateServiceContract",
+    "IntegrationProcedure/VPL_MoveInPost"
+]

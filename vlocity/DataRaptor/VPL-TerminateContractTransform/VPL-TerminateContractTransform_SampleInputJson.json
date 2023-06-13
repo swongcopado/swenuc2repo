@@ -1,0 +1,199 @@
+{
+    "AccountDetails": "<p><strong><img src=\"../servlet/servlet.ImageServer?docName=015f2000001sxa4AAA&amp;&amp;id=015f2000001sxa4AAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"25\" height=\"25\" />&nbsp;Account Number:</strong>&nbsp; 22000014950</p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;&amp;id=015f2000001sxkiAAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"27\" height=\"25\" />&nbsp;Customer:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Hegde BM</p>\n<p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>3242343242</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>akash.naik@accenture.com</p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=015f2000001sxkiAAA&amp;&amp;id=015f2000001sxkiAAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"27\" height=\"25\" />&nbsp;Customer ID:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>003f200002mu2XIAAY</p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=015f2000001sxknAAA&amp;&amp;id=015f2000001sxknAAA&amp;&amp;oid=00Df2000000NVjKEAW\" alt=\"\" width=\"25\" height=\"25\" />&nbsp;Premise Address:&nbsp; &nbsp; </strong>12 Harper Ave, Detroit, MI, 48202</p>",
+    "AccountId": "001f200001uqHNhAAM",
+    "AccountName": "Hegde BM",
+    "AccountNumber": "22000014950",
+    "Asset1": "02if200000WsAFpAAN",
+    "Asset2": "02if200000WsAFqAAN",
+    "Asset3": "",
+    "BillDeliveryMethod": "Electronic Statements Online",
+    "BillFrequency": "Weekly",
+    "BillingCity": "Detroit",
+    "BillingCountry": "US",
+    "BillingState": "MI",
+    "BillingStreet": "12 Harper Ave",
+    "ConnectedAsset": [
+        {
+            "AssetName": "12 Harper Ave, Detroit - Electricity",
+            "Id": "02if200000WsAFpAAN"
+        },
+        {
+            "AssetName": "12 Harper Ave, Detroit - Gas",
+            "Id": "02if200000WsAFqAAN"
+        }
+    ],
+    "ContactFirstName": "Hegde",
+    "ContactId": "003f200002mu2XIAAY",
+    "ContactLastName": "BM",
+    "ContactName": "Hegde BM",
+    "ContextId": "001f200001uqHNhAAM",
+    "DRId_Account": "001f200001uqHNhAAM",
+    "ERP_Account_Id__c": "6011100",
+    "ElecMeterReading": {
+        "Id": "a25f2000004DtBnAAK",
+        "MeterName": "Electricity Meter - ISUMDG133130E",
+        "ProductName": "Electricity Standard Tariff",
+        "SerialNumber": "ISUMDG133130E"
+    },
+    "Electricity": true,
+    "Email": "akash.naik@accenture.com",
+    "ExtMoveOutDate": "2019-5-30",
+    "Gas": true,
+    "GasMeterReading": {
+        "Id": "a25f2000004DtDFAA0",
+        "MeterName": "Gas Meter - ISUMDG133133G",
+        "ProductName": "Gas Standard Tariff",
+        "SerialNumber": "ISUMDG133133G"
+    },
+    "IntergationMtd": {
+        "IntergationType": "XML",
+        "Name": "Move_Out"
+    },
+    "MoveOutDateToday": false,
+    "MoveOutInformation": {
+        "MoveInOutDateMsg": true,
+        "MoveInOutValidation": false,
+        "MoveOutDate": "2019-05-29T18:30:00.000Z",
+        "MoveOutDateMessaging": true,
+        "MoveOutDateValidation": false,
+        "MoveOutReason": "Leaving Service Territory"
+    },
+    "OmniscriptType": "Move_Out",
+    "Phone": "3242343242",
+    "PreConfirmMoveOut": {
+        "Confirm": "Yes"
+    },
+    "PremiseAddress": "12 Harper Ave, Detroit, MI, 48202",
+    "PremiseCity": "Detroit",
+    "PremiseCountry": "US",
+    "PremiseId": "a0lf2000007hSuMAAU",
+    "PremisePostalCode": "48202",
+    "PremiseState": "MI",
+    "PremiseStreet": "12 Harper Ave",
+    "PrimaryContactPreferences": "Phone",
+    "SelectAsset": [
+        {
+            "AccountId": "001f200001uqHNhAAM",
+            "AssetId": "02if200000WsAFpAAN",
+            "AssetName": "12 Harper Ave, Detroit - Electricity",
+            "BillingAccountId": "001f200001uqHNhAAM",
+            "ConnectDate": "2019-05-03T18:30:00.000Z",
+            "PremiseAddress": "12 Harper Ave, Detroit, MI, 48202",
+            "PremiseId": "a0lf2000007hSuMAAU",
+            "ProductCode": "ACN-ELEC-0001",
+            "ProductFamily": "Electricity",
+            "ProductId": "01tf2000007tC3TAAU",
+            "ProductName": "Electricity Standard Tariff",
+            "ServiceAccountId": "001f200001uqHNhAAM",
+            "ServicePointId": "a26f200000KhBbCAAV",
+            "ServicePointName": "12 Harper Ave, Detroit - Electricity",
+            "ServicePointStatus": "Connected",
+            "ServiceType": "Electricity",
+            "Service_Contract_ID": "1500011382"
+        },
+        {
+            "AccountId": "001f200001uqHNhAAM",
+            "AssetId": "02if200000WsAFqAAN",
+            "AssetName": "12 Harper Ave, Detroit - Gas",
+            "BillingAccountId": "001f200001uqHNhAAM",
+            "ConnectDate": "2019-05-03T18:30:00.000Z",
+            "PremiseAddress": "12 Harper Ave, Detroit, MI, 48202",
+            "PremiseId": "a0lf2000007hSuMAAU",
+            "ProductCode": "ACN-GAS-0001",
+            "ProductFamily": "Gas",
+            "ProductId": "01tf2000007tC3dAAE",
+            "ProductName": "Gas Standard Tariff",
+            "ServiceAccountId": "001f200001uqHNhAAM",
+            "ServicePointId": "a26f200000KhBcjAAF",
+            "ServicePointName": "12 Harper Ave, Detroit - Gas",
+            "ServicePointStatus": "Connected",
+            "ServiceType": "Gas",
+            "Service_Contract_ID": "1500011383"
+        }
+    ],
+    "SelectAssets": {
+        "AssetFormula": 2,
+        "SelectAssetItem": [
+            {
+                "AccountId": "001f200001uqHNhAAM",
+                "AssetId": "02if200000WsAFpAAN",
+                "AssetName": "12 Harper Ave, Detroit - Electricity",
+                "BillingAccountId": "001f200001uqHNhAAM",
+                "ConnectDate": "2019-05-03T18:30:00.000Z",
+                "PremiseAddress": "12 Harper Ave, Detroit, MI, 48202",
+                "PremiseId": "a0lf2000007hSuMAAU",
+                "ProductCode": "ACN-ELEC-0001",
+                "ProductFamily": "Electricity",
+                "ProductId": "01tf2000007tC3TAAU",
+                "ProductName": "Electricity Standard Tariff",
+                "ServiceAccountId": "001f200001uqHNhAAM",
+                "ServicePointId": "a26f200000KhBbCAAV",
+                "ServicePointName": "12 Harper Ave, Detroit - Electricity",
+                "ServicePointStatus": "Connected",
+                "ServiceType": "Electricity",
+                "Service_Contract_ID": "1500011382",
+                "vlcSelected": true
+            },
+            {
+                "AccountId": "001f200001uqHNhAAM",
+                "AssetId": "02if200000WsAFqAAN",
+                "AssetName": "12 Harper Ave, Detroit - Gas",
+                "BillingAccountId": "001f200001uqHNhAAM",
+                "ConnectDate": "2019-05-03T18:30:00.000Z",
+                "PremiseAddress": "12 Harper Ave, Detroit, MI, 48202",
+                "PremiseId": "a0lf2000007hSuMAAU",
+                "ProductCode": "ACN-GAS-0001",
+                "ProductFamily": "Gas",
+                "ProductId": "01tf2000007tC3dAAE",
+                "ProductName": "Gas Standard Tariff",
+                "ServiceAccountId": "001f200001uqHNhAAM",
+                "ServicePointId": "a26f200000KhBcjAAF",
+                "ServicePointName": "12 Harper Ave, Detroit - Gas",
+                "ServicePointStatus": "Connected",
+                "ServiceType": "Gas",
+                "Service_Contract_ID": "1500011383",
+                "vlcSelected": true
+            }
+        ],
+        "SelectAssetItemMessaging": true,
+        "SelectAssetMessaging": null
+    },
+    "SelectMeter": {
+        "Id": "a25f2000004DtBnAAK",
+        "MeterName": "Electricity Meter - ISUMDG133130E",
+        "ProductName": "Electricity Standard Tariff",
+        "SerialNumber": "ISUMDG133130E"
+    },
+    "SelectMeter2": {
+        "Id": "a25f2000004DtDFAA0",
+        "MeterName": "Gas Meter - ISUMDG133133G",
+        "ProductName": "Gas Standard Tariff",
+        "SerialNumber": "ISUMDG133133G"
+    },
+    "Water": false,
+    "WaterMeterReading": "",
+    "id": "a0Zf200000PT9qREAT",
+    "layout": "lightning",
+    "testContextId": "001f200001uqHNhAAM",
+    "timeStamp": "2019-05-03T09:08:02.556Z",
+    "userCurrencyCode": "CAD",
+    "userId": "005f2000008YzmAAAS",
+    "userName": "akash.naik@accenture.com.vlocity",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractIntegrationSettings": 677,
+        "ExtractInventoryItems": 724,
+        "GetAccountAsset": 950,
+        "GetAssetValue": 62,
+        "MoveOutInformation": 4469,
+        "OmniScriptSessionToken": "8f8d3668-dcf3-448a-a518-8c98ed67250a",
+        "PreConfirmMoveOut": 1298,
+        "SelectAssets": 3544,
+        "SetAssetProductVal": 20,
+        "SetMeterReadingValues": 43,
+        "UpdateMoveoutRecords": 1077
+    }
+}

@@ -1,0 +1,55 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
+  <vlocity_cmt-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </vlocity_cmt-toast>
+</div>
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card eu-ideas-container slds-p-around_x-small slds-p-left_small slds-m-around_none " style="      
+         ">
+          <div data-style-id="state0element0" class="slds-col  slds-p-left_large slds-p-top_large slds-p-right_x-large  slds-size_12-of-12  " data-rindex={rindex} style="      
+     height:120px;    font-weight: 600; font-size: 24px;" ><vlocity_cmt-base-input-element data-style-id="state0element0_child"   record={record}  card={card}  action='\{"actionList":[{"actionIndex":0,"card":"{card}","draggable":false,"isOpen":true,"key":"1662377135900-ma1ao1k3q","label":"Action","stateAction":{"displayName":"Action","eventName":"selectpremise","extraParams":{"selectedpremise":"{selectedPremise}"},"hasExtraParams":true,"id":"flex-action-1664084921888","message":"premisechange","openUrlIn":"Current Window","subType":"PubSub","type":"Event","vlocityIcon":"standard-default"}}],"eventType":"onchange","iconName":"standard-default","label":"Action","showSpinner":"false"}'  property-obj='\{"action":{"actionList":[{"actionIndex":0,"card":"{card}","draggable":false,"isOpen":true,"key":"1662377135900-ma1ao1k3q","label":"Action","stateAction":{"displayName":"Action","eventName":"selectpremise","extraParams":{"selectedpremise":"{selectedPremise}"},"hasExtraParams":true,"id":"flex-action-1664084921888","message":"premisechange","openUrlIn":"Current Window","subType":"PubSub","type":"Event","vlocityIcon":"standard-default"}}],"eventType":"onchange","iconName":"standard-default","label":"Action","showSpinner":"false"},"customProperties":[{"id":0,"label":"options","value":"{premiseInfo}"}],"fieldBinding":"{selectedPremise}","label":"{Label.SfiEnergySelfServiceSelectAddress}","options":[],"placeholder":"","type":"combobox","value":"{selectedPremise}"}'  styles='\{"label":{"color":"#939393","fontFamily":"","fontSize":"18px","textAlign":"","textDecoration":"font-weight: 400;"},"value":{"color":"#181818","fontFamily":"","fontSize":"24px","textAlign":"","textDecoration":"font-weight: 600;"}}'  type="combobox"  extraclass=" slds-text-link_reset"  theme="slds" onchange={executeAction} data-element-label="block0select0clone0" data-action-key="state0element0" ></vlocity_cmt-base-input-element>
+      </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card eu-ideas-container slds-p-around_x-small slds-p-left_small slds-m-around_none " style="      
+         ">
+          <div data-style-id="state0element0" class="slds-col  slds-p-left_large slds-p-top_large slds-p-right_x-large  slds-size_12-of-12  " data-rindex={rindex} style="      
+     height:120px;    font-weight: 600; font-size: 24px;" ><vlocity_cmt-base-input-element data-style-id="state0element0_child"   record={record}  card={card}  action='\{"actionList":[{"actionIndex":0,"card":"{card}","draggable":false,"isOpen":true,"key":"1662377135900-ma1ao1k3q","label":"Action","stateAction":{"displayName":"Action","eventName":"selectpremise","extraParams":{"selectedpremise":"{selectedPremise}"},"hasExtraParams":true,"id":"flex-action-1664084921888","message":"premisechange","openUrlIn":"Current Window","subType":"PubSub","type":"Event","vlocityIcon":"standard-default"}}],"eventType":"onchange","iconName":"standard-default","label":"Action","showSpinner":"false"}'  property-obj='\{"action":{"actionList":[{"actionIndex":0,"card":"{card}","draggable":false,"isOpen":true,"key":"1662377135900-ma1ao1k3q","label":"Action","stateAction":{"displayName":"Action","eventName":"selectpremise","extraParams":{"selectedpremise":"{selectedPremise}"},"hasExtraParams":true,"id":"flex-action-1664084921888","message":"premisechange","openUrlIn":"Current Window","subType":"PubSub","type":"Event","vlocityIcon":"standard-default"}}],"eventType":"onchange","iconName":"standard-default","label":"Action","showSpinner":"false"},"customProperties":[{"id":0,"label":"options","value":"{premiseInfo}"}],"fieldBinding":"{selectedPremise}","label":"{Label.SfiEnergySelfServiceSelectAddress}","options":[],"placeholder":"","type":"combobox","value":"{selectedPremise}"}'  styles='\{"label":{"color":"#939393","fontFamily":"","fontSize":"18px","textAlign":"","textDecoration":"font-weight: 400;"},"value":{"color":"#181818","fontFamily":"","fontSize":"24px","textAlign":"","textDecoration":"font-weight: 600;"}}'  type="combobox"  extraclass=" slds-text-link_reset"  theme="slds" onchange={executeAction} data-element-label="block0select0clone0" data-action-key="state0element0" ></vlocity_cmt-base-input-element>
+      </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

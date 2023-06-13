@@ -1,0 +1,29 @@
+[
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "eb9c08ee-602f-8ab5-eb9d-61ddc29a6eb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/eb9c08ee-602f-8ab5-eb9d-61ddc29a6eb9",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "eb9c08ee-602f-8ab5-eb9d-61ddc29a6eb9",
+        "%vlocity_namespace%__EffectiveDate__c": "2021-04-03",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "37d5d786-771e-338d-e6bf-44acd9ae96a8",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/37d5d786-771e-338d-e6bf-44acd9ae96a8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "37d5d786-771e-338d-e6bf-44acd9ae96a8",
+        "%vlocity_namespace%__ProductGroupKey__c": "fe19f1ec-99c8-e360-7f37-311e7823fff9",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Gas Standard Tariff",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1361120571"
+    }
+]

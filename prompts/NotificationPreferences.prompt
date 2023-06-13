@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Notification Preferences</masterLabel>
+    <promptVersions>
+        <body>&lt;p&gt;This section lists the customer&apos;s chosen mode of communication for categories such as bill notifications, payment reminders, notifications, outage notifications, do not contact time etc. Click&amp;nbsp;&lt;strong&gt;Manage Notification Preferences&lt;/strong&gt;&amp;nbsp;if you want to change these settings&lt;/p&gt;</body>
+        <customApplication>Energy_Utility_console</customApplication>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayType>Targeted</displayType>
+        <isPublished>true</isPublished>
+        <masterLabel>Notification Preferences</masterLabel>
+        <publishedDate>2023-04-21</publishedDate>
+        <referenceElementContext>{&quot;scope&quot;:{&quot;attributes&quot;:{&quot;id&quot;:&quot;c_cfcfVEEEnergyNotificationsLayout&quot;}},&quot;version&quot;:2}</referenceElementContext>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2023-04-21</startDate>
+        <targetPageKey1>Account</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Notification Preferences</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

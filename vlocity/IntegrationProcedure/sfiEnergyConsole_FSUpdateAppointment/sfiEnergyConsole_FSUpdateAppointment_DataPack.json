@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sfiEnergyConsole_FSUpdateAppointment_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyConsoleFSUpdateAppointment",
+    "OmniProcessElement": [
+        "sfiEnergyConsole_FSUpdateAppointment_Element_SVBookAppointment.json",
+        "sfiEnergyConsole_FSUpdateAppointment_Element_RAUpdateAppointment.json"
+    ],
+    "OmniProcessKey": "sfiEnergyConsole_FSUpdateAppointment",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyConsole_FSUpdateAppointment_PropertySetConfig.json",
+    "RequiredPermission": "sfiEnergyConsoleFSPermission",
+    "SubType": "FSUpdateAppointment",
+    "Type": "sfiEnergyConsole",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyConsole/FSUpdateAppointment/Procedure",
+    "WebComponentKey": "2fc38e84-b9a9-79a1-9bd2-80f2e004c6cb"
+}

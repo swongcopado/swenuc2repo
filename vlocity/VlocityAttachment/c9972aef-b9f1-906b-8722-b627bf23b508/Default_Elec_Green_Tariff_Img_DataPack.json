@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c9972aef-b9f1-906b-8722-b627bf23b508",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "7fe2aa2a-65bf-3deb-2e19-3e5bd5eb8119",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/7fe2aa2a-65bf-3deb-2e19-3e5bd5eb8119",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "",
+    "%vlocity_namespace%__SequenceNumber__c": "",
+    "%vlocity_namespace%__UrlLong__c": "/servlet/servlet.FileDownload?file=0152H000002WIhiQAG",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Default_Elec_Green_Tariff_Img",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/c9972aef-b9f1-906b-8722-b627bf23b508"
+}

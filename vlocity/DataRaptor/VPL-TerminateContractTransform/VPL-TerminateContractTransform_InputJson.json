@@ -1,0 +1,61 @@
+{
+    "AccountDetails": null,
+    "ContextId": null,
+    "ErrorMsg": null,
+    "FinalBillAddress": {
+        "City": null,
+        "FinalBillValidationMsg": null,
+        "PostalCode": null,
+        "State": null,
+        "Street": null,
+        "Unit": null
+    },
+    "LastMeterReads": {
+        "ElecMeterReading": null,
+        "ElectricityReading": null,
+        "GasMeterReading": null,
+        "GasReading": null,
+        "LastMeterReadsOption": null,
+        "WaterMeterReading": null,
+        "WaterReading": null
+    },
+    "MoveOutInformation": {
+        "MoveOutDate": null,
+        "MoveOutDateMessaging": null,
+        "MoveOutDateValidation": null,
+        "MoveOutReason": null
+    },
+    "PostConfirmMoveOut": {
+    },
+    "PreConfirmMoveOut": {
+        "Confirm": null,
+        "ConfirmTable": null
+    },
+    "SelectContractLineItem": {
+        "ContractLineFormula": null,
+        "SelectContractItem": null,
+        "SelectContractItemMessaging": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractInventoryItems": null,
+        "FinalBillAddress": null,
+        "GetAccountContracts": null,
+        "LastMeterReads": null,
+        "MoveOutInformation": null,
+        "PostConfirmMoveOut": null,
+        "PreConfirmMoveOut": null,
+        "SelectContractLineItem": null,
+        "SetAssetProductVal": null,
+        "SetContractItemValue": null,
+        "SetMeterReadingValues": null,
+        "UpdateMoveoutRecords": null,
+        "VIPMoveOut": null
+    }
+}

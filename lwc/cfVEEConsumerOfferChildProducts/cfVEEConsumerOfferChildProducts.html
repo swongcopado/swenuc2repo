@@ -1,0 +1,132 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style=""><vlocity_cmt-data-table data-style-id="state0element0_child"     columns='\[]'  issearchavailable="false"  issortavailable="true"  records={records}  theme="slds"  ></vlocity_cmt-data-table>
+      </div><div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element0_child"     record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.VEECommodityOfferLabel%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element1block_element0block_element0_child"     record={record}  card={card}  field-name="productName"  placeholder=""  styles='\{"label":{"fontSize":""},"value":{"fontSize":"large"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element1block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element1block_element0block_element1_child"     record={record}  card={card}  field-name="description"  placeholder="description"  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1block_element1block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element1block_element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="vlocity_cmt-output-field" property='\{"currency":"{currencyCode}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><vlocity_cmt-output-field   record={record}  field-name="totalPrice"  type="currency" ></vlocity_cmt-output-field></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element1block_element1block_element1block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element1block_element1block_element0block_element1_child"     record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.VEEUsageCost%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element2" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element2_child"     record={record}  card={card}  merge-field="%3Cdiv%20class=%22slds-text-align_left%22%3E%7BLabel.VEEOfferDetails%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element3_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element3block_element0" class="" data-rindex={rindex} style=""><c-cf-v-e-e-consumer-offer-child-product-details data-style-id="state0element1block_element3block_element0_child"  tracking-obj={_childCardTrackingObj}  is-inside-parent={insideParent} parent-uniquekey={uniqueKey}  card-node="\{record.childProducts}"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  is-child-card-tracking-enabled="false"  parent-attribute='\{"currencyCode":"{currencyCode}"}'  theme="slds"  omni-json-def={omniJsonDef} omni-script-header-def={omniScriptHeaderDef} omni-custom-state={omniCustomState} omni-json-data={omniJsonData}  onupdateparent={updateParentData}></c-cf-v-e-e-consumer-offer-child-product-details>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element4" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element4_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element4block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element4block_element0_child"     record={record}  card={card}  data-conditions='\{"group":[{"field":"subType","id":"state-new-condition-67","operator":"==","type":"custom","value":"Electricity"}],"id":"state-condition-object","isParent":true}'  field-name="consumption"  label="\{Label.VEEElectricityConsumptionLabel}"  placeholder=""  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element4block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element4block_element1_child"     record={record}  card={card}  data-conditions='\{"group":[{"field":"subType","id":"state-new-condition-74","operator":"==","type":"custom","value":"Gas"}],"id":"state-condition-object","isParent":true}'  field-name="consumption"  label="\{Label.VEEGasConsumptionLabel}"  placeholder=""  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element4block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="vlocity_cmt-output-field" property='\{"currency":"{currencyCode}","label":"{Label.VEETotalUnitPrice}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><vlocity_cmt-output-field   record={record}  field-name="totalUnitPrice"  type="currency" ></vlocity_cmt-output-field></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element1block_element4block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="vlocity_cmt-output-field" property='\{"currency":"{currencyCode}","label":"{Label.VEETotalStandingPrice}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><vlocity_cmt-output-field   record={record}  field-name="totalStandingPrice"  type="currency" ></vlocity_cmt-output-field></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style=""><vlocity_cmt-data-table data-style-id="state0element0_child"     columns='\[]'  issearchavailable="false"  issortavailable="true"  records={records}  theme="slds"  ></vlocity_cmt-data-table>
+      </div><div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element0_child"     record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.VEECommodityOfferLabel%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element1block_element0block_element0_child"     record={record}  card={card}  field-name="productName"  placeholder=""  styles='\{"label":{"fontSize":""},"value":{"fontSize":"large"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element1block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element1block_element0block_element1_child"     record={record}  card={card}  field-name="description"  placeholder="description"  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1block_element1_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element1block_element1block_element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element1block_element1block_element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="vlocity_cmt-output-field" property='\{"currency":"{currencyCode}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><vlocity_cmt-output-field   record={record}  field-name="totalPrice"  type="currency" ></vlocity_cmt-output-field></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element1block_element1block_element1block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element1block_element1block_element0block_element1_child"     record={record}  card={card}  merge-field="%3Cdiv%3E%7BLabel.VEEUsageCost%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element2" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element2_child"     record={record}  card={card}  merge-field="%3Cdiv%20class=%22slds-text-align_left%22%3E%7BLabel.VEEOfferDetails%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element3_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element3block_element0" class="" data-rindex={rindex} style=""><c-cf-v-e-e-consumer-offer-child-product-details data-style-id="state0element1block_element3block_element0_child"  tracking-obj={_childCardTrackingObj}  is-inside-parent={insideParent} parent-uniquekey={uniqueKey}  card-node="\{record.childProducts}"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  is-child-card-tracking-enabled="false"  parent-attribute='\{"currencyCode":"{currencyCode}"}'  theme="slds"  omni-json-def={omniJsonDef} omni-script-header-def={omniScriptHeaderDef} omni-custom-state={omniCustomState} omni-json-data={omniJsonData}  onupdateparent={updateParentData}></c-cf-v-e-e-consumer-offer-child-product-details>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element1block_element4" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element1block_element4_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element4block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element4block_element0_child"     record={record}  card={card}  data-conditions='\{"group":[{"field":"subType","id":"state-new-condition-67","operator":"==","type":"custom","value":"Electricity"}],"id":"state-condition-object","isParent":true}'  field-name="consumption"  label="\{Label.VEEElectricityConsumptionLabel}"  placeholder=""  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element4block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element1block_element4block_element1_child"     record={record}  card={card}  data-conditions='\{"group":[{"field":"subType","id":"state-new-condition-74","operator":"==","type":"custom","value":"Gas"}],"id":"state-condition-object","isParent":true}'  field-name="consumption"  label="\{Label.VEEGasConsumptionLabel}"  placeholder=""  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element1block_element4block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="vlocity_cmt-output-field" property='\{"currency":"{currencyCode}","label":"{Label.VEETotalUnitPrice}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><vlocity_cmt-output-field   record={record}  field-name="totalUnitPrice"  type="currency" ></vlocity_cmt-output-field></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element1block_element4block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="vlocity_cmt-output-field" property='\{"currency":"{currencyCode}","label":"{Label.VEETotalStandingPrice}"}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><vlocity_cmt-output-field   record={record}  field-name="totalStandingPrice"  type="currency" ></vlocity_cmt-output-field></vlocity_cmt-custom-lwc-wrapper>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

@@ -1,0 +1,287 @@
+[
+    {
+        "DefaultValue": "http://schemas.xmlsoap.org/soap/envelope/",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:@xmlns#soapenv",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "http://www.w3.org/2001/XMLSchema",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:@xmlns#xsd",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "http://www.w3.org/2001/XMLSchema-instance",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem5",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:@xmlns#xsi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "http://soap.sforce.com/2005/09/outbound",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem6",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:@xmlns",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "https://accenture-utilities--UIDev.cs5.my.salesforce.com/services/Soap/c/41.0/00Df2000000NVjKEAW",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem7",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:EnterpriseUrl",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "urn:sobject.enterprise.soap.sforce.com",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:@xmlns#sf",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "sf:Account",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem9",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:@xsi#type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustom2527",
+        "InputFieldName": "CaseDetails:BillAdjustment:AdjustmentAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#AdjustAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustom3154",
+        "InputFieldName": "CaseDetails:BillAdjustment:AdjustmentDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#AdjustDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustom5601",
+        "InputFieldName": "CaseDetails:BillAdjustment:AdjustmentReason",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#AdjustReason",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "ReBill",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem10",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#MeterStatus",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem11",
+        "InputFieldName": "CaseDetails:StatmentExternalId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:Notification:sObject:sf#StatmentExternalId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "00D5i00000EUmwVEAT",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:OrganizationId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "https://accenture-utilities--UIDev.cs5.my.salesforce.com/services/Soap/u/41.0/00Df2000000NVjKEAW",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:PartnerUrl",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "VPL-TransformXMLAdjustmentReqCustoma1V3h000000mKs9EAEItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-TransformXMLAdjustmentReq",
+        "OmniDataTransformationId": {
+            "Name": "VPL-TransformXMLAdjustmentReq",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-TransformXMLAdjustmentReq",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "soapenv#Envelope:soapenv#Body:notifications:SessionId:@xsi#nil",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

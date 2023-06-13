@@ -1,0 +1,40 @@
+<template>
+    <lightning-card footer="" title="">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_2-of-3">
+                <div class="slds-box" >  
+                    <h1 class="slds-text-heading_medium">{welcome_text}</h1>
+                </div>
+            </div>    
+            <div class="c-footer slds-size_1-of-3 slds-align_absolute-center" >
+                <a href="/lightning/n/LearningHome">Return to Learning Home</a>
+            </div>
+        </div>
+        <div class="c-container"> 
+            <lightning-layout>
+                <lightning-layout-item flexibility="auto" padding="around-small">
+                    <p class="c-description">{app_description}</p>
+                    <template if:true={omniItems.data}>
+                        <template for:each={omniItems.data} for:item="omniItem">
+                            <c-feature-child
+                                key={omniItem.Id}
+                                heading={omniItem.Section_Heading__c} 
+                                image={omniItem.Icon_Name__c}
+                                app-text={omniItem.Section_Detail__c}
+                                app={omniItem.Target_App__c}
+                                page={omniItem.Target_Tab_Name__c}
+                                link-in-new-tab={pass_true}
+                                link-reference={omniItem.NavigationType__c}
+                                object-name={omniItem.ObjectName__c}
+                                object-id={omniItem.Target_RecordId__c}
+                                related-entity={omniItem.RelatedEntityAPIName__c}
+                                filter-name={omniItem.Filter_Criteria__c}
+                                >
+                            </c-feature-child>
+                        </template>
+                    </template>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

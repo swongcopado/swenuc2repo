@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VIP Used to fetch Configured Distribution regions",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "VEEDigitalFetchRegions",
+    "OmniProcessElement": [
+        "VEE_DigitalFetchRegions_Element_distributionRegions.json",
+        "VEE_DigitalFetchRegions_Element_response.json"
+    ],
+    "OmniProcessKey": "VEE_DigitalFetchRegions",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "VEE_DigitalFetchRegions_PropertySetConfig.json",
+    "RequiredPermission": "VEEDigitalOrderPermission",
+    "ResponseCacheType": "Org Cache",
+    "SubType": "DigitalFetchRegions",
+    "Type": "VEE",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/VEE/DigitalFetchRegions/Procedure",
+    "WebComponentKey": "ccb3e920-2fe6-eb6a-4f4c-85243f1ae6e4"
+}

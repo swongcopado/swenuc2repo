@@ -1,0 +1,9 @@
+[
+    "DataRaptor/VPL-GetAccountContactDetails",
+    "DataRaptor/VPL-GetBillingAccountStatement",
+    "DataRaptor/VPL-GetServiceAccountPremises",
+    "IntegrationProcedure/VPL_GetBiilingAccountDetails",
+    "IntegrationProcedure/VPL_GetCustomerAccount_Contact",
+    "IntegrationProcedure/VPL_MakeComplaint",
+    "IntegrationProcedure/sfiEnergySelfService_RetrievePremiseInfo"
+]

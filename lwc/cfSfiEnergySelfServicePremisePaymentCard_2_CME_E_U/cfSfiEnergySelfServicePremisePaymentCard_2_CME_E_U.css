@@ -1,0 +1,22 @@
+:host{
+    --sds-c-card-color-background: #F9FCFF;
+    --sds-c-card-shadow: none;
+    --sds-c-card-color-border:#fff;
+    --sds-c-card-radius-border:0;
+    --lwc-fontSize5: 1.4rem;
+    --sds-c-card-header-spacing-block-start:1.3rem;
+    --sds-c-card-header-spacing-inline-start:1.3rem;
+    --sds-c-card-body-spacing-inline-start:1.3rem;
+    --sds-c-card-body-spacing-block-end:1.3rem;
+     --lwc-colorTextLabel:#939393;
+}
+.button-full-width button{
+    width:100%;
+}
+
+.eu-payment-container {
+    background-color: #FFF;
+    box-shadow: 0px 8px 16px rgba(1, 118, 211, 0.1);
+    box-shadow: 0px 8px 16px rgba(1, 118, 211, 0.1);
+    border-radius: 24px;
+}

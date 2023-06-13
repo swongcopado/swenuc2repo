@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>sagent1.l0qhkulav2ix.dyf6im9zf0ka.4jhqz90zwif4@force.com</user>
+            <user>salesagent.cprlv91vr1ct.dlszmzulwayr.evlmkklobvc7@force.com</user>
+            <user>swenuc2@copado.com</user>
+        </users>
+    </assignments>
+    <capacity>20</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>false</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>false</enableDisconnectSound>
+    <enableRequestSound>false</enableRequestSound>
+    <label>sfiEnergySelfServiceChatAgents</label>
+</PresenceUserConfig>

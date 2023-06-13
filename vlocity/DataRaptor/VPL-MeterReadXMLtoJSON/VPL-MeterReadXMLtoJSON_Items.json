@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "VPL-MeterReadXMLtoJSONCustom5793",
+        "InputFieldName": "ns0#Envelope:ns0#Body:ns01#notificationsResponse:ns01#msg:#text",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VPL-MeterReadXMLtoJSON",
+        "OmniDataTransformationId": {
+            "Name": "VPL-MeterReadXMLtoJSON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPL-MeterReadXMLtoJSON",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Message",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

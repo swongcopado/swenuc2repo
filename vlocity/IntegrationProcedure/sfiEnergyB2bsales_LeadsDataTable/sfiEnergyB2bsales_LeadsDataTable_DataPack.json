@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "sfiEnergyB2bsales_LeadsDataTable_SampleInput.json",
+    "Description": "Fetches leads created by the user",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "sfiEnergyB2bsalesLeadsDataTable",
+    "OmniProcessElement": [
+        "sfiEnergyB2bsales_LeadsDataTable_Element_columnsData.json",
+        "sfiEnergyB2bsales_LeadsDataTable_Element_DRGetLeadList.json",
+        "sfiEnergyB2bsales_LeadsDataTable_Element_Response.json"
+    ],
+    "OmniProcessKey": "sfiEnergyB2bsales_LeadsDataTable",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sfiEnergyB2bsales_LeadsDataTable_PropertySetConfig.json",
+    "SubType": "LeadsDataTable",
+    "Type": "sfiEnergyB2bsales",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfiEnergyB2bsales/LeadsDataTable/Procedure",
+    "WebComponentKey": "5e160035-97fb-0600-0b3a-f575ac912261"
+}

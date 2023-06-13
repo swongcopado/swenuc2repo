@@ -1,0 +1,24 @@
+{
+    "ApiName": "VEEDCSalesPricingMatrix_V1_Clone",
+    "CalculationMatrix.Name": "VEEDCSalesPricingMatrix",
+    "CalculationMatrixId": {
+        "Name": "VEEDCSalesPricingMatrix",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "CalculationMatrix/VEEDCSalesPricingMatrix",
+        "VlocityRecordSObjectType": "CalculationMatrix"
+    },
+    "CalculationMatrixRow": "VEEDCSalesPricingMatrix-V1_Rows.json",
+    "DecisionMatrixDefinitionVerId": "9QO5i00000000pYGAQ",
+    "EndDateTime": "",
+    "GroupKeyValue": "",
+    "MatrixType": "Standard",
+    "Name": "VEEDCSalesPricingMatrix V1",
+    "Namespace": "",
+    "Rank": 1,
+    "StartDateTime": "2022-03-15T07:50:54.000Z",
+    "SubGroupKeyValue": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrixVersion",
+    "VlocityRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/VEEDCSalesPricingMatrix"
+}

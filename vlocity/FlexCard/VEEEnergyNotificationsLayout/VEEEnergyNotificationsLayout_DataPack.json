@@ -1,0 +1,45 @@
+{
+    "AuthorName": "CME_E_U",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 5,
+                "name": "Params.id",
+                "val": "0014x0000073OnIAAU"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "Id": "{Params.id}"
+            },
+            "ipMethod": "VPL_GetAccountNotificationPrefDetails",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "AccountNotificationPreference",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "VEEEnergyNotificationsLayout",
+    "Namespace": "",
+    "OmniUiCardKey": "VEEEnergyNotificationsLayout/CME_E_U/5/1643271174412",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "VEEEnergyNotificationsLayout.json",
+    "SampleDataSourceResponse": "{\"AccountNotificationPreference\":{\"AccountId\":\"0014x0000073OnIAAU\",\"AccountName\":\"Northern Region\",\"Bill Notification\":\"Email\",\"DNCFrom\":\"8:00 AM\",\"DNCTo\":\"9:00 AM\",\"DNDTime\":\"8:00 AM - 9:00 AM\",\"NotifPreferenceExists\":\"true\",\"Offers and Promotions\":\"Email\",\"Outage Notifications\":\"Email\",\"Payment Reminders and Notifications\":\"Email\",\"TotalNotification\":7,\"Work Order Notifications\":\"Email\"},\"AccountPref\":{\"WorkorderNotifications\":{\"CategoryId\":\"a0O4x00000016rgEAA\",\"Category\":\"WORKORDER_NOTIFICATIONS\",\"AttrValue\":\"Email\",\"AttrId\":\"a0P4x0000005rB6EAI\",\"AttrAssignId\":\"a0M4x0000005QMiEAM\"},\"PaymentReminders\":{\"CategoryId\":\"a0O4x00000016rdEAA\",\"Category\":\"PAYMENT_REMINDERS\",\"AttrValue\":\"Email\",\"AttrId\":\"a0P4x0000005rB3EAI\",\"AttrAssignId\":\"a0M4x0000005QMfEAM\"},\"OutageNotifications\":{\"CategoryId\":\"a0O4x00000016reEAA\",\"Category\":\"OUTAGE_NOTIFICATIONS\",\"AttrValue\":\"Email\",\"AttrId\":\"a0P4x0000005rB4EAI\",\"AttrAssignId\":\"a0M4x0000005QMgEAM\"},\"OffersPromotions\":{\"CategoryId\":\"a0O4x00000016rfEAA\",\"Category\":\"OFFERS_PROMOTIONS\",\"AttrValue\":\"Email\",\"AttrId\":\"a0P4x0000005rB5EAI\",\"AttrAssignId\":\"a0M4x0000005QMhEAM\"},\"DNCTo\":{\"CategoryId\":\"a0O4x00000016riEAA\",\"Category\":\"DNC_TO\",\"AttrValue\":\"9:00 AM\",\"AttrId\":\"a0P4x0000005rB8EAI\",\"AttrAssignId\":\"a0M4x0000005QMkEAM\"},\"DNCFrom\":{\"CategoryId\":\"a0O4x00000016rhEAA\",\"Category\":\"DNC_FROM\",\"AttrValue\":\"8:00 AM\",\"AttrId\":\"a0P4x0000005rB7EAI\",\"AttrAssignId\":\"a0M4x0000005QMjEAM\"},\"BillNotifications\":{\"CategoryId\":\"a0O4x00000016rcEAA\",\"Category\":\"BILL_NOTIFICATIONS\",\"AttrValue\":\"Email\",\"AttrId\":\"a0P4x0000005rB2EAI\",\"AttrAssignId\":\"a0M4x0000005QMeEAM\"}}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 5,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/VEEEnergyNotificationsLayout"
+}
