@@ -1,0 +1,35 @@
+{
+    "AuthorName": "copado",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "query": "select id, from__c, to__c from copado_trial__c",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "This is a test flexcard",
+    "IsTrackingEnabled": false,
+    "Name": "StevensTestFlexcard",
+    "Namespace": "",
+    "OmniUiCardKey": "StevensTestFlexcard/copado/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "StevensTestFlexcard.json",
+    "SampleDataSourceResponse": "[]",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/StevensTestFlexcard"
+}
