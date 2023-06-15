@@ -25376,6 +25376,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Copado_Trial__c.From__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Copado_Trial__c.To__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
@@ -52476,6 +52486,9 @@
         <layout>ContractLineOutcomeData-Contract Line Outcome Data Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Copado_Trial__c-Copado Trial Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CspTrustedSite-Content Security Policy Trusted Site Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -55682,6 +55695,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>CPQ_Learning_Page</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Copado_Trial__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
