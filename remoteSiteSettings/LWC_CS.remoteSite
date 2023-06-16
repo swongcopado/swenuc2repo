@@ -2,5 +2,5 @@
 <RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>https://d2h000000hdi8uai--vlocity-cmt.visualforce.com</url>
+    <url>{!Environment.LWC_CS_REMOTE_SITE_SETTING}</url>
 </RemoteSiteSetting>
