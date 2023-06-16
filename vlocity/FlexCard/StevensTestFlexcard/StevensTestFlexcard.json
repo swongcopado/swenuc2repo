@@ -16,15 +16,68 @@
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfStevensTestFlexcard",
-        "Id": "0Rb0T000000D2HqSAK",
+        "DeveloperName": "cfStevensTestFlexcard_1_copado",
+        "Id": "0Rb0T000000D2gMSAS",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfStevensTestFlexcard",
+        "MasterLabel": "cfStevensTestFlexcard_1_copado",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
     "states": [
         {
+            "actions": [
+            ],
+            "childCards": [
+                "StevensTestChildCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%20class=%22slds-text-align_center%20slds-text-heading_large%22%3EThis%20is%20the%20Parent%20Card%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-1",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "StevensTestChildCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
             "conditions": {
                 "group": [
                 ],
@@ -35,10 +88,14 @@
                 "actions": [
                 ]
             },
+            "documents": [
+            ],
             "fields": [
             ],
             "isSmartAction": false,
             "name": "Active",
+            "omniscripts": [
+            ],
             "smartAction": {
             },
             "styleObject": {
