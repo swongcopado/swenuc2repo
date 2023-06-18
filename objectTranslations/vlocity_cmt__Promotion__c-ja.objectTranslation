@@ -171,7 +171,41 @@
             <translation>該当データなし</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Discount Layout</layout>
+        <sections>
+            <label>有効</label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label>一般属性</label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vlocity EPC Promotion Layout</layout>
+        <sections>
+            <label>追加プロパティ</label>
+            <section>Additional Properties</section>
+        </sections>
+        <sections>
+            <label>期間</label>
+            <section>Duration</section>
+        </sections>
+        <sections>
+            <label>有効</label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label>一般属性</label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名前</nameFieldLabel>
+    <quickActions>
+        <label><!-- Edit --></label>
+        <name>vlocity_cmt__Promotion_Edit</name>
+    </quickActions>
     <recordTypes>
         <description><!-- Discount record --></description>
         <label><!-- Discount --></label>

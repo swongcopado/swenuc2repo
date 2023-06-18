@@ -71,6 +71,20 @@
             <translation><!-- Replace --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Orchestration Scenario (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Scenario (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Action cannot be blank --></errorMessage>
         <name>vlocity_cmt__ValidateOrchestrationScenario</name>

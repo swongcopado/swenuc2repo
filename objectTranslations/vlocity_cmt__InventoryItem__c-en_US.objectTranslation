@@ -132,6 +132,13 @@
             <translation><!-- Offline --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Inventory Item (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Inventory Item Attributes --></label>
+            <section>Inventory Item Attributes</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Inventory Item --></label>
         <name>vlocity_cmt__InventoryItem</name>

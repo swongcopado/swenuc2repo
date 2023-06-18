@@ -178,6 +178,13 @@
             <translation><!-- TextComment --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>AttrCategory_ProductConsole Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- ContentAttributes --></label>
         <name>vlocity_cmt__ContentAttributes</name>

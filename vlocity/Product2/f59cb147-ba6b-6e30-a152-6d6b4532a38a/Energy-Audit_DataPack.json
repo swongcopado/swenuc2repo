@@ -1,7 +1,6 @@
 {
     "%vlocity_namespace%__ApprovedBy__c": "",
     "%vlocity_namespace%__ApprovedOn__c": "",
-    "%vlocity_namespace%__AttributeAssignment__c": "Energy-Audit_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "061cebab-1294-7278-be06-0842b46dd9d2": null,
         "2fa72396-fb1e-c147-4854-8777df6a1d36": null,
@@ -491,16 +490,8 @@
     "%vlocity_namespace%__MainFeatureQuantity__c": "",
     "%vlocity_namespace%__MainFeatureTermInDays__c": "",
     "%vlocity_namespace%__Modification__c": "",
-    "%vlocity_namespace%__ObjectTypeId__c": {
-        "%vlocity_namespace%__GlobalKey__c": "3c7aa3a6f255dea60bb16d9c72f8aa3a",
-        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/3c7aa3a6f255dea60bb16d9c72f8aa3a",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
-    },
-    "%vlocity_namespace%__ObjectTypeName__c": "Non Commodity Commercial Object Type",
+    "%vlocity_namespace%__ObjectTypeId__c": "a2q5i000000V22vAAC",
     "%vlocity_namespace%__ParentClassId__c": "",
-    "%vlocity_namespace%__PriceListEntry__c": "Energy-Audit_PriceListEntries.json",
-    "%vlocity_namespace%__ProductChildItem__c": "Energy-Audit_ProductChildItems.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
     "%vlocity_namespace%__Scope__c": "Order Item",

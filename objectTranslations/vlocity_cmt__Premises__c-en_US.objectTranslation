@@ -231,6 +231,13 @@
         <label><!-- Unit / Apartment --></label>
         <name>vlocity_cmt__UnitNumber__c</name>
     </fields>
+    <layouts>
+        <layout>Premises (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label><!-- Premise Relationships --></label>
+            <section>Premise Relationships</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- ValidateAddress --></label>
         <name>vlocity_cmt__ValidateAddress</name>
