@@ -46,7 +46,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>U1_Field__c</field>
+                <field>U2_Field__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
