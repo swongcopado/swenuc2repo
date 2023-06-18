@@ -36,5 +36,12 @@
         <label><!-- Active --></label>
         <name>vlocity_cmt__IsActive__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Pricing Plan Layout</layout>
+        <sections>
+            <label>使用可能状況</label>
+            <section>Availability</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>価格設定プラン名</nameFieldLabel>
 </CustomObjectTranslation>

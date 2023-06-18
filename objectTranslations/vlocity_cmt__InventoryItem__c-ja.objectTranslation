@@ -136,6 +136,13 @@
             <translation><!-- Offline --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Inventory Item (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>在庫品目属性</label>
+            <section>Inventory Item Attributes</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>在庫品目名</nameFieldLabel>
     <recordTypes>
         <label><!-- Inventory Item --></label>

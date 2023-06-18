@@ -22,4 +22,8 @@
         <name>vlocity_cmt__SwimlaneOrder__c</name>
     </fields>
     <nameFieldLabel>名前</nameFieldLabel>
+    <quickActions>
+        <label><!-- Remove Orchestration Plan Definition --></label>
+        <name>vlocity_cmt__RemoveOrchestrationPlanDefinition</name>
+    </quickActions>
 </CustomObjectTranslation>

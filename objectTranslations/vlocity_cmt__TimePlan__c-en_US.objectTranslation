@@ -68,4 +68,15 @@
         <label><!-- Total Duration --></label>
         <name>vlocity_cmt__TotalDuration__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Time Plan Layout</layout>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- General Properties --></label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

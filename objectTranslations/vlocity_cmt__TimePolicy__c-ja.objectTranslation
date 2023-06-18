@@ -108,5 +108,20 @@
             <translation>購入日</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Time Policy Layout</layout>
+        <sections>
+            <label>遅延</label>
+            <section>Delay</section>
+        </sections>
+        <sections>
+            <label>有効</label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label>按分可能</label>
+            <section>Proratable</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名前</nameFieldLabel>
 </CustomObjectTranslation>

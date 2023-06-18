@@ -235,6 +235,13 @@
         <label><!-- Unit / Apartment --></label>
         <name>vlocity_cmt__UnitNumber__c</name>
     </fields>
+    <layouts>
+        <layout>Premises (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>物件リレーション</label>
+            <section>Premise Relationships</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名前</nameFieldLabel>
     <webLinks>
         <label><!-- ValidateAddress --></label>

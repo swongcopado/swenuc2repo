@@ -28,6 +28,20 @@
         <label><!-- Wildcard Value --></label>
         <name>vlocity_cmt__WildcardValue__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity Grouped Pricing Matrix Layout</layout>
+        <sections>
+            <label><!-- Active Pricing Matrix --></label>
+            <section>Active Pricing Matrix</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vlocity Pricing Matrix Layout</layout>
+        <sections>
+            <label><!-- Active Pricing Matrix --></label>
+            <section>Active Pricing Matrix</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Grouped --></label>
         <name>vlocity_cmt__Grouped</name>

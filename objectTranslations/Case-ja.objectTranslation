@@ -363,6 +363,31 @@
         <label><!-- Verified --></label>
         <name>vlocity_cmt__Verified__c</name>
     </fields>
+    <layouts>
+        <layout>Case (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>請求の紛争に関する情報</label>
+            <section>Billing Dispute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mobile Case (Vlocity 2.5)</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MobilePhoneCase</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
     <recordTypes>
         <description><!-- vlocity utility express --></description>
         <label><!-- Billing Dispute --></label>

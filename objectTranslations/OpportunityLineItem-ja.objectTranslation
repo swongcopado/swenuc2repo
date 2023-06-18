@@ -492,4 +492,11 @@
         <label><!-- Usage Price --></label>
         <name>vlocity_cmt__UsageUnitPrice__c</name>
     </fields>
+    <layouts>
+        <layout>Opportunity Product (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

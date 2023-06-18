@@ -334,7 +334,942 @@
         <name>vlocity_cmt__manualQueueId__c</name>
         <relationshipLabel><!-- Orchestration Item Definitions --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Auto Task (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Task (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>自動 ToDo</label>
+            <section>Auto Task</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V10</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V11</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V12</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V13</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callout (Vlocity XOM) Layout V9</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>要求 Vlocity Data Raptor 設定</label>
+            <section>Request Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>応答 Vlocity Data Raptor 設定</label>
+            <section>Response Vlocity Data Raptor Configuration</section>
+        </sections>
+        <sections>
+            <label>Vlocity Data Raptor 設定</label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>手動キュー</label>
+            <section>Manual Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Task (Vlocity XOM) Layout V9</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>手動 ToDo</label>
+            <section>Manual Task</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item Definition (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Push Event (Vlocity XOM) Layout V9</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>イベント条件</label>
+            <section>Event Conditions</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>プッシュイベント</label>
+            <section>Push Event</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sub-plan (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sub-plan (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sub-plan (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>コールアウト</label>
+            <section>Callout</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>オーケストレーション品目定義名</nameFieldLabel>
+    <quickActions>
+        <label><!-- New Dependency Definition --></label>
+        <name>vlocity_cmt__New_ODD</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Auto Task --></label>
         <name>vlocity_cmt__AutoTask</name>

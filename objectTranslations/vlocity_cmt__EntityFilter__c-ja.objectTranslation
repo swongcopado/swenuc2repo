@@ -113,6 +113,20 @@
         <label><!-- Valid Until --></label>
         <name>vlocity_cmt__ValidUntilDate__c</name>
     </fields>
+    <layouts>
+        <layout>Entity Filter (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>エンティティ検索条件</label>
+            <section>Entity Filter Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Entity Filter Layout</layout>
+        <sections>
+            <label>エンティティ検索条件</label>
+            <section>Entity Filter Conditions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>エンティティ検索条件名</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- Please select a valid type for this Entity Filter. --></errorMessage>

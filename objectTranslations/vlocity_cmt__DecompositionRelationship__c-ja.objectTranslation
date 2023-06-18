@@ -82,5 +82,98 @@
         <label><!-- XOR Group --></label>
         <name>vlocity_cmt__XORGroup__c</name>
     </fields>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>対応付けルール</label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>対応付けルール</label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>対応付けルール</label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>詳細</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>対応付けルール</label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>詳細</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>対応付けルール</label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>詳細</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>対応付けルール</label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>分解リレーション名</nameFieldLabel>
 </CustomObjectTranslation>

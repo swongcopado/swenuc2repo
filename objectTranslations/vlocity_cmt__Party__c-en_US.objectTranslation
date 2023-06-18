@@ -59,6 +59,13 @@
         <label><!-- Relationship Group --></label>
         <name>vlocity_cmt__RelationshipGroup__c</name>
     </fields>
+    <layouts>
+        <layout>Client Default</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Relationship_Popup --></label>
         <name>vlocity_cmt__Relationship_Popup</name>

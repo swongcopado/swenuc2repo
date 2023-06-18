@@ -210,4 +210,8 @@
             <translation><!-- Turn On Order --></translation>
         </picklistValues>
     </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
 </CustomObjectTranslation>

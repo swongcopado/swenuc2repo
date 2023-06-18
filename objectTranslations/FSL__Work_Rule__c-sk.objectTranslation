@@ -382,6 +382,35 @@ Ak nie je zadaná žiadna hodnota, čas strávený cestovaním po skončení pra
         <name>FSL__isTimephased__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maximum Travel From Homebase Layout</layout>
+        <sections>
+            <label>Polia</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Availability Layout</layout>
+        <sections>
+            <label>Pokročilé</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Plánovanie automatickej prestávky</label>
+            <section>Automatic Break Scheduling</section>
+        </sections>
+        <sections>
+            <label>Čas strávený cestovaním (na náklady zdroja)</label>
+            <section>Travel Time (At the expense of the resource)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Working Territories</layout>
+        <sections>
+            <label>Pokročilé</label>
+            <section>Advanced</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Názov pracovného pravidla</nameFieldLabel>
     <recordTypes>
         <description><!-- Limits service resources based on a number of items such as service appointments, appointment durations, or custom field values --></description>

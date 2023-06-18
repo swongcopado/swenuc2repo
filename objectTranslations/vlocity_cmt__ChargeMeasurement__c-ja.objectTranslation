@@ -61,4 +61,8 @@
         <name>vlocity_cmt__VisibleId__c</name>
     </fields>
     <nameFieldLabel>名前</nameFieldLabel>
+    <quickActions>
+        <label><!-- Delete --></label>
+        <name>vlocity_cmt__ChargeMeasurement_Delete</name>
+    </quickActions>
 </CustomObjectTranslation>
