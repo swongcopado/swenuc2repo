@@ -100,6 +100,33 @@
         <label><!-- Version Label --></label>
         <name>vlocity_cmt__VersionLabel__c</name>
     </fields>
+    <layouts>
+        <layout>VlocityPCPicklistLayout</layout>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Version --></label>
+        <name>vlocity_cmt__New_Version</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete --></label>
+        <name>vlocity_cmt__Picklist_Delete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Release Picklist --></label>
+        <name>vlocity_cmt__Release</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Version History --></label>
+        <name>vlocity_cmt__Version_History</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- Effective Until Date should be greater than or equal to Effective From Date. --></errorMessage>
         <name>vlocity_cmt__EffectiveFrom_Greater_EffectiveUntil</name>

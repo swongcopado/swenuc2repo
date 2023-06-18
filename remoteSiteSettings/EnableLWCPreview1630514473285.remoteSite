@@ -2,5 +2,5 @@
 <RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>{!Environment.FLEXCARD_REMOTE_SITE_SETTING_2}</url>
+    <url>https://d2h000000hdi8uai.lightning.force.com</url>
 </RemoteSiteSetting>

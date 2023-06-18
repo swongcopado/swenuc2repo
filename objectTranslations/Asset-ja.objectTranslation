@@ -415,6 +415,24 @@
         <label><!-- User Name --></label>
         <name>vlocity_cmt__Username__c</name>
     </fields>
+    <layouts>
+        <layout>Asset (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>納入商品属性</label>
+            <section>Asset Attributes</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Console Service Asset (Vlocity Telecommunication Service) Layout</layout>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Activation Date cannot be in the past. --></errorMessage>
         <name>vlocity_cmt__Asset_Activation_Date_Rule</name>

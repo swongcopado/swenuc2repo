@@ -75,6 +75,20 @@
             <translation>置換</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Orchestration Scenario (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Scenario (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>条件</label>
+            <section>Conditions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>オーケストレーションシナリオ名</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- Action cannot be blank --></errorMessage>

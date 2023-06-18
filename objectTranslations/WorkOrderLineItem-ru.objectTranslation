@@ -21,4 +21,8 @@
         <name>FSL__VisitingHours__c</name>
         <relationshipLabel><!-- Work Order Line Items --></relationshipLabel>
     </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
 </CustomObjectTranslation>

@@ -419,6 +419,36 @@
             <translation>合格</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Console Quote (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>見積マネージャー</label>
+            <section>Quote Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>見積マネージャー</label>
+            <section>Quote Manager</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Contract --></label>
+        <name>vlocity_cmt__CreatingContract</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Pick Frame Contract --></label>
+        <name>vlocity_cmt__PickFrameContract_LEX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Updating Contracts --></label>
+        <name>vlocity_cmt__UpdatingContracts</name>
+    </quickActions>
     <recordTypes>
         <description><!-- Use enterprise quote for quoting large multi-site or multi-subscriber customers when you want one single large quote. --></description>
         <label><!-- Enterprise Quote --></label>
