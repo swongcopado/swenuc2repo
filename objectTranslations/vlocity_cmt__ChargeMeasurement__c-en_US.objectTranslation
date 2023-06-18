@@ -56,4 +56,8 @@
         <label><!-- Visible ID --></label>
         <name>vlocity_cmt__VisibleId__c</name>
     </fields>
+    <quickActions>
+        <label><!-- Delete --></label>
+        <name>vlocity_cmt__ChargeMeasurement_Delete</name>
+    </quickActions>
 </CustomObjectTranslation>

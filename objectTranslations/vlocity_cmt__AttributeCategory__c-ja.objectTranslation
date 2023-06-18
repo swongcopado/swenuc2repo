@@ -182,6 +182,13 @@
             <translation><!-- TextComment --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>AttrCategory_ProductConsole Layout</layout>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名前</nameFieldLabel>
     <webLinks>
         <label><!-- ContentAttributes --></label>

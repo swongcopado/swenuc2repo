@@ -221,6 +221,13 @@
         <name>vlocity_cmt__VlocityStateModelVersionId__c</name>
         <relationshipLabel><!-- Vlocity Actions --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Vlocity Action Layout</layout>
+        <sections>
+            <label><!-- Vlocity Icons --></label>
+            <section>Vlocity Icons</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Export --></label>
         <name>vlocity_cmt__Export</name>

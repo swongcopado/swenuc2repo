@@ -234,6 +234,47 @@
         <label><!-- Total: One Time Discount --></label>
         <name>vlocity_cmt__TotalOneTimeDiscount__c</name>
     </fields>
+    <layouts>
+        <layout>Contract (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label><!-- Contract Documents --></label>
+            <section>Contract Documents</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Read Only Contract (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>アクション</label>
+            <section>Actions</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Contract Document Envelopes</section>
+        </sections>
+        <sections>
+            <label>契約ドキュメントのエンベロープ</label>
+            <section>Contract Documents</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Contract Line Items</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sample Contract With Action Bar (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>契約ドキュメント</label>
+            <section>Actions</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Contract Documents</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Contract --></label>
         <name>vlocity_cmt__Contract</name>

@@ -292,6 +292,13 @@
         <label><!-- Hidden By Default --></label>
         <name>vlocity_cmt__isDefaultHidden__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity Attribute Detail Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Value must be a Boolean. --></errorMessage>
         <name>vlocity_cmt__BooleanType</name>

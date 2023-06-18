@@ -37,4 +37,11 @@
         <label><!-- Sequence --></label>
         <name>vlocity_cmt__Sequence__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Pricing Plan Step Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

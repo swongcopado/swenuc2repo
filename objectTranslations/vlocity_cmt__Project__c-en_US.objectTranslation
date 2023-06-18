@@ -60,6 +60,13 @@
             <translation><!-- Released --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Vlocity Project Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Module --></label>
         <name>vlocity_cmt__Module</name>

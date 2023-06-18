@@ -128,6 +128,45 @@
         <name>FSL__Resource_Priority_Field__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>ASAP Layout</layout>
+        <sections>
+            <label>Câmpuri</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Overtime</layout>
+        <sections>
+            <label>Câmpuri</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preferred Resource</layout>
+        <sections>
+            <label>Câmpuri</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Priority Layout</layout>
+        <sections>
+            <label>Câmpuri</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Câmpul Prioritate resurse</label>
+            <section>Resource Priority Field</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Level</layout>
+        <sections>
+            <label>Câmpuri</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nume obiectiv serviciu</nameFieldLabel>
     <recordTypes>
         <description><!-- Schedule as soon as possible --></description>

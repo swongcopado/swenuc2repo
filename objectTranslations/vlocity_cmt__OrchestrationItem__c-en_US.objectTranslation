@@ -481,6 +481,109 @@
         <name>vlocity_cmt__compensatedOrchestrationItemId__c</name>
         <relationshipLabel><!-- Compensating Orchestration Items --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Jeopardy Management --></label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Jeopardy Management --></label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Timeout cannot be negative. --></errorMessage>
         <name>vlocity_cmt__TimeoutMinValueValidation</name>

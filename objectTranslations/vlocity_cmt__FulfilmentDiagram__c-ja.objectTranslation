@@ -5,4 +5,20 @@
         <value>履行ダイアグラム</value>
     </caseValues>
     <nameFieldLabel>履行ダイアグラム名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Import Orchestration Plan Definition --></label>
+        <name>vlocity_cmt__ImportOrchestrationPlanDefinition</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Import Orchestration Scenario --></label>
+        <name>vlocity_cmt__ImportOrchestrationScenario</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Plan Definition --></label>
+        <name>vlocity_cmt__New_OPD</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reorder Swimlanes --></label>
+        <name>vlocity_cmt__ReorderSwimlanes</name>
+    </quickActions>
 </CustomObjectTranslation>
