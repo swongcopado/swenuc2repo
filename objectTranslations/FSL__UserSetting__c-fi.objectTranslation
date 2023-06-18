@@ -575,5 +575,24 @@
             <translation>Viikko</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Mukautetut suodattimet</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Gantt-valinnat</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Epäkäytettävyyden Vedä ja pudota -valinnat</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Palveluluettelon valinnat</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Käyttäjäasetuksen nimi</nameFieldLabel>
 </CustomObjectTranslation>

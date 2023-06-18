@@ -104,4 +104,19 @@
             <translation><!-- Purchase Date --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Time Policy Layout</layout>
+        <sections>
+            <label><!-- Delay --></label>
+            <section>Delay</section>
+        </sections>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- Proratable --></label>
+            <section>Proratable</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

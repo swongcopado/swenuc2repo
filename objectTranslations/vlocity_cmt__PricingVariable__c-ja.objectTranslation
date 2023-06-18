@@ -185,5 +185,16 @@
             <translation>価格設定要素</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Pricing Variable Layout</layout>
+        <sections>
+            <label>基本変数種別</label>
+            <section>Basic Variable Type</section>
+        </sections>
+        <sections>
+            <label>詳細な種別情報</label>
+            <section>Detailed Type Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>価格設定変数名</nameFieldLabel>
 </CustomObjectTranslation>

@@ -48,6 +48,20 @@
         <name>vlocity_cmt__SourceTaskId__c</name>
         <relationshipLabel><!-- Manual Queue Assignment Rules --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Manual Queue Assignment Rule (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>割り当てルール条件</label>
+            <section>Assignment Rule Condition</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue Assignment Rule (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>割り当てルール条件</label>
+            <section>Assignment Rule Condition</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>割り当てルール名</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- Destination Queue is required for Manual Queue Assignment Type --></errorMessage>

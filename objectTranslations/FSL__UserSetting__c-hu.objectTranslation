@@ -767,6 +767,25 @@
             <translation>Hét</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Egyéni szűrők</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Gantt-diagram beállításai</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>NA húzási beállításai</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Szervizlista beállításai</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Felhasználói beállítás neve</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -6,7 +6,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Field Service Admin</label>
-    <logo>FSL__Field_Service_Documents/FSL__Winter_21_App_Field_Service_Admin_Logo.png</logo>
     <tabs>FSL__Field_Service_Settings</tabs>
     <tabs>standard-ServiceTerritory</tabs>
     <tabs>standard-OperatingHours</tabs>

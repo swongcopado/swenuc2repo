@@ -93,4 +93,11 @@
             <translation><!-- All --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>State Transition Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

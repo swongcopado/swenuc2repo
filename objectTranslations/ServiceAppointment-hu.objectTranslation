@@ -231,6 +231,25 @@
         <label><!-- Virtual Service For Chatter Action (SLR) --></label>
         <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
     </fields>
+    <layouts>
+        <layout>FSL Service Appointment Layout</layout>
+        <sections>
+            <label>Kiosztó konzol</label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label>Időkorlátok</label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Change Status --></label>
+        <name>FSL__Change_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- New service appointment cannot be created in scheduled or  dispatched statuses. --></errorMessage>
         <name>FSL__Dont_allow_scheduled_or_dispatched</name>

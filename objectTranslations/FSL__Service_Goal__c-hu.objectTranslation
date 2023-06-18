@@ -629,6 +629,45 @@
         <label><!-- Resource Priority Field --></label>
         <name>FSL__Resource_Priority_Field__c</name>
     </fields>
+    <layouts>
+        <layout>ASAP Layout</layout>
+        <sections>
+            <label>Mezők</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Overtime</layout>
+        <sections>
+            <label>Mezők</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preferred Resource</layout>
+        <sections>
+            <label>Mezők</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Priority Layout</layout>
+        <sections>
+            <label>Mezők</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Erőforrás prioritási mezője</label>
+            <section>Resource Priority Field</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Level</layout>
+        <sections>
+            <label>Mezők</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Szerviz céljának neve</nameFieldLabel>
     <recordTypes>
         <description><!-- Schedule as soon as possible --></description>
