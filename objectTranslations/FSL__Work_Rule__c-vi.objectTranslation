@@ -329,6 +329,35 @@ Nếu mục này trống, mọi khoảng di chuyển sau khi kết thúc ngày l
         <label><!-- Time-Phased --></label>
         <name>FSL__isTimephased__c</name>
     </fields>
+    <layouts>
+        <layout>Maximum Travel From Homebase Layout</layout>
+        <sections>
+            <label>Các trường</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Availability Layout</layout>
+        <sections>
+            <label>Nâng cao</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Tự động ngưng lên lịch</label>
+            <section>Automatic Break Scheduling</section>
+        </sections>
+        <sections>
+            <label>Thời Gian Di Chuyển (Trong chi phí tài nguyên)</label>
+            <section>Travel Time (At the expense of the resource)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Working Territories</layout>
+        <sections>
+            <label>Nâng cao</label>
+            <section>Advanced</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Tên Điều Lệ Lao Động</nameFieldLabel>
     <recordTypes>
         <description><!-- Limits service resources based on a number of items such as service appointments, appointment durations, or custom field values --></description>

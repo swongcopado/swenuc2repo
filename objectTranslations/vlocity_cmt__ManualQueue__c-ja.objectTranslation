@@ -49,5 +49,121 @@
             <translation>ラウンドロビン</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Manual Queue (Vlocity Hybrid) Layout</layout>
+        <sections>
+            <label>キュー内の品目 - OM Plus</label>
+            <section>Items In The Queue - OM Plus</section>
+        </sections>
+        <sections>
+            <label>キュー内の品目 - OM Standard</label>
+            <section>Items In The Queue - OM Std</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V4</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V5</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>キュー内の品目</label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label>ユーザーメンバーシップ</label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>手動キュー</nameFieldLabel>
 </CustomObjectTranslation>

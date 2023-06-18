@@ -29,6 +29,33 @@
     <navType>Console</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>Account_Utility_Console_LEX_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.vlocity_cmt__Business</recordType>
+        <type>Flexipage</type>
+        <profile>Minimum Access - Salesforce</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Utility_Console_LEX_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.vlocity_cmt__Consumer</recordType>
+        <type>Flexipage</type>
+        <profile>EU Minimum Access</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Utility_Console_LEX_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.vlocity_cmt__Consumer</recordType>
+        <type>Flexipage</type>
+        <profile>Minimum Access - Salesforce</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>vlocity_cmt__CardsDesigner</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>vlocity_cmt__VlocityCard__c</pageOrSobjectType>
@@ -61,33 +88,6 @@
         <recordType>Account.vlocity_cmt__Business</recordType>
         <type>Flexipage</type>
         <profile>EU Minimum Access</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Utility_Console_LEX_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.vlocity_cmt__Business</recordType>
-        <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Utility_Console_LEX_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.vlocity_cmt__Consumer</recordType>
-        <type>Flexipage</type>
-        <profile>EU Minimum Access</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Utility_Console_LEX_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.vlocity_cmt__Consumer</recordType>
-        <type>Flexipage</type>
-        <profile>Minimum Access - Salesforce</profile>
     </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>

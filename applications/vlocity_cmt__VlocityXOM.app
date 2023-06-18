@@ -5,7 +5,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Vlocity XOM</label>
-    <logo>vlocity_cmt__VlocityResources/vlocity_cmt__VlocityCommunicationsLogo.png</logo>
     <tabs>standard-Account</tabs>
     <tabs>standard-Order</tabs>
     <tabs>standard-Product2</tabs>

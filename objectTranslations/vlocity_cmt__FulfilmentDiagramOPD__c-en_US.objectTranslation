@@ -17,4 +17,8 @@
         <label><!-- Swimlane Order --></label>
         <name>vlocity_cmt__SwimlaneOrder__c</name>
     </fields>
+    <quickActions>
+        <label><!-- Remove Orchestration Plan Definition --></label>
+        <name>vlocity_cmt__RemoveOrchestrationPlanDefinition</name>
+    </quickActions>
 </CustomObjectTranslation>

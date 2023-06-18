@@ -415,5 +415,24 @@
             <translation>Hafta</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Özel Filtreler</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Gantt Tercihleri</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>NA Sürükle ve Bırak Seçenekleri</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Hizmetler Listesi Tercihleri</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Kullanıcı Ayar Adı</nameFieldLabel>
 </CustomObjectTranslation>

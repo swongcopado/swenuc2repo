@@ -24,6 +24,13 @@
         <label><!-- View Decay Minutes --></label>
         <name>vlocity_cmt__ViewDecayMinutes__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity Acuity Machine Layout</layout>
+        <sections>
+            <label><!-- Profile Category Weights --></label>
+            <section>Profile Category Weights</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Export --></label>
         <name>vlocity_cmt__Export</name>

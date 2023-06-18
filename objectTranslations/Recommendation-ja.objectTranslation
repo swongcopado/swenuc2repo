@@ -13,4 +13,11 @@
         <name>vlocity_cmt__VlocityActionId__c</name>
         <relationshipLabel><!-- Recommendations --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Recommendation Layout</layout>
+        <sections>
+            <label><!-- Response Information --></label>
+            <section>Response Information</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

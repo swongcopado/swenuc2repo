@@ -43,6 +43,27 @@
             <translation><!-- In Progress --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Orchestration Plan --></label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Orchestration Plan --></label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label><!-- Orchestration Plan --></label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- ViewOrder --></label>
         <name>vlocity_cmt__ViewOrder</name>

@@ -431,6 +431,234 @@
         <label><!-- Version Start Date --></label>
         <name>vlocity_cmt__VersionStartDateTime__c</name>
     </fields>
+    <layouts>
+        <layout>Product (Vlocity EPC) Layout</layout>
+        <sections>
+            <label>添付ファイル</label>
+            <section>Attachments</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+        <sections>
+            <label>商品属性</label>
+            <section>Product Attributes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>分解ルール</label>
+            <section>Decomposition Rules</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>分解ルール</label>
+            <section>Decomposition Rules</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>分解ルール</label>
+            <section>Decomposition Rules</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>分解ルール</label>
+            <section>Decomposition Rules</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>分解ルール</label>
+            <section>Decomposition Rules</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>分解ルール</label>
+            <section>Decomposition Rules</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Jeopardy 管理</label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label>価格表</label>
+            <section>Price Books</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Console Layout</layout>
+        <sections>
+            <label>使用可能状況</label>
+            <section>Availability</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Template (Vlocity 3.5)</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Product Attributes --></label>
+            <section>Product Attributes</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Version --></label>
+        <name>vlocity_cmt__New_Version</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate All References --></label>
+        <name>vlocity_cmt__ProductDetailsReport</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete --></label>
+        <name>vlocity_cmt__Product_Delete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Release Product --></label>
+        <name>vlocity_cmt__Product_Release</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Product Report --></label>
+        <name>vlocity_cmt__Product_report</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Version History --></label>
+        <name>vlocity_cmt__Version_History</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Class --></label>
         <name>vlocity_cmt__Class</name>

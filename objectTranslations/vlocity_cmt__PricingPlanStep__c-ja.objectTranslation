@@ -41,5 +41,12 @@
         <label><!-- Sequence --></label>
         <name>vlocity_cmt__Sequence__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Pricing Plan Step Layout</layout>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名前</nameFieldLabel>
 </CustomObjectTranslation>

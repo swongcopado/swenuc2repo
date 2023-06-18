@@ -295,6 +295,12 @@
         <label>Curaçao</label>
     </customValue>
     <customValue>
+        <fullName>CX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Christmas Island</label>
+    </customValue>
+    <customValue>
         <fullName>CR</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -311,12 +317,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Cape Verde</label>
-    </customValue>
-    <customValue>
-        <fullName>CX</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Christmas Island</label>
     </customValue>
     <customValue>
         <fullName>CY</fullName>
@@ -571,6 +571,12 @@
         <label>Ireland</label>
     </customValue>
     <customValue>
+        <fullName>IL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Israel</label>
+    </customValue>
+    <customValue>
         <fullName>HT</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -587,12 +593,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Indonesia</label>
-    </customValue>
-    <customValue>
-        <fullName>IL</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Israel</label>
     </customValue>
     <customValue>
         <fullName>IM</fullName>
@@ -841,6 +841,12 @@
         <label>Mali</label>
     </customValue>
     <customValue>
+        <fullName>MQ</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Martinique</label>
+    </customValue>
+    <customValue>
         <fullName>MM</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -857,12 +863,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Macao</label>
-    </customValue>
-    <customValue>
-        <fullName>MQ</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Martinique</label>
     </customValue>
     <customValue>
         <fullName>MR</fullName>
@@ -961,10 +961,10 @@
         <label>Netherlands</label>
     </customValue>
     <customValue>
-        <fullName>NU</fullName>
+        <fullName>NR</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Niue</label>
+        <label>Nauru</label>
     </customValue>
     <customValue>
         <fullName>NO</fullName>
@@ -979,10 +979,10 @@
         <label>Nepal</label>
     </customValue>
     <customValue>
-        <fullName>NR</fullName>
+        <fullName>NU</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Nauru</label>
+        <label>Niue</label>
     </customValue>
     <customValue>
         <fullName>NZ</fullName>
@@ -1123,6 +1123,12 @@
         <label>Russian Federation</label>
     </customValue>
     <customValue>
+        <fullName>SC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Seychelles</label>
+    </customValue>
+    <customValue>
         <fullName>RW</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -1139,12 +1145,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Solomon Islands</label>
-    </customValue>
-    <customValue>
-        <fullName>SC</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Seychelles</label>
     </customValue>
     <customValue>
         <fullName>SD</fullName>
@@ -1237,12 +1237,6 @@
         <label>El Salvador</label>
     </customValue>
     <customValue>
-        <fullName>TC</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Turks and Caicos Islands</label>
-    </customValue>
-    <customValue>
         <fullName>SX</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -1259,6 +1253,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Swaziland</label>
+    </customValue>
+    <customValue>
+        <fullName>TC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Turks and Caicos Islands</label>
     </customValue>
     <customValue>
         <fullName>TD</fullName>
@@ -1393,6 +1393,12 @@
         <label>United States</label>
     </customValue>
     <customValue>
+        <fullName>VC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Saint Vincent and the Grenadines</label>
+    </customValue>
+    <customValue>
         <fullName>UY</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -1409,12 +1415,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Holy See (Vatican City State)</label>
-    </customValue>
-    <customValue>
-        <fullName>VC</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Saint Vincent and the Grenadines</label>
     </customValue>
     <customValue>
         <fullName>VE</fullName>
