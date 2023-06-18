@@ -68,4 +68,11 @@
         <label><!-- UUID --></label>
         <name>vlocity_cmt__UUID__c</name>
     </fields>
+    <layouts>
+        <layout>Async Process Layout</layout>
+        <sections>
+            <label><!-- Payload Details --></label>
+            <section>Payload Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

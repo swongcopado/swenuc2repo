@@ -89,6 +89,45 @@
         <label><!-- Resource Priority Field --></label>
         <name>FSL__Resource_Priority_Field__c</name>
     </fields>
+    <layouts>
+        <layout>ASAP Layout</layout>
+        <sections>
+            <label>Bidang Isian</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Overtime</layout>
+        <sections>
+            <label>Bidang Isian</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preferred Resource</layout>
+        <sections>
+            <label>Bidang Isian</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Priority Layout</layout>
+        <sections>
+            <label>Bidang Isian</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Bidang Isian Prioritas Sumber Daya</label>
+            <section>Resource Priority Field</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Level</layout>
+        <sections>
+            <label>Bidang Isian</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nama Tujuan Layanan</nameFieldLabel>
     <recordTypes>
         <description><!-- Schedule as soon as possible --></description>

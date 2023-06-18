@@ -5,7 +5,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Vlocity DataRaptor</label>
-    <logo>vlocity_cmt__VlocityResources/vlocity_cmt__VlocityLogo.png</logo>
     <tabs>vlocity_cmt__DataRaptor</tabs>
     <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <tabs>vlocity_cmt__PaymentPlan__c</tabs>

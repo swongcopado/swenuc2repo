@@ -280,5 +280,24 @@
         </picklistValues>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Vlastní filtry</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Předvolby Gantt</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Přetáhnout a přesunout předvolby</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Předvolby seznamu služeb</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nastavení uživatelského jména</nameFieldLabel>
 </CustomObjectTranslation>

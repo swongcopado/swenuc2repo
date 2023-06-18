@@ -96,6 +96,31 @@
             <translation><!-- Partners --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Household</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Household (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>連絡先情報</label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Household Core</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Household Name --></nameFieldLabel>
     <recordTypes>
         <label><!-- Group --></label>

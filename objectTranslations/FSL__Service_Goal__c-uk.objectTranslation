@@ -142,6 +142,45 @@
         <name>FSL__Resource_Priority_Field__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>ASAP Layout</layout>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Overtime</layout>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preferred Resource</layout>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Priority Layout</layout>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Поле пріоритету ресурсу</label>
+            <section>Resource Priority Field</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Level</layout>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ім&apos;я цілі обслуговування</nameFieldLabel>
     <recordTypes>
         <description><!-- Schedule as soon as possible --></description>

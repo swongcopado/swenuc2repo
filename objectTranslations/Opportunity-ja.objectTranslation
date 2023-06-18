@@ -244,6 +244,61 @@
             <translation>合格</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Console Opportunity (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>商談マネージャー</label>
+            <section>Opportunity Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mobile Opportunity (Vlocity 2.5)</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MobilePhoneOpportunity</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity (Enterprise Sales Management) Layout</layout>
+        <sections>
+            <label>商談マネージャー</label>
+            <section>Opportunity Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>商談マネージャー</label>
+            <section>Opportunity Manager</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Multi-Site Order --></label>
+        <name>New_MultiSite_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Multi-Site Quote --></label>
+        <name>New_MultiSite_Quote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Contract --></label>
+        <name>vlocity_cmt__CreatingContract</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Pick Frame Contract --></label>
+        <name>vlocity_cmt__PickFrameContract_LEX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Contracts --></label>
+        <name>vlocity_cmt__UpdatingContracts</name>
+    </quickActions>
     <recordTypes>
         <description><!-- Use the Media Campagin to create Media Campaign and associated Media Plans and Ad Placements. --></description>
         <label><!-- Media Campaign --></label>

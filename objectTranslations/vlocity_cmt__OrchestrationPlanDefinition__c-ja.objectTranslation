@@ -41,6 +41,10 @@
         <name>vlocity_cmt__ShowOrder__c</name>
     </fields>
     <nameFieldLabel>オーケストレーションプラン定義名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Delete Orchestration Plan Definition --></label>
+        <name>vlocity_cmt__DeleteOrchestrationPlanDefinition</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- Show Order cannot be less than zero. --></errorMessage>
         <name>vlocity_cmt__ShowOrderValidation</name>
