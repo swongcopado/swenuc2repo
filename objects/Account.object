@@ -873,6 +873,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>U1_Field__c</fullName>
+        <description>Testing only</description>
+        <externalId>false</externalId>
+        <label>U1 Field</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>U2_Field__c</fullName>
         <externalId>false</externalId>
         <label>U2 Field</label>
