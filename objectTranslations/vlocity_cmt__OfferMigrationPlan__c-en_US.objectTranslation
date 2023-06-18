@@ -80,6 +80,17 @@
         <label><!-- Active --></label>
         <name>vlocity_cmt__isActive__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity Offer Migration Plan Layout</layout>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- General Properties --></label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Effective End Date should be greater than or equal to Effective Start Date. --></errorMessage>
         <name>vlocity_cmt__EffectiveStart_Greater_EffectiveEnd</name>

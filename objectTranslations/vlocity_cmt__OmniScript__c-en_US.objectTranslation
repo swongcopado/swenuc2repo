@@ -234,6 +234,17 @@
         <label><!-- Version --></label>
         <name>vlocity_cmt__Version__c</name>
     </fields>
+    <layouts>
+        <layout>OmniScript Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- OmniScript Property Set --></label>
+            <section>OmniScript Property Set</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- ActivateVersion --></label>
         <name>vlocity_cmt__ActivateVersion</name>

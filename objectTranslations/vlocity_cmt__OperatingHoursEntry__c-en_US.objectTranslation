@@ -129,6 +129,42 @@
         <label><!-- Wednesday Opening Time --></label>
         <name>vlocity_cmt__WednesdayOpeningTime__c</name>
     </fields>
+    <layouts>
+        <layout>Exception Operating Hours Entry (Vlocity Thor) Layout</layout>
+        <sections>
+            <label><!-- Holiday --></label>
+            <section>Holiday</section>
+        </sections>
+        <sections>
+            <label><!-- Hours Exception --></label>
+            <section>Hours Exception</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Operating Hours Entry Exception Layout</layout>
+        <sections>
+            <label><!-- Holiday --></label>
+            <section>Holiday</section>
+        </sections>
+        <sections>
+            <label><!-- Hours Exception --></label>
+            <section>Hours Exception</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Operating Hours Entry Standard Layout</layout>
+        <sections>
+            <label><!-- Active Range --></label>
+            <section>Active Range</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Operating Hours Entry (Vlocity Thor) Layout</layout>
+        <sections>
+            <label><!-- Standard Operating Hours --></label>
+            <section>Standard Operating Hours</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Exception --></label>
         <name>vlocity_cmt__Exception</name>

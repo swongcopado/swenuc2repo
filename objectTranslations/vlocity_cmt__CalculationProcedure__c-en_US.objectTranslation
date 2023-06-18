@@ -44,6 +44,10 @@
             <translation><!-- Rating --></translation>
         </picklistValues>
     </fields>
+    <quickActions>
+        <label><!-- Deep Clone --></label>
+        <name>vlocity_cmt__DeepClone_Lightning</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Class Based --></label>
         <name>vlocity_cmt__ClassBased</name>

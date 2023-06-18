@@ -58,6 +58,17 @@
         <label><!-- Sequence --></label>
         <name>vlocity_cmt__Sequence__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Price List Layout</layout>
+        <sections>
+            <label><!-- Availability --></label>
+            <section>Availability</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Edit PriceList --></label>
+        <name>vlocity_cmt__PriceList_Edit</name>
+    </quickActions>
     <recordTypes>
         <description><!-- PriceList record --></description>
         <label><!-- PriceList --></label>

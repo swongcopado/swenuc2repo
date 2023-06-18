@@ -368,6 +368,35 @@ Dacă nu completați câmpul, orice valoare introdusă, după sfârșitul de zi,
         <name>FSL__isTimephased__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maximum Travel From Homebase Layout</layout>
+        <sections>
+            <label>Câmpuri</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Availability Layout</layout>
+        <sections>
+            <label>Avansat</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Programare automată a pauzei</label>
+            <section>Automatic Break Scheduling</section>
+        </sections>
+        <sections>
+            <label>Timp de deplasare (pe cheltuiala resursei)</label>
+            <section>Travel Time (At the expense of the resource)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Working Territories</layout>
+        <sections>
+            <label>Avansat</label>
+            <section>Advanced</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nume regulă de lucru</nameFieldLabel>
     <recordTypes>
         <description><!-- Limits service resources based on a number of items such as service appointments, appointment durations, or custom field values --></description>

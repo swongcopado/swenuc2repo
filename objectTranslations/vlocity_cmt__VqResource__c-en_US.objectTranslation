@@ -61,4 +61,11 @@
         <label><!-- Target Object Type --></label>
         <name>vlocity_cmt__TargetObjectType__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity Acuity Resource Layout</layout>
+        <sections>
+            <label><!-- Target Client Profile --></label>
+            <section>Target Client Profile</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
