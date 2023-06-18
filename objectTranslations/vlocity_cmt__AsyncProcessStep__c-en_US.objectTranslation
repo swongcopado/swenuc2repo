@@ -69,4 +69,11 @@
         <label><!-- Total Number Of Items To Be Processed --></label>
         <name>vlocity_cmt__TotalNumberOfItemsToBeProcessed__c</name>
     </fields>
+    <layouts>
+        <layout>Async Process Step Layout</layout>
+        <sections>
+            <label><!-- Payload Details --></label>
+            <section>Payload Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

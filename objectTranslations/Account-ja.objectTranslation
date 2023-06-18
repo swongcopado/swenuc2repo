@@ -532,6 +532,205 @@
             <translation>シルバー</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Account (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>請求プロファイル</label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Billing (Enterprise Sales Management) Layout</layout>
+        <sections>
+            <label>請求プロファイル</label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Billing (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>請求プロファイル</label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+        <sections>
+            <label><!-- Tax Details --></label>
+            <section>Tax Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Billing Aggregator (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>請求プロファイル</label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Business(Vlocity Telecommunication Services) layout</layout>
+        <sections>
+            <label>納入商品管理</label>
+            <section>Asset Management</section>
+        </sections>
+        <sections>
+            <label>請求</label>
+            <section>Billing</section>
+        </sections>
+        <sections>
+            <label>請求プロファイル</label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consumer (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>納入商品管理</label>
+            <section>Asset Management</section>
+        </sections>
+        <sections>
+            <label>請求プロファイル</label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+        <sections>
+            <label><!-- Tax Details --></label>
+            <section>Tax Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Energy-Console layout</layout>
+        <sections>
+            <label><!-- Asset Management --></label>
+            <section>Asset Management</section>
+        </sections>
+        <sections>
+            <label><!-- Billing --></label>
+            <section>Billing</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Profile --></label>
+            <section>Billing Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Preferences --></label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Directory Listing --></label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label><!-- Loyalty --></label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>納入商品管理</label>
+            <section>Asset Management</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリリスト</label>
+            <section>Directory Listing</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Aggregator (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>納入商品管理</label>
+            <section>Asset Management</section>
+        </sections>
+        <sections>
+            <label>連絡先設定</label>
+            <section>Contact Preferences</section>
+        </sections>
+        <sections>
+            <label>ディレクトリにリスト</label>
+            <section>Directory Listed</section>
+        </sections>
+        <sections>
+            <label>ロイヤルティ</label>
+            <section>Loyalty</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- Use the Advertiser Account to create an Entity which buys Ad-Deals directly from Publisher. --></description>
         <label><!-- Advertiser --></label>

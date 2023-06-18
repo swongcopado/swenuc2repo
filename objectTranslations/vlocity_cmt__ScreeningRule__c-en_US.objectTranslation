@@ -23,6 +23,13 @@
         <label><!-- Validator Class --></label>
         <name>vlocity_cmt__Validator__c</name>
     </fields>
+    <layouts>
+        <layout>Screening Rule Layout</layout>
+        <sections>
+            <label><!-- Validate Method --></label>
+            <section>Validate Method</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- GenerateValidatorClass --></label>
         <name>vlocity_cmt__GenerateValidatorClass</name>

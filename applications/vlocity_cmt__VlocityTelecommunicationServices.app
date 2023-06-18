@@ -5,7 +5,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Vlocity Telecommunication Services</label>
-    <logo>vlocity_cmt__VlocityCMTResources/vlocity_cmt__CommuincationMediaAndTechnologyLogo.gif</logo>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Account</tabs>

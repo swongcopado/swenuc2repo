@@ -324,6 +324,35 @@
         <label><!-- Time-Phased --></label>
         <name>FSL__isTimephased__c</name>
     </fields>
+    <layouts>
+        <layout>Maximum Travel From Homebase Layout</layout>
+        <sections>
+            <label>欄位</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Availability Layout</layout>
+        <sections>
+            <label>進階</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>自動中斷排程</label>
+            <section>Automatic Break Scheduling</section>
+        </sections>
+        <sections>
+            <label>出差路途時間 (由資源支出)</label>
+            <section>Travel Time (At the expense of the resource)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Working Territories</layout>
+        <sections>
+            <label>進階</label>
+            <section>Advanced</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>工作規則名稱</nameFieldLabel>
     <recordTypes>
         <description><!-- Limits service resources based on a number of items such as service appointments, appointment durations, or custom field values --></description>

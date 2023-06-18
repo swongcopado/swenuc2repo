@@ -59,6 +59,13 @@
         <name>vlocity_cmt__VendorAccount__c</name>
         <relationshipLabel><!-- Catalogs --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Catalog Layout (Vlocity)</layout>
+        <sections>
+            <label><!-- Attachments --></label>
+            <section>Attachments</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- End Date Time must be greater than Start Date Time --></errorMessage>
         <name>vlocity_cmt__End_After_Start</name>
