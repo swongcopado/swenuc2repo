@@ -808,6 +808,230 @@
             <translation>合格</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Console Order (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>注文</label>
+            <section>order</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Master Order (Enterprise Sales Management) Layout</layout>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mobile Order (Vlocity 2.5)</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MobilePhoneOrder</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (ESM Self Service) Layout</layout>
+        <sections>
+            <label><!-- Order Management --></label>
+            <section>Order Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity Thor) Layout</layout>
+        <sections>
+            <label>OM</label>
+            <section>OM</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity Thor) Layout V4</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity Thor) Layout V5</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>OM</label>
+            <section>OM</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V10</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V11</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V12</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>OM</label>
+            <section>OM</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order (Vlocity XOM) Layout V9</layout>
+        <sections>
+            <label>分解ビュー</label>
+            <section>Decomposition View</section>
+        </sections>
+        <sections>
+            <label>注文マネージャー</label>
+            <section>Order Manager</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sub Order (Enterprise Sales Management) Layout</layout>
+        <sections>
+            <label>注文管理</label>
+            <section>Order Management</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Contract --></label>
+        <name>vlocity_cmt__CreatingContract</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Pick Frame Contract --></label>
+        <name>vlocity_cmt__PickFrameContract_LEX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Submit Order For Insurance --></label>
+        <name>vlocity_cmt__SubmitOrderForInsurance</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Contracts --></label>
+        <name>vlocity_cmt__UpdatingContracts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Orchestration Plan --></label>
+        <name>vlocity_cmt__ViewOrchestrationPlan</name>
+    </quickActions>
     <recordTypes>
         <description><!-- Use enterprise order for large multi-site or multi-subscriber orders when you want one single large order. --></description>
         <label><!-- Enterprise Order --></label>

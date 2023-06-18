@@ -440,6 +440,20 @@
         <label><!-- Web Site --></label>
         <name>vlocity_cmt__WebSite__c</name>
     </fields>
+    <layouts>
+        <layout>Mobile Contact (Vlocity 2.5)</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MobilePhoneContact</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- MobilePhoneContact --></label>
         <name>vlocity_cmt__MobilePhoneContact</name>

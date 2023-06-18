@@ -227,6 +227,25 @@
             <translation>Week</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Custom Filters</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Gantt Preferences</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>NA Drag&amp;Drop Preferences</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Service List Preferences</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>User Setting Name</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

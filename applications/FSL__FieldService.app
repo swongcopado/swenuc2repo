@@ -6,7 +6,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Field Service</label>
-    <logo>FSL__Field_Service_Documents/FSL__Winter_21_App_Field_Service_Logo.png</logo>
     <tabs>standard-report</tabs>
     <tabs>FSL__FieldService</tabs>
     <tabs>standard-Account</tabs>

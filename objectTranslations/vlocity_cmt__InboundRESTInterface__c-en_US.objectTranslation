@@ -39,4 +39,11 @@
         <name>vlocity_cmt__ResponseVlocityDataRaptorBundle__c</name>
         <relationshipLabel><!-- Inbound REST Interfaces --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Inbound REST Interface (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Vlocity Data Raptor Configuration --></label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

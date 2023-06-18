@@ -223,5 +223,24 @@
             <translation>週</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>自訂篩選</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>甘特圖偏好設定</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>NA 拖放偏好設定</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>服務清單偏好設定</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>使用者設定名稱</nameFieldLabel>
 </CustomObjectTranslation>

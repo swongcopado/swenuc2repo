@@ -44,6 +44,17 @@
         <label><!-- Travel Speed --></label>
         <name>FSL__Travel_Speed__c</name>
     </fields>
+    <layouts>
+        <layout>FSL Service Resource Layout</layout>
+        <sections>
+            <label><!-- Resource Views --></label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label><!-- VFS --></label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Capacity Resource Can&apos;t Be of Type Crew --></errorMessage>
         <name>FSL__Capacity_Resource_of_Type_Crew</name>

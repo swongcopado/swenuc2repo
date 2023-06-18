@@ -126,6 +126,13 @@
         <label><!-- isActive --></label>
         <name>isActive__c</name>
     </fields>
+    <layouts>
+        <layout>Navigation Item Layout</layout>
+        <sections>
+            <label><!-- Additional Details --></label>
+            <section>Additional Details</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Please enter filter criteria i.e.where clause to fetch the exact record --></errorMessage>

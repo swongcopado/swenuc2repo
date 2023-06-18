@@ -165,7 +165,6 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <label>Vlocity CMT Console</label>
-    <logo>vlocity_cmt__VlocityCMTResources/vlocity_cmt__White_Logo.png</logo>
     <preferences>
         <enableCustomizeMyTabs>true</enableCustomizeMyTabs>
         <enableKeyboardShortcuts>true</enableKeyboardShortcuts>

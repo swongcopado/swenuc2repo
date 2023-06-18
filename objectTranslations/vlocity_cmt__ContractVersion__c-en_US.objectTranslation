@@ -187,4 +187,18 @@
         <label><!-- WML Metadata --></label>
         <name>vlocity_cmt__WMLMetadata__c</name>
     </fields>
+    <layouts>
+        <layout>Contract Document Sales Rep Layout</layout>
+        <sections>
+            <label><!-- Contract Sections --></label>
+            <section>Contract Sections</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract Document Super User Layout</layout>
+        <sections>
+            <label><!-- Contract Sections --></label>
+            <section>Contract Sections</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

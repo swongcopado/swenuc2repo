@@ -83,6 +83,10 @@
         <label><!-- Version Number --></label>
         <name>vlocity_cmt__VersionNumber__c</name>
     </fields>
+    <quickActions>
+        <label><!-- Create New Version --></label>
+        <name>vlocity_cmt__CreateNewVersion_Lightning</name>
+    </quickActions>
     <webLinks>
         <label><!-- CreateNewVersion --></label>
         <name>vlocity_cmt__CreateNewVersion</name>

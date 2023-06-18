@@ -181,4 +181,15 @@
             <translation><!-- Pricing Element --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Vlocity EPC Pricing Variable Layout</layout>
+        <sections>
+            <label><!-- Basic Variable Type --></label>
+            <section>Basic Variable Type</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Type Info --></label>
+            <section>Detailed Type Info</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
