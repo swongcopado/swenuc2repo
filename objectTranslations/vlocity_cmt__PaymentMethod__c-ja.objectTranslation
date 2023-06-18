@@ -169,6 +169,13 @@
         <label><!-- Valid From --></label>
         <name>vlocity_cmt__ValidityStartDate__c</name>
     </fields>
+    <layouts>
+        <layout>Payment Method (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label>新規セクション</label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>支払方法名</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- This payment method is used in auto pay and it can&apos;t be inactivated. --></errorMessage>

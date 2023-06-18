@@ -165,6 +165,13 @@
         <label><!-- Valid From --></label>
         <name>vlocity_cmt__ValidityStartDate__c</name>
     </fields>
+    <layouts>
+        <layout>Payment Method (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- This payment method is used in auto pay and it can&apos;t be inactivated. --></errorMessage>
         <name>vlocity_cmt__EnforceActivePaymentMethodInAutoPay</name>

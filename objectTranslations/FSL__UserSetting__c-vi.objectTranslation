@@ -227,5 +227,24 @@
             <translation>Tuần</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Bộ Lọc Tùy Chỉnh</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Ưu tiên sơ đồ Gantt</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Tùy Chọn Kéo &amp; Thả NA</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Ưu tiên danh sách dịch vụ</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Tên Cài Đặt Người Dùng</nameFieldLabel>
 </CustomObjectTranslation>

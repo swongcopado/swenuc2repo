@@ -47,6 +47,27 @@
             <translation>処理中</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout</layout>
+        <sections>
+            <label>オーケストレーションプラン</label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label>オーケストレーションプラン</label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label>オーケストレーションプラン</label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>オーケストレーションプラン名</nameFieldLabel>
     <webLinks>
         <label><!-- ViewOrder --></label>

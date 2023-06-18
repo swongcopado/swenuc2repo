@@ -62,4 +62,11 @@
         <label><!-- Technical Message --></label>
         <name>vlocity_cmt__TechnicalMessage__c</name>
     </fields>
+    <layouts>
+        <layout>Async Process Job Layout</layout>
+        <sections>
+            <label><!-- Payload Details --></label>
+            <section>Payload Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

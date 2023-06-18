@@ -109,6 +109,20 @@
         <label><!-- Valid Until --></label>
         <name>vlocity_cmt__ValidUntilDate__c</name>
     </fields>
+    <layouts>
+        <layout>Entity Filter (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label><!-- Entity Filter Conditions --></label>
+            <section>Entity Filter Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Entity Filter Layout</layout>
+        <sections>
+            <label><!-- Entity Filter Conditions --></label>
+            <section>Entity Filter Conditions</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Please select a valid type for this Entity Filter. --></errorMessage>
         <name>vlocity_cmt__EvaluationCriteriaNotNull</name>

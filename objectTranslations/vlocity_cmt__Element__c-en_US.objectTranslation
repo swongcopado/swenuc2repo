@@ -344,4 +344,11 @@
             <translation><!-- Validation --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Element Layout</layout>
+        <sections>
+            <label><!-- Property Set --></label>
+            <section>Property Set</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
