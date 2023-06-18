@@ -1,0 +1,30 @@
+{
+    "AuthorName": "copado",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "U2Card",
+    "Namespace": "",
+    "OmniUiCardKey": "U2Card/copado/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "U2Card.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/U2Card"
+}
