@@ -8,10 +8,18 @@ public class AcctOps {
     }
        //New methods introduced by Developer 1 working on the US-001
     public static Account setDefaultBillingAddress(Account a){ // Base Change
+        account acc = new account();
+     
         a.billingstreet = 'Basauri, 6'; 
         a.billingstate = 'Madrid'; 
-        a.billingpostalcode ='99999'; 
+        a.billingpostalcode ='9999'; 
+        
+        acc = a;
+        
         return a;
+        
+        
+        
     }
     public static Account setDefaultShippingAddress(Account a){// Base Change
         a.shippingstreet = 'Basauri, 6'; 
