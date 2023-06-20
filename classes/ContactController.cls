@@ -8,5 +8,9 @@ public class ContactController {
         c.FirstName = 'Default First Name';                
         return c;        
     }
+    
+    public static String getContactGreeting() {
+        return 'Hello';
+    }
 
 }
