@@ -3,23 +3,18 @@
         "contextVariables": [
         ],
         "orderBy": {
-            "isReverse": "",
-            "name": ""
         },
-        "type": "Query",
+        "type": null,
         "value": {
-            "dsDelay": "",
-            "query": "select id, from__c, to__c from copado_trial__c",
-            "resultVar": ""
         }
     },
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfStevensTestFlexcard_1_copado",
-        "Id": "0Rb0T000000D2gMSAS",
+        "DeveloperName": "cfTrailflexcard1_1_copado",
+        "Id": "0Rb0T000000D3TxSAK",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfStevensTestFlexcard_1_copado",
+        "MasterLabel": "cfTrailflexcard1_1_copado",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -28,7 +23,6 @@
             "actions": [
             ],
             "childCards": [
-                "StevensTestChildCard"
             ],
             "components": {
                 "layer-0": {
@@ -36,34 +30,14 @@
                         {
                             "class": "slds-col ",
                             "element": "outputField",
-                            "elementLabel": "Text-0",
-                            "name": "Text",
+                            "elementLabel": "Field-0",
+                            "name": "Field",
                             "property": {
                                 "card": "{card}",
-                                "mergeField": "%3Cdiv%20class=%22slds-text-align_center%20slds-text-heading_large%22%3EThis%20is%20the%20Parent%20Card%3C/div%3E",
-                                "record": "{record}"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "text"
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "FlexCard-1",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "StevensTestChildCard",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
+                                "label": "Field1",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "type": "text"
                             },
                             "size": {
                                 "default": "12",
@@ -74,6 +48,27 @@
                                 "sizeClass": "slds-size_12-of-12"
                             },
                             "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Richtextfield1",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "Edit me!",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text",
+                            "userUpdatedElementLabel": true
                         }
                     ]
                 }
@@ -124,7 +119,7 @@
         }
     ],
     "theme": "slds",
-    "title": "StevensTestFlexcard",
+    "title": "Trailflexcard1",
     "xmlJson": [
         {
             "@attributes": {
