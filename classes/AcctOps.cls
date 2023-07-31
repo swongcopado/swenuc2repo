@@ -12,7 +12,7 @@ public class AcctOps {
      
         a.billingstreet = 'Basauri, 6'; 
         a.billingstate = 'Madrid'; 
-        a.billingpostalcode ='32056'; 
+        a.billingpostalcode ='9999'; 
         
         acc = a;
         
@@ -29,6 +29,7 @@ public class AcctOps {
     }
     public static Account setDefaultPhone(Account a) {// Base Change 
         a.Phone='688456789'; // Base Change
+        a.name= 'changeLastName';
         return a;
     }
     public static Account setDefaultURL(Account a) { //DEV 1
